@@ -49,3 +49,7 @@ docs/.astro/
 # opencodex bundled runtime (large binaries)
 vendor/opencodex/bun
 vendor/opencodex/pkg/
+
+# Packaged app bundles (build output)
+OpenAgent.app/
+CodexBar.app/

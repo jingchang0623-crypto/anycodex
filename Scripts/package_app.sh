@@ -202,7 +202,7 @@ for ARCH in "${ARCH_LIST[@]}"; do
   stage_build_products "$ARCH"
 done
 
-APP_FINAL="$ROOT/CodexBar.app"
+APP_FINAL="$ROOT/OpenAgent.app"
 APP_STAGE="$ROOT/.build/package/CodexBar.app"
 rm -rf "$APP_STAGE"
 APP="$APP_STAGE"
@@ -217,8 +217,11 @@ if [[ -f "$ICON_SOURCE" ]]; then
 fi
 
 BUNDLE_ID="com.steipete.codexbar"
-FEED_URL="https://raw.githubusercontent.com/steipete/CodexBar/main/appcast.xml"
-AUTO_CHECKS=true
+# OpenAgent fork: never point Sparkle at upstream CodexBar's appcast — an
+# auto-update would replace this build with vanilla CodexBar and drop the
+# embedded opencodex runtime. Re-enable only with a fork-owned appcast + EdDSA key.
+FEED_URL=""
+AUTO_CHECKS=false
 if [[ "$LOWER_CONF" == "debug" ]]; then
   BUNDLE_ID="com.steipete.codexbar.debug"
   FEED_URL=""
@@ -277,8 +280,8 @@ cat > "$APP/Contents/Info.plist" <<PLIST
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-    <key>CFBundleName</key><string>CodexBar</string>
-    <key>CFBundleDisplayName</key><string>CodexBar</string>
+    <key>CFBundleName</key><string>OpenAgent</string>
+    <key>CFBundleDisplayName</key><string>OpenAgent</string>
     <key>CFBundleIdentifier</key><string>${BUNDLE_ID}</string>
     <key>CFBundleExecutable</key><string>CodexBar</string>
     <key>CFBundlePackageType</key><string>APPL</string>
