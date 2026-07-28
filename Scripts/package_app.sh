@@ -478,6 +478,24 @@ strip_release_binary "$APP/Contents/Helpers/CodexBarCLI"
 # Watchdog helper: ensures `claude` probes die when CodexBar crashes/gets killed.
 install_binary "CodexBarClaudeWatchdog" "$APP/Contents/Helpers/CodexBarClaudeWatchdog"
 strip_release_binary "$APP/Contents/Helpers/CodexBarClaudeWatchdog"
+# Bundle the opencodex proxy runtime (populate via Scripts/vendor-opencodex.sh).
+# Lives in Resources (not Helpers): the payload is mostly non-code (node_modules),
+# and bundle-level codesign requires everything under Helpers to be signed code.
+OPENCODEX_VENDOR="$ROOT/vendor/opencodex"
+if [[ -x "$OPENCODEX_VENDOR/ocx" && -d "$OPENCODEX_VENDOR/pkg" ]]; then
+  mkdir -p "$APP/Contents/Resources/opencodex"
+  cp "$OPENCODEX_VENDOR/ocx" "$APP/Contents/Resources/opencodex/ocx"
+  cp -R "$OPENCODEX_VENDOR/pkg" "$APP/Contents/Resources/opencodex/pkg"
+  if [[ -f "$OPENCODEX_VENDOR/bun" ]]; then
+    cp "$OPENCODEX_VENDOR/bun" "$APP/Contents/Resources/opencodex/bun"
+    chmod +x "$APP/Contents/Resources/opencodex/bun"
+  fi
+  chmod +x "$APP/Contents/Resources/opencodex/ocx"
+  echo "Bundled opencodex runtime ($(du -sh "$APP/Contents/Resources/opencodex" | cut -f1))"
+else
+  echo "WARNING: vendor/opencodex not populated; skipping opencodex bundling." >&2
+  echo "         Run ./Scripts/vendor-opencodex.sh to enable the embedded proxy." >&2
+fi
 install_widget_extension
 strip_release_binary "$APP/Contents/PlugIns/CodexBarWidget.appex/Contents/MacOS/CodexBarWidget"
 
@@ -550,6 +568,14 @@ if [[ -f "${APP}/Contents/Helpers/CodexBarCLI" ]]; then
 fi
 if [[ -f "${APP}/Contents/Helpers/CodexBarClaudeWatchdog" ]]; then
   codesign "${CODESIGN_ARGS[@]}" "${APP}/Contents/Helpers/CodexBarClaudeWatchdog"
+fi
+# Sign the bundled opencodex runtime binaries (bun + any nested Mach-O executables)
+if [[ -d "${APP}/Contents/Resources/opencodex" ]]; then
+  while IFS= read -r -d '' MACHO; do
+    if file -b "$MACHO" | grep -q "Mach-O"; then
+      codesign "${CODESIGN_ARGS[@]}" "$MACHO" || true
+    fi
+  done < <(find "${APP}/Contents/Resources/opencodex" -type f \( -perm -111 -o -name '*.node' \) -print0)
 fi
 
 # Sign widget extension if present

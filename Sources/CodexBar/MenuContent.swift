@@ -148,6 +148,8 @@ struct MenuContent: View {
             self.actions.copyError(message)
         case .focusAgentSession:
             return
+        case .toggleOpenCodexProxy:
+            return
         }
     }
 }

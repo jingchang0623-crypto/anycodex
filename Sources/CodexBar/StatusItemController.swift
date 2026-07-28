@@ -122,6 +122,7 @@ final class StatusItemController: NSObject, NSMenuDelegate, StatusItemControllin
     let store: UsageStore
     let settings: SettingsStore
     let agentSessions: AgentSessionsStore
+    let openCodexProxy = OpenCodexProxyManager()
     lazy var menuCardRefreshMonitor = self.makeMenuCardRefreshMonitor()
 
     let account: AccountInfo
@@ -432,8 +433,12 @@ final class StatusItemController: NSObject, NSMenuDelegate, StatusItemControllin
         self.lastWidgetDisplaySettingsSignature = self.widgetDisplaySettingsSignature()
         self.wireBindings()
         self.wireAgentSessionUpdates()
+        self.wireOpenCodexProxyUpdates()
         if !SettingsStore.isRunningTests {
             self.agentSessions.start()
+            if self.openCodexProxy.isEnabled {
+                self.openCodexProxy.start()
+            }
         }
         self.updateVisibility()
         self.updateIcons()

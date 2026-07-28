@@ -47,7 +47,9 @@ extension StatusItemController {
             agentSessionsEnabled: self.settings.agentSessionsEnabled,
             agentSessionLabelStyle: self.settings.agentSessionLabelStyle,
             localAgentSessions: self.agentSessions.localSessions,
-            remoteAgentHosts: self.agentSessions.remoteHosts)
+            remoteAgentHosts: self.agentSessions.remoteHosts,
+            openCodexProxyState: self.openCodexProxy.state,
+            openCodexDashboardURL: self.openCodexProxy.dashboardURL?.absoluteString)
     }
 
     func measuredStandardMenuWidth(for sections: [MenuDescriptor.Section], baseWidth: CGFloat) -> CGFloat {
@@ -144,6 +146,8 @@ extension StatusItemController {
             "copyError:\(message)"
         case let .focusAgentSession(session, remoteHost):
             "focusAgentSession:\(remoteHost ?? "local"):\(session.id)"
+        case .toggleOpenCodexProxy:
+            "toggleOpenCodexProxy"
         }
     }
 }

@@ -23,6 +23,7 @@ extension StatusItemController {
 
     private func cancelShutdownTasks() {
         self.agentSessions.stop()
+        self.openCodexProxy.shutdownForAppTermination()
         self.blinkTask?.cancel()
         self.blinkTask = nil
         self.menuBarCountdownRefreshTask?.cancel()

@@ -45,3 +45,7 @@ docs/.astro/
 # Swift Package Manager metadata (leave sources tracked)
 # Packages/
 # Package.resolved
+
+# opencodex bundled runtime (large binaries)
+vendor/opencodex/bun
+vendor/opencodex/pkg/
