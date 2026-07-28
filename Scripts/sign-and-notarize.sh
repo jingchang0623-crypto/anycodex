@@ -31,22 +31,30 @@ ARCHES_VALUE=${ARCHES:-"arm64 x86_64"}
 ZIP_NAME=$(codexbar_app_zip_name "$MARKETING_VERSION" "$ARCHES_VALUE")
 DSYM_ZIP=$(codexbar_dsym_zip_name "$MARKETING_VERSION" "$ARCHES_VALUE")
 
-if [[ -z "${APP_STORE_CONNECT_API_KEY_P8:-}" || -z "${APP_STORE_CONNECT_KEY_ID:-}" || -z "${APP_STORE_CONNECT_ISSUER_ID:-}" ]]; then
-  echo "Missing APP_STORE_CONNECT_* env vars (API key, key id, issuer id)." >&2
+# The API key may be given as a file path (APP_STORE_CONNECT_API_KEY_FILE, preferred:
+# keeps the secret out of the environment) or as inline content (APP_STORE_CONNECT_API_KEY_P8).
+if [[ -z "${APP_STORE_CONNECT_API_KEY_FILE:-}" && -z "${APP_STORE_CONNECT_API_KEY_P8:-}" ]] ||
+  [[ -z "${APP_STORE_CONNECT_KEY_ID:-}" || -z "${APP_STORE_CONNECT_ISSUER_ID:-}" ]]; then
+  echo "Missing APP_STORE_CONNECT_* env vars (API key file or content, key id, issuer id)." >&2
   exit 1
 fi
 
 NOTARIZATION_TEMP_DIR=$(mktemp -d "${TMPDIR:-/tmp}/codexbar-notarize.XXXXXX")
 chmod 700 "$NOTARIZATION_TEMP_DIR"
-API_KEY_PATH="$NOTARIZATION_TEMP_DIR/codexbar-api-key.p8"
 NOTARIZATION_ZIP="$NOTARIZATION_TEMP_DIR/${APP_NAME}Notarize.zip"
 trap 'rm -rf "$NOTARIZATION_TEMP_DIR"' EXIT
 
-(
-  umask 077
-  printf '%s' "$APP_STORE_CONNECT_API_KEY_P8" | sed 's/\\n/\n/g' > "$API_KEY_PATH"
-)
-chmod 600 "$API_KEY_PATH"
+if [[ -n "${APP_STORE_CONNECT_API_KEY_FILE:-}" ]]; then
+  API_KEY_PATH="$APP_STORE_CONNECT_API_KEY_FILE"
+  [[ -f "$API_KEY_PATH" ]] || { echo "API key file not found: $API_KEY_PATH" >&2; exit 1; }
+else
+  API_KEY_PATH="$NOTARIZATION_TEMP_DIR/codexbar-api-key.p8"
+  (
+    umask 077
+    printf '%s' "$APP_STORE_CONNECT_API_KEY_P8" | sed 's/\\n/\n/g' > "$API_KEY_PATH"
+  )
+  chmod 600 "$API_KEY_PATH"
+fi
 
 ARCH_LIST=( ${ARCHES_VALUE} )
 ARCHES="${ARCHES_VALUE}" CODEXBAR_SIGNING=identity ./Scripts/package_app.sh release
