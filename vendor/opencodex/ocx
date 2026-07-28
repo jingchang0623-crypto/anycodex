@@ -1,0 +1,16 @@
+#!/bin/bash
+# OpenAgent bundled opencodex launcher
+SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
+ENTRY="$SCRIPT_DIR/pkg/bin/ocx.mjs"
+
+# Use bundled bun if available, otherwise system node/bun
+if [ -x "$SCRIPT_DIR/bun" ]; then
+    exec "$SCRIPT_DIR/bun" "$ENTRY" "$@"
+elif command -v node &>/dev/null; then
+    exec node "$ENTRY" "$@"
+elif command -v bun &>/dev/null; then
+    exec bun "$ENTRY" "$@"
+else
+    echo "Error: No JavaScript runtime found (need bun or node)" >&2
+    exit 1
+fi

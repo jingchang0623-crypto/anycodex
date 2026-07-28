@@ -1,0 +1,16 @@
+{
+  "port": 10100,
+  "defaultProvider": "anthropic",
+  "providers": {
+    "anthropic": {
+      "adapter": "anthropic",
+      "baseUrl": "https://api.anthropic.com",
+      "authMode": "oauth",
+      "defaultModel": "claude-sonnet-4-6"
+    },
+    "openai": {
+      "adapter": "openai-responses",
+      "authMode": "forward"
+    }
+  }
+}

@@ -77,6 +77,7 @@ struct MenuDescriptor {
         case quit
         case copyError(String)
         case focusAgentSession(AgentSession, remoteHost: String?)
+        case toggleOpenCodexProxy
     }
 
     var sections: [Section]
@@ -94,6 +95,8 @@ struct MenuDescriptor {
         agentSessionLabelStyle: AgentSessionLabelStyle = .project,
         localAgentSessions: [AgentSession] = [],
         remoteAgentHosts: [RemoteSessionHostResult] = [],
+        openCodexProxyState: OpenCodexProxyManager.State? = nil,
+        openCodexDashboardURL: String? = nil,
         now: Date = Date()) -> MenuDescriptor
     {
         var sections: [Section] = []
@@ -150,9 +153,40 @@ struct MenuDescriptor {
                 labelStyle: agentSessionLabelStyle,
                 now: now))
         }
+        if let openCodexProxyState {
+            sections.append(Self.openCodexSection(
+                state: openCodexProxyState,
+                dashboardURL: openCodexDashboardURL))
+        }
         sections.append(Self.metaSection(updateReady: updateReady))
 
         return MenuDescriptor(sections: sections)
+    }
+
+    static func openCodexSection(
+        state: OpenCodexProxyManager.State,
+        dashboardURL: String?) -> Section
+    {
+        var entries: [Entry] = []
+        let statusText = switch state {
+        case let .running(port): "opencodex Proxy: Running (port \(port))"
+        case .starting: "opencodex Proxy: Starting…"
+        case .stopped: "opencodex Proxy: Stopped"
+        case let .error(message): "opencodex Proxy: \(message)"
+        }
+        entries.append(.text(statusText, .secondary))
+        switch state {
+        case .running:
+            if let dashboardURL {
+                entries.append(.action("Manage AI Providers…", .loginToProvider(url: dashboardURL)))
+            }
+            entries.append(.action("Stop opencodex Proxy", .toggleOpenCodexProxy))
+        case .starting:
+            entries.append(.action("Stop opencodex Proxy", .toggleOpenCodexProxy))
+        case .stopped, .error:
+            entries.append(.action("Start opencodex Proxy", .toggleOpenCodexProxy))
+        }
+        return Section(entries: entries)
     }
 
     static func agentSessionsSection(
@@ -750,6 +784,7 @@ extension MenuDescriptor.MenuAction {
         case .copyError: MenuDescriptor.MenuActionSystemImage.copyError.rawValue
         case .focusAgentSession:
             nil
+        case .toggleOpenCodexProxy: "bolt.horizontal.circle"
         }
     }
 }

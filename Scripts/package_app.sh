@@ -202,7 +202,7 @@ for ARCH in "${ARCH_LIST[@]}"; do
   stage_build_products "$ARCH"
 done
 
-APP_FINAL="$ROOT/CodexBar.app"
+APP_FINAL="$ROOT/OpenAgent.app"
 APP_STAGE="$ROOT/.build/package/CodexBar.app"
 rm -rf "$APP_STAGE"
 APP="$APP_STAGE"
@@ -217,8 +217,11 @@ if [[ -f "$ICON_SOURCE" ]]; then
 fi
 
 BUNDLE_ID="com.steipete.codexbar"
-FEED_URL="https://raw.githubusercontent.com/steipete/CodexBar/main/appcast.xml"
-AUTO_CHECKS=true
+# OpenAgent fork: never point Sparkle at upstream CodexBar's appcast — an
+# auto-update would replace this build with vanilla CodexBar and drop the
+# embedded opencodex runtime. Re-enable only with a fork-owned appcast + EdDSA key.
+FEED_URL=""
+AUTO_CHECKS=false
 if [[ "$LOWER_CONF" == "debug" ]]; then
   BUNDLE_ID="com.steipete.codexbar.debug"
   FEED_URL=""
@@ -277,8 +280,8 @@ cat > "$APP/Contents/Info.plist" <<PLIST
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-    <key>CFBundleName</key><string>CodexBar</string>
-    <key>CFBundleDisplayName</key><string>CodexBar</string>
+    <key>CFBundleName</key><string>OpenAgent</string>
+    <key>CFBundleDisplayName</key><string>OpenAgent</string>
     <key>CFBundleIdentifier</key><string>${BUNDLE_ID}</string>
     <key>CFBundleExecutable</key><string>CodexBar</string>
     <key>CFBundlePackageType</key><string>APPL</string>
@@ -478,6 +481,24 @@ strip_release_binary "$APP/Contents/Helpers/CodexBarCLI"
 # Watchdog helper: ensures `claude` probes die when CodexBar crashes/gets killed.
 install_binary "CodexBarClaudeWatchdog" "$APP/Contents/Helpers/CodexBarClaudeWatchdog"
 strip_release_binary "$APP/Contents/Helpers/CodexBarClaudeWatchdog"
+# Bundle the opencodex proxy runtime (populate via Scripts/vendor-opencodex.sh).
+# Lives in Resources (not Helpers): the payload is mostly non-code (node_modules),
+# and bundle-level codesign requires everything under Helpers to be signed code.
+OPENCODEX_VENDOR="$ROOT/vendor/opencodex"
+if [[ -x "$OPENCODEX_VENDOR/ocx" && -d "$OPENCODEX_VENDOR/pkg" ]]; then
+  mkdir -p "$APP/Contents/Resources/opencodex"
+  cp "$OPENCODEX_VENDOR/ocx" "$APP/Contents/Resources/opencodex/ocx"
+  cp -R "$OPENCODEX_VENDOR/pkg" "$APP/Contents/Resources/opencodex/pkg"
+  if [[ -f "$OPENCODEX_VENDOR/bun" ]]; then
+    cp "$OPENCODEX_VENDOR/bun" "$APP/Contents/Resources/opencodex/bun"
+    chmod +x "$APP/Contents/Resources/opencodex/bun"
+  fi
+  chmod +x "$APP/Contents/Resources/opencodex/ocx"
+  echo "Bundled opencodex runtime ($(du -sh "$APP/Contents/Resources/opencodex" | cut -f1))"
+else
+  echo "WARNING: vendor/opencodex not populated; skipping opencodex bundling." >&2
+  echo "         Run ./Scripts/vendor-opencodex.sh to enable the embedded proxy." >&2
+fi
 install_widget_extension
 strip_release_binary "$APP/Contents/PlugIns/CodexBarWidget.appex/Contents/MacOS/CodexBarWidget"
 
@@ -550,6 +571,14 @@ if [[ -f "${APP}/Contents/Helpers/CodexBarCLI" ]]; then
 fi
 if [[ -f "${APP}/Contents/Helpers/CodexBarClaudeWatchdog" ]]; then
   codesign "${CODESIGN_ARGS[@]}" "${APP}/Contents/Helpers/CodexBarClaudeWatchdog"
+fi
+# Sign the bundled opencodex runtime binaries (bun + any nested Mach-O executables)
+if [[ -d "${APP}/Contents/Resources/opencodex" ]]; then
+  while IFS= read -r -d '' MACHO; do
+    if file -b "$MACHO" | grep -q "Mach-O"; then
+      codesign "${CODESIGN_ARGS[@]}" "$MACHO" || true
+    fi
+  done < <(find "${APP}/Contents/Resources/opencodex" -type f \( -perm -111 -o -name '*.node' \) -print0)
 fi
 
 # Sign widget extension if present
