@@ -202,7 +202,7 @@ for ARCH in "${ARCH_LIST[@]}"; do
   stage_build_products "$ARCH"
 done
 
-APP_FINAL="$ROOT/OpenAgent.app"
+APP_FINAL="$ROOT/AnyCodex.app"
 APP_STAGE="$ROOT/.build/package/CodexBar.app"
 rm -rf "$APP_STAGE"
 APP="$APP_STAGE"
@@ -280,8 +280,8 @@ cat > "$APP/Contents/Info.plist" <<PLIST
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-    <key>CFBundleName</key><string>OpenAgent</string>
-    <key>CFBundleDisplayName</key><string>OpenAgent</string>
+    <key>CFBundleName</key><string>AnyCodex</string>
+    <key>CFBundleDisplayName</key><string>AnyCodex</string>
     <key>CFBundleIdentifier</key><string>${BUNDLE_ID}</string>
     <key>CFBundleExecutable</key><string>CodexBar</string>
     <key>CFBundlePackageType</key><string>APPL</string>
