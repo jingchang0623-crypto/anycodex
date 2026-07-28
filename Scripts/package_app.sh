@@ -572,11 +572,25 @@ fi
 if [[ -f "${APP}/Contents/Helpers/CodexBarClaudeWatchdog" ]]; then
   codesign "${CODESIGN_ARGS[@]}" "${APP}/Contents/Helpers/CodexBarClaudeWatchdog"
 fi
-# Sign the bundled opencodex runtime binaries (bun + any nested Mach-O executables)
+# Sign the bundled opencodex runtime binaries (bun + any nested Mach-O executables).
+# bun embeds a JS engine that needs JIT under the hardened runtime, so its
+# binaries get JIT entitlements — without them a notarized build crashes at launch.
 if [[ -d "${APP}/Contents/Resources/opencodex" ]]; then
+  OPENCODEX_ENTITLEMENTS="${ENTITLEMENTS_DIR}/OpencodexRuntime.entitlements"
+  cat > "$OPENCODEX_ENTITLEMENTS" << 'OCXENT'
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>com.apple.security.cs.allow-jit</key><true/>
+    <key>com.apple.security.cs.allow-unsigned-executable-memory</key><true/>
+    <key>com.apple.security.cs.disable-library-validation</key><true/>
+</dict>
+</plist>
+OCXENT
   while IFS= read -r -d '' MACHO; do
     if file -b "$MACHO" | grep -q "Mach-O"; then
-      codesign "${CODESIGN_ARGS[@]}" "$MACHO" || true
+      codesign "${CODESIGN_ARGS[@]}" --entitlements "$OPENCODEX_ENTITLEMENTS" "$MACHO" || true
     fi
   done < <(find "${APP}/Contents/Resources/opencodex" -type f \( -perm -111 -o -name '*.node' \) -print0)
 fi

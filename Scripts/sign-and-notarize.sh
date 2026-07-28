@@ -1,9 +1,16 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
+# APP_NAME stays CodexBar: it names the executable/dSYM, not the bundle.
 APP_NAME="CodexBar"
-APP_IDENTITY="Developer ID Application: Peter Steinberger (Y5PE65HELJ)"
-APP_BUNDLE="CodexBar.app"
+# AnyCodex fork: signing identity must come from the environment.
+#   APP_IDENTITY="Developer ID Application: Your Name (TEAMID)" APP_TEAM_ID=TEAMID ...
+if [[ -z "${APP_IDENTITY:-}" ]]; then
+  echo "Missing APP_IDENTITY env var (e.g. 'Developer ID Application: Your Name (TEAMID)')." >&2
+  echo "List identities with: security find-identity -v -p codesigning" >&2
+  exit 1
+fi
+APP_BUNDLE="AnyCodex.app"
 ROOT=$(cd "$(dirname "$0")/.." && pwd)
 source "$ROOT/version.env"
 source "$ROOT/Scripts/release_artifacts.sh"
