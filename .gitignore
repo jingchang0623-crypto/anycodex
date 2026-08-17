@@ -54,3 +54,6 @@ vendor/opencodex/pkg/
 OpenAgent.app/
 AnyCodex.app/
 CodexBar.app/
+
+# Built distribution variants
+dist/

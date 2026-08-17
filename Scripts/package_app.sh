@@ -492,12 +492,12 @@ if [[ -x "$OPENCODEX_VENDOR/ocx" && -d "$OPENCODEX_VENDOR/pkg" ]]; then
   mkdir -p "$APP/Contents/Resources/opencodex"
   cp "$OPENCODEX_VENDOR/ocx" "$APP/Contents/Resources/opencodex/ocx"
   cp -R "$OPENCODEX_VENDOR/pkg" "$APP/Contents/Resources/opencodex/pkg"
-  if [[ -f "$OPENCODEX_VENDOR/bun" ]]; then
-    cp "$OPENCODEX_VENDOR/bun" "$APP/Contents/Resources/opencodex/bun"
-    chmod +x "$APP/Contents/Resources/opencodex/bun"
-  fi
   chmod +x "$APP/Contents/Resources/opencodex/ocx"
-  echo "Bundled opencodex runtime ($(du -sh "$APP/Contents/Resources/opencodex" | cut -f1))"
+  if [[ -x "$APP/Contents/Resources/opencodex/pkg/node_modules/bun/bin/bun.exe" ]]; then
+    echo "Bundled opencodex + bun runtime ($(du -sh "$APP/Contents/Resources/opencodex" | cut -f1))"
+  else
+    echo "Bundled opencodex, slim — requires system bun ($(du -sh "$APP/Contents/Resources/opencodex" | cut -f1))"
+  fi
 else
   echo "WARNING: vendor/opencodex not populated; skipping opencodex bundling." >&2
   echo "         Run ./Scripts/vendor-opencodex.sh to enable the embedded proxy." >&2

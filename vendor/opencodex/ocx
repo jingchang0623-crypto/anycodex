@@ -1,16 +1,16 @@
 #!/bin/bash
-# OpenAgent bundled opencodex launcher
+# AnyCodex bundled opencodex launcher
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
-ENTRY="$SCRIPT_DIR/pkg/bin/ocx.mjs"
+ENTRY="$SCRIPT_DIR/pkg/src/cli/index.ts"
+BUNDLED="$SCRIPT_DIR/pkg/node_modules/bun/bin/bun.exe"
 
-# Use bundled bun if available, otherwise system node/bun
-if [ -x "$SCRIPT_DIR/bun" ]; then
-    exec "$SCRIPT_DIR/bun" "$ENTRY" "$@"
-elif command -v node &>/dev/null; then
-    exec node "$ENTRY" "$@"
+if [ -x "$BUNDLED" ]; then
+    exec "$BUNDLED" "$ENTRY" "$@"
 elif command -v bun &>/dev/null; then
     exec bun "$ENTRY" "$@"
 else
-    echo "Error: No JavaScript runtime found (need bun or node)" >&2
+    echo "Error: bun runtime not found." >&2
+    echo "This is the slim AnyCodex build. Install bun with:  brew install bun" >&2
+    echo "(or download the standard build, which bundles its own runtime)" >&2
     exit 1
 fi
