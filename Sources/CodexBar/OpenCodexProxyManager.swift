@@ -131,14 +131,41 @@ final class OpenCodexProxyManager {
         return false
     }
 
+    /// Log destination for the embedded proxy: `~/Library/Logs/AnyCodex/opencodex.log`.
+    /// Truncated when it grows past the cap so an always-on proxy cannot fill the disk.
+    static let logFileURL = URL(fileURLWithPath: NSString("~/Library/Logs/AnyCodex").expandingTildeInPath)
+        .appendingPathComponent("opencodex.log")
+
+    private static let logSizeCapBytes = 5 * 1024 * 1024
+
+    private static func makeLogFileHandle() -> FileHandle? {
+        let url = self.logFileURL
+        let fm = FileManager.default
+        try? fm.createDirectory(at: url.deletingLastPathComponent(), withIntermediateDirectories: true)
+        if let size = try? fm.attributesOfItem(atPath: url.path)[.size] as? Int, size > self.logSizeCapBytes {
+            try? fm.removeItem(at: url)
+        }
+        if !fm.fileExists(atPath: url.path) {
+            fm.createFile(atPath: url.path, contents: nil)
+        }
+        guard let handle = try? FileHandle(forWritingTo: url) else { return nil }
+        _ = try? handle.seekToEnd()
+        return handle
+    }
+
     private func launchProcess() throws {
         let ocxPath = try Self.resolveOCXPath()
 
         let proc = Process()
         proc.executableURL = URL(fileURLWithPath: "/usr/bin/env")
         proc.arguments = [ocxPath, "start", "--port", "\(self.port)"]
-        proc.standardOutput = FileHandle.nullDevice
-        proc.standardError = FileHandle.nullDevice
+        // Keep the proxy's output on disk rather than discarding it: when routing
+        // breaks, this log is the only place its startup banner, provider-discovery
+        // warnings, and stream errors show up. A plain file (never a Pipe) — an
+        // unread Pipe fills its 64 KiB buffer and blocks the child.
+        let logHandle = Self.makeLogFileHandle()
+        proc.standardOutput = logHandle ?? FileHandle.nullDevice
+        proc.standardError = logHandle ?? FileHandle.nullDevice
 
         proc.terminationHandler = { [weak self] terminated in
             let status = terminated.terminationStatus

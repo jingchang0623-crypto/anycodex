@@ -91,11 +91,18 @@ CodexBar 的 Codex 额度需要 ChatGPT 订阅登录(`codex login`)。如果你�
 **Claude 显示 "No available fetch strategy"?**
 Claude Code 的凭据存在系统钥匙串,首次读取需要授权:菜单点"刷新",弹窗选"始终允许"。
 
+**Codex 桌面 App 报 `502 Bad Gateway`,但终端里 `codex` 一切正常?**
+检查你的科学上网工具(Clash / Surge / V2Ray 等)是否开着**系统代理**。终端工具只读环境变量,桌面 App 走 Chromium 内核、读系统代理设置 —— 于是发往 `127.0.0.1:10100` 的请求被代理软件截走,回一个空响应体的 502。代理本身完全正常,日志里也不会有任何记录,极具迷惑性。
+
+诊断:`scutil --proxy` 查看系统代理是否启用。
+
+解决:在代理软件的规则里放行回环地址(Clash 加 `IP-CIDR,127.0.0.1/32,DIRECT`),或关闭"系统代理"开关(TUN/增强模式一般不影响回环)。
+
 **升级 AnyCodex 后,Codex App 切模型报 `502 Bad Gateway`?**
 升级会替换代理进程,而已经打开的 Codex App 仍连着旧进程。完全退出 Codex App(⌘Q)再打开即可,顺便也会刷新模型列表。
 
 **代理端口冲突?**
-默认端口 10100。菜单里可 Stop/Start 代理;配置由 opencodex 管理(`~/.opencodex`)。
+默认端口 10100。菜单里可 Stop/Start 代理;配置由 opencodex 管理(`~/.opencodex`),代理运行日志在 `~/Library/Logs/AnyCodex/opencodex.log`。
 
 **Codex 桌面 App 的模型选择器里看不到自定义模型?**
 桌面 App 必须以 ChatGPT 账号登录(`codex login`)才会向代理请求模型列表;若 `~/.codex/auth.json` 里只有 `OPENAI_API_KEY`(API-key 模式,某些第三方切换工具会这样写),App 只显示内置官方模型。登录后完全退出再打开 App 即可。
