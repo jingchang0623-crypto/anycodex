@@ -24,11 +24,23 @@ AnyCodex 把两件事都收进菜单栏:
 
 ### 直接下载(推荐)
 
-从 [Releases](https://github.com/jingchang0623-crypto/anycodex/releases) 下载最新的 `AnyCodex-*-universal.zip`,解压后把 **AnyCodex.app** 拖进"应用程序"文件夹,双击运行。
+从 [Releases](https://github.com/jingchang0623-crypto/anycodex/releases) 下载对应的包,解压后把 **AnyCodex.app** 拖进"应用程序"文件夹,双击运行。
 
-- 已做 Developer ID 签名 + Apple 公证,Gatekeeper 不拦截
-- 通用二进制,Apple Silicon 与 Intel 均可
+**该下哪个?** 芯片看 关于本机(Apple M 系列 = arm64,Intel = x64);精简版体积减半,但需要你机器上有 bun。
+
+| 包 | 安装后 | 适用 |
+|---|---|---|
+| `AnyCodex-*-arm64.zip` | 161MB | Apple Silicon,开箱即用 ← 多数人选这个 |
+| `AnyCodex-*-arm64-slim.zip` | 100MB | Apple Silicon,需先 `brew install bun` |
+| `AnyCodex-*-x64.zip` | 161MB | Intel Mac,开箱即用 |
+| `AnyCodex-*-x64-slim.zip` | 104MB | Intel Mac,需先 `brew install bun` |
+
+装错了不会有隐患:精简版在缺少 bun 时会明确提示安装命令,换成完整版即可。
+
+- 全部经 Developer ID 签名 + Apple 公证,Gatekeeper 不拦截
 - 要求 macOS 14+
+
+> 体积说明:应用本体仅约 3MB,其余是内嵌的 opencodex 及其 Bun 运行时。opencodex 是 Bun 应用(用了 `Bun.serve`、`bun:sqlite` 等专有 API),node 无法替代,精简版正是把这份 60MB 运行时交给系统上已有的 bun。
 
 首次使用:
 
