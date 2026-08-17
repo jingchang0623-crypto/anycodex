@@ -90,6 +90,19 @@ Claude Code 的凭据存在系统钥匙串,首次读取需要授权:菜单点"�
 **代理端口冲突?**
 默认端口 10100。菜单里可 Stop/Start 代理;配置由 opencodex 管理(`~/.opencodex`)。
 
+**Codex 桌面 App 的模型选择器里看不到自定义模型?**
+桌面 App 必须以 ChatGPT 账号登录(`codex login`)才会向代理请求模型列表;若 `~/.codex/auth.json` 里只有 `OPENAI_API_KEY`(API-key 模式,某些第三方切换工具会这样写),App 只显示内置官方模型。登录后完全退出再打开 App 即可。
+
+**某个 provider 明明能用某模型,但列表里没有?**
+opencodex 以 provider 的 `/v1/models` 探测结果为准,配置里手工写的模型会被剪掉。用自定义模型注册(不受探测剪枝影响):
+
+```bash
+./Scripts/register-custom-models.sh <provider> gpt-5.6-sol gpt-5.5 gpt-5.4
+./Scripts/register-custom-models.sh --list    # 查看已注册的
+```
+
+脚本可重复运行(已注册的自动跳过),注册后自动同步目录,重启 Codex App 生效。
+
 ## 致谢与许可
 
 - [steipete/CodexBar](https://github.com/steipete/CodexBar) — Peter Steinberger 的菜单栏额度监控,本项目的主体(MIT);provider 相关的详细文档见上游 [docs/](https://github.com/steipete/CodexBar/tree/main/docs)
