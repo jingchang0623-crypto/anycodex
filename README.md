@@ -91,6 +91,9 @@ CodexBar 的 Codex 额度需要 ChatGPT 订阅登录(`codex login`)。如果你�
 **Claude 显示 "No available fetch strategy"?**
 Claude Code 的凭据存在系统钥匙串,首次读取需要授权:菜单点"刷新",弹窗选"始终允许"。
 
+**升级 AnyCodex 后,Codex App 切模型报 `502 Bad Gateway`?**
+升级会替换代理进程,而已经打开的 Codex App 仍连着旧进程。完全退出 Codex App(⌘Q)再打开即可,顺便也会刷新模型列表。
+
 **代理端口冲突?**
 默认端口 10100。菜单里可 Stop/Start 代理;配置由 opencodex 管理(`~/.opencodex`)。
 
