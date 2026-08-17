@@ -54,6 +54,15 @@ final class OpenCodexProxyManager {
         self.startTask?.cancel()
         self.startTask = Task { [weak self] in
             guard let self else { return }
+            // Adopt an already-healthy proxy (e.g. app relaunch while the previous
+            // instance's proxy still serves the port) instead of spawning a
+            // duplicate — `ocx start` exits with code 1 in that situation.
+            if await self.checkHealth() {
+                guard !Task.isCancelled else { return }
+                self.state = .running(port: self.port)
+                self.startHealthMonitor()
+                return
+            }
             do {
                 try self.launchProcess()
                 let port = try await self.waitForHealthy(timeout: 15)
@@ -76,9 +85,25 @@ final class OpenCodexProxyManager {
         if let proc = self.process, proc.isRunning {
             proc.terminationHandler = nil
             proc.terminate()
+        } else {
+            self.terminateAdoptedProxyIfNeeded()
         }
         self.process = nil
         self.state = .stopped
+    }
+
+    /// An adopted proxy (no owned Process) is stopped via the pid file that
+    /// opencodex maintains — plain SIGTERM, no `ocx stop` side effects on the
+    /// user's Codex config.
+    private func terminateAdoptedProxyIfNeeded() {
+        guard case .running = self.state, self.process == nil else { return }
+        let pidPath = NSString("~/.opencodex/ocx.pid").expandingTildeInPath
+        guard let raw = try? String(contentsOfFile: pidPath, encoding: .utf8),
+              let pid = pid_t(raw.trimmingCharacters(in: .whitespacesAndNewlines)),
+              pid > 0,
+              kill(pid, 0) == 0
+        else { return }
+        kill(pid, SIGTERM)
     }
 
     /// Synchronous best-effort teardown for app termination.
@@ -92,6 +117,8 @@ final class OpenCodexProxyManager {
             while proc.isRunning, Date() < deadline {
                 Thread.sleep(forTimeInterval: 0.05)
             }
+        } else {
+            self.terminateAdoptedProxyIfNeeded()
         }
         self.process = nil
         self.state = .stopped
@@ -119,6 +146,13 @@ final class OpenCodexProxyManager {
                 guard let self, self.process === terminated else { return }
                 self.process = nil
                 if case .stopped = self.state { return }
+                // `ocx start` exits 1 when another instance already serves the
+                // port; if that instance is healthy, adopt it instead of erroring.
+                if await self.checkHealth() {
+                    self.state = .running(port: self.port)
+                    self.startHealthMonitor()
+                    return
+                }
                 self.state = .error("opencodex exited (code \(status))")
             }
         }
