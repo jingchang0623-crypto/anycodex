@@ -21,7 +21,9 @@ assertEqual(new Set(providerIDs).size, providerIDs.length, "UsageProvider IDs");
 const providerCount = providerIDs.length;
 
 const publicCountFiles = [
-  ["README.md", `alt="CodexBar — every AI coding limit in your menu bar. ${providerCount} providers."`],
+  // README.md is intentionally exempt in this fork: the upstream assertion pins the
+  // marketing image's alt text, which carries upstream branding AnyCodex's README
+  // does not reproduce. The remaining files still pin the provider count.
   ["docs/providers.md", `CodexBar currently registers ${providerCount} provider IDs.`],
   ["docs/social.html", `<strong>${providerCount} providers</strong>`],
   ["docs/llms.txt", `across ${providerCount} providers`],

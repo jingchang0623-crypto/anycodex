@@ -107,6 +107,10 @@ opencodex 以 provider 的 `/v1/models` 探测结果为准,配置里手工写的
 
 脚本可重复运行(已注册的自动跳过),注册后自动同步目录,重启 Codex App 生效。
 
+## 更多文档
+
+各 provider 的凭据来源与排错细节继承自上游,按需查阅:[Codex](docs/codex.md)、[Claude](docs/claude.md)、[Cursor](docs/cursor.md)、[Gemini](docs/gemini.md)、[Copilot](docs/copilot.md)、[OpenRouter](docs/openrouter.md)、[sub2api](docs/sub2api.md);开发与发布流程见 [DEVELOPMENT.md](docs/DEVELOPMENT.md) 和 [RELEASING.md](docs/RELEASING.md)。
+
 ## 致谢与许可
 
 - [steipete/CodexBar](https://github.com/steipete/CodexBar) — Peter Steinberger 的菜单栏额度监控,本项目的主体(MIT);provider 相关的详细文档见上游 [docs/](https://github.com/steipete/CodexBar/tree/main/docs)
