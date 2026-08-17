@@ -1,8 +1,8 @@
-/* Italian localization for CodexBar */
+/* Italian localization for AnyCodex */
 
-"ollama_safari_cookie_access_hint" = "I cookie di Safari richiedono l’accesso completo al disco per CodexBar (Impostazioni di Sistema > Privacy e sicurezza).";
+"ollama_safari_cookie_access_hint" = "I cookie di Safari richiedono l’accesso completo al disco per AnyCodex (Impostazioni di Sistema > Privacy e sicurezza).";
 "ollama_browser_cookie_decryption_denied" = "La decrittografia dei cookie di %@ è stata rifiutata nel Portachiavi; riprova con un aggiornamento manuale.";
-"ollama_browser_cookie_decryption_disabled" = "La decrittografia dei cookie di %@ è disabilitata in CodexBar; abilita l’accesso al Portachiavi e aggiorna.";
+"ollama_browser_cookie_decryption_disabled" = "La decrittografia dei cookie di %@ è disabilitata in AnyCodex; abilita l’accesso al Portachiavi e aggiorna.";
 
 " providers" = " provider";
 "(System)" = "(Sistema)";
@@ -16,7 +16,7 @@
 "About" = "Informazioni";
 "Account" = "Account";
 "Accounts" = "Account";
-"Accounts subtitle" = "Scegli e gestisci gli account monitorati da CodexBar.";
+"Accounts subtitle" = "Scegli e gestisci gli account monitorati da AnyCodex.";
 "Active" = "Attivo";
 "Add" = "Aggiungi";
 "Add Workspace" = "Aggiungi workspace";
@@ -43,7 +43,7 @@
 "Automatic imports browser cookies or stored sessions." = "Importa automaticamente i cookie del browser o le sessioni salvate.";
 "Automatic imports browser cookies." = "Importa automaticamente i cookie del browser.";
 "Automatically imports browser session cookie." = "Importa automaticamente il cookie di sessione del browser.";
-"Automatically opens CodexBar when you start your Mac." = "Apre automaticamente CodexBar quando avvii il Mac.";
+"Automatically opens CodexBar when you start your Mac." = "Apre automaticamente AnyCodex quando avvii il Mac.";
 "Automation" = "Automazione";
 "Average (\\(label1) + \\(label2))" = "Media (\\(label1) + \\(label2))";
 "Average (\\(metadata.sessionLabel) + \\(metadata.weeklyLabel))" = "Media (\\(metadata.sessionLabel) + \\(metadata.weeklyLabel))";
@@ -63,7 +63,7 @@
 "Check for updates automatically" = "Controlla automaticamente gli aggiornamenti";
 "Check if you like your agents having some fun up there." = "Attivalo se vuoi che i tuoi agenti si divertano un po' lassù.";
 "Check provider status" = "Controlla stato provider";
-"Choose a supported browser so CodexBar can read the matching account." = "Scegli un browser supportato affinché CodexBar possa leggere l'account corrispondente.";
+"Choose a supported browser so CodexBar can read the matching account." = "Scegli un browser supportato affinché AnyCodex possa leggere l'account corrispondente.";
 "Choose Codex workspace" = "Scegli il workspace Codex";
 "Choose Cursor account" = "Scegli account Cursor";
 "Choose the MiniMax host (global .io or China mainland .com)." = "Scegli l'host MiniMax (.io globale o .com per la Cina continentale).";
@@ -71,8 +71,8 @@
 "Choose up to \\(Self.maxOverviewProviders) providers" = "Scegli fino a \\(Self.maxOverviewProviders) provider";
 "Choose up to \\(count) providers" = "Scegli fino a \\(count) provider";
 "Choose what to show in the menu bar (Pace shows usage vs. expected)." = "Scegli cosa mostrare nella barra menu (Andamento mostra l'uso rispetto al previsto).";
-"Choose which Codex account CodexBar should follow." = "Scegli quale account Codex deve seguire CodexBar.";
-"Choose which Cursor account CodexBar should use." = "Scegli quale account Cursor deve usare CodexBar.";
+"Choose which Codex account CodexBar should follow." = "Scegli quale account Codex deve seguire AnyCodex.";
+"Choose which Cursor account CodexBar should use." = "Scegli quale account Cursor deve usare AnyCodex.";
 "Choose which window drives the menu bar percent." = "Scegli quale finestra determina la percentuale nella barra menu.";
 "Chrome" = "Chrome";
 "Claude CLI not found" = "Claude CLI non trovata";
@@ -87,9 +87,9 @@
 "Codex binary" = "Binario Codex";
 "Codex login failed" = "Accesso Codex non riuscito";
 "Codex login timed out" = "Timeout accesso Codex";
-"CodexBar Lifecycle Keepalive" = "Keepalive ciclo di vita CodexBar";
-"CodexBar can't show its menu bar icon" = "CodexBar non può mostrare la sua icona nella barra menu";
-"CodexBar could not read managed account storage. " = "CodexBar non è riuscito a leggere l'archivio degli account gestiti. ";
+"CodexBar Lifecycle Keepalive" = "Keepalive ciclo di vita AnyCodex";
+"CodexBar can't show its menu bar icon" = "AnyCodex non può mostrare la sua icona nella barra menu";
+"CodexBar could not read managed account storage. " = "AnyCodex non è riuscito a leggere l'archivio degli account gestiti. ";
 "Configure…" = "Configura…";
 "Connected" = "Connesso";
 "Controls how much detail is logged." = "Controlla il livello di dettaglio registrato nei log.";
@@ -151,13 +151,13 @@
 "Hide details" = "Nascondi dettagli";
 "Hide personal information" = "Nascondi informazioni personali";
 "Historical tracking" = "Tracciamento storico";
-"How often CodexBar polls providers in the background." = "Quanto spesso CodexBar interroga i provider in background.";
+"How often CodexBar polls providers in the background." = "Quanto spesso AnyCodex interroga i provider in background.";
 "Inactive" = "Inattivo";
 "Install CLI" = "Installa CLI";
 "Install the Claude CLI (npm i -g @anthropic-ai/claude-code) and try again." = "Installa la Claude CLI (npm i -g @anthropic-ai/claude-code) e riprova.";
 "Install the Codex CLI (npm i -g @openai/codex) and try again." = "Installa la Codex CLI (npm i -g @openai/codex) e riprova.";
 "Install the Gemini CLI (npm i -g @google/gemini-cli) and try again." = "Installa la Gemini CLI (npm i -g @google/gemini-cli) e riprova.";
-"Install a JetBrains IDE with AI Assistant enabled, then refresh CodexBar." = "Installa un IDE JetBrains con AI Assistant abilitato, poi aggiorna CodexBar.";
+"Install a JetBrains IDE with AI Assistant enabled, then refresh CodexBar." = "Installa un IDE JetBrains con AI Assistant abilitato, poi aggiorna AnyCodex.";
 "JetBrains AI is ready" = "JetBrains AI è pronto";
 "JetBrains IDE" = "IDE JetBrains";
 "Keep CLI sessions alive" = "Mantieni attive le sessioni CLI";
@@ -210,7 +210,7 @@
 "Open" = "Apri";
 "Open API Keys" = "Apri chiavi API";
 "Open Amp Settings" = "Apri impostazioni Amp";
-"Open Antigravity to sign in, then refresh CodexBar." = "Apri Antigravity per accedere, poi aggiorna CodexBar.";
+"Open Antigravity to sign in, then refresh CodexBar." = "Apri Antigravity per accedere, poi aggiorna AnyCodex.";
 "Open Browser" = "Apri browser";
 "Open Coding Plan" = "Apri Coding Plan";
 "Open Console" = "Apri console";
@@ -255,7 +255,7 @@
 "Progress bars fill as you consume quota (instead of showing remaining)." = "Le barre di avanzamento si riempiono man mano che consumi la quota (invece di mostrare il rimanente).";
 "Provider" = "Provider";
 "Providers" = "Provider";
-"Quit CodexBar" = "Esci da CodexBar";
+"Quit CodexBar" = "Esci da AnyCodex";
 "Random (default)" = "Casuale (predefinito)";
 "Reads local usage logs. Shows today + last 30 days cost in the menu." = "Legge i log di utilizzo locali. Mostra oggi + la finestra storica selezionata nel menu.";
 "Refresh" = "Aggiorna";
@@ -263,8 +263,8 @@
 "Remote" = "Remoto";
 "Remove" = "Rimuovi";
 "Remove Codex account?" = "Rimuovere l'account Codex?";
-"Remove \\(account.email) from CodexBar? Its managed Codex home will be deleted." = "Rimuovere \\(account.email) da CodexBar? La sua home Codex gestita verrà eliminata.";
-"Remove \\(email) from CodexBar? Its managed Codex home will be deleted." = "Rimuovere \\(email) da CodexBar? La sua home Codex gestita verrà eliminata.";
+"Remove \\(account.email) from CodexBar? Its managed Codex home will be deleted." = "Rimuovere \\(account.email) da AnyCodex? La sua home Codex gestita verrà eliminata.";
+"Remove \\(email) from CodexBar? Its managed Codex home will be deleted." = "Rimuovere \\(email) da AnyCodex? La sua home Codex gestita verrà eliminata.";
 "Remove selected account" = "Rimuovi account selezionato";
 "Replace critter bars with provider branding icons and a percentage." = "Sostituisce le barre con icone del brand del provider e una percentuale.";
 "Replay selected animation" = "Riproduci di nuovo l'animazione selezionata";
@@ -306,7 +306,7 @@
 "Store multiple Ollama Cookie headers." = "Memorizza più header Cookie di Ollama.";
 "Store multiple OpenCode Cookie headers." = "Memorizza più header Cookie di OpenCode.";
 "Store multiple OpenCode Go Cookie headers." = "Memorizza più header Cookie di OpenCode Go.";
-"Stored in the CodexBar config file." = "Memorizzato nel file di configurazione di CodexBar.";
+"Stored in the CodexBar config file." = "Memorizzato nel file di configurazione di AnyCodex.";
 "Stored in ~/.codexbar/config.json. " = "Memorizzato in ~/.codexbar/config.json. ";
 "Stored in ~/.codexbar/config.json. Paste the key from the Synthetic dashboard." = "Memorizzato in ~/.codexbar/config.json. Incolla la chiave dalla dashboard di Synthetic.";
 "Stored in ~/.codexbar/config.json. Paste your Coding Plan API key from Model Studio." = "Memorizzato in ~/.codexbar/config.json. Incolla la tua chiave API Coding Plan da Model Studio.";
@@ -382,8 +382,8 @@
 "cursor_on_demand" = "Su richiesta: %@";
 "cursor_on_demand_with_limit" = "Su richiesta: %1$@ / %2$@";
 "extra_usage_format" = "Uso extra: %1$@ / %2$@";
-"jetbrains_detected_generate" = "Rilevato: %@. Usa l'assistente AI una volta per generare i dati di quota, poi aggiorna CodexBar.";
-"jetbrains_detected_select" = "Rilevato: %@. Seleziona l'IDE preferito nelle Impostazioni, poi aggiorna CodexBar.";
+"jetbrains_detected_generate" = "Rilevato: %@. Usa l'assistente AI una volta per generare i dati di quota, poi aggiorna AnyCodex.";
+"jetbrains_detected_select" = "Rilevato: %@. Seleziona l'IDE preferito nelle Impostazioni, poi aggiorna AnyCodex.";
 "last_fetch_failed_with_provider" = "Ultimo recupero %@ non riuscito:";
 "last_spend" = "Ultima spesa: %@";
 "mcp_model_usage" = "Modello %1$@: %2$@";
@@ -393,10 +393,10 @@
 "metric_primary" = "Primario (%@)";
 "metric_secondary" = "Secondario (%@)";
 "metric_tertiary" = "Terziario (%@)";
-"multiple_workspaces_found" = "CodexBar ha trovato più workspace per %@. Scegli il workspace da aggiungere.";
+"multiple_workspaces_found" = "AnyCodex ha trovato più workspace per %@. Scegli il workspace da aggiungere.";
 "ory_session_…=…; csrftoken=…" = "ory_session_…=…; csrftoken=…";
 "overview_choose_providers" = "Scegli fino a %@ provider";
-"remove_account_message" = "Rimuovere %@ da CodexBar? La sua home Codex gestita verrà eliminata.";
+"remove_account_message" = "Rimuovere %@ da AnyCodex? La sua home Codex gestita verrà eliminata.";
 "version_format" = "Versione %@";
 "vertex_ai_login_instructions" = "Per monitorare l'utilizzo di Vertex AI, autenticati con Google Cloud.\n\n1. Apri Terminale\n2. Esegui: gcloud auth application-default login\n3. Segui le istruzioni nel browser per accedere\n4. Imposta il progetto: gcloud config set project PROJECT_ID\n\nAprire Terminale ora?";
 "workspaceID is set but only opencode, opencodego, and deepgram support workspaceID." = "workspaceID è impostato ma solo opencode, opencodego e deepgram supportano workspaceID.";
@@ -436,7 +436,7 @@
 "language_vietnamese" = "Vietnamita";
 "language_indonesian" = "Indonesiano";
 "start_at_login_title" = "Avvia all'accesso";
-"start_at_login_subtitle" = "Apre automaticamente CodexBar quando avvii il Mac.";
+"start_at_login_subtitle" = "Apre automaticamente AnyCodex quando avvii il Mac.";
 "show_cost_summary_subtitle" = "Legge i log di utilizzo locali. Mostra oggi + la finestra storica selezionata nel menu.";
 "cost_summary_style_title" = "Stile di visualizzazione";
 "cost_summary_style_inline" = "Solo in linea";
@@ -503,7 +503,7 @@
 "quota_warning_warning" = "Avviso";
 "quota_warning_critical" = "Critico";
 "apply" = "Applica";
-"quit_app" = "Esci da CodexBar";
+"quit_app" = "Esci da AnyCodex";
 
 /* Tab titles */
 "tab_general" = "Generale";
@@ -550,8 +550,8 @@
 "managed_login_missing_email" = "L'accesso Codex è stato completato, ma nessuna email account era disponibile. Riprova dopo aver verificato che l'account sia completamente autenticato.";
 "login_success_notification_title" = "Accesso %@ riuscito";
 "login_success_notification_body" = "Puoi tornare all'app; l'autenticazione è terminata.";
-"workspace_selection_cancelled" = "CodexBar ha trovato più workspace, ma non ne è stato selezionato nessuno.";
-"unsafe_managed_home" = "CodexBar ha rifiutato di modificare un percorso home gestito inatteso: %@";
+"workspace_selection_cancelled" = "AnyCodex ha trovato più workspace, ma non ne è stato selezionato nessuno.";
+"unsafe_managed_home" = "AnyCodex ha rifiutato di modificare un percorso home gestito inatteso: %@";
 "menu_bar_metric_title" = "Metrica barra menu";
 "menu_bar_metric_subtitle" = "Scegli quale finestra guida la percentuale nella barra menu.";
 "menu_bar_metric_subtitle_deepseek" = "Mostra il saldo DeepSeek nella barra menu.";
@@ -703,7 +703,7 @@
 "login_shell_path" = "PATH della shell di login (cattura all'avvio)";
 "cleared" = "Cancellato.";
 "no_fetch_attempts" = "Nessun tentativo di recupero ancora.";
-"macOS Tahoe can block menu bar apps in System Settings → Menu Bar → Allow in the Menu Bar. CodexBar is running, but macOS may be hiding its icon. Open Menu Bar settings and turn CodexBar on." = "macOS Tahoe può bloccare le app della barra menu in Impostazioni di Sistema → Barra menu → Consenti nella barra menu. CodexBar è in esecuzione, ma macOS potrebbe nasconderne l'icona. Apri le impostazioni della barra menu e attiva CodexBar.";
+"macOS Tahoe can block menu bar apps in System Settings → Menu Bar → Allow in the Menu Bar. CodexBar is running, but macOS may be hiding its icon. Open Menu Bar settings and turn CodexBar on." = "macOS Tahoe può bloccare le app della barra menu in Impostazioni di Sistema → Barra menu → Consenti nella barra menu. AnyCodex è in esecuzione, ma macOS potrebbe nasconderne l'icona. Apri le impostazioni della barra menu e attiva AnyCodex.";
 
 /* Metric preferences */
 "metric_pref_automatic" = "Automatico";
@@ -746,7 +746,7 @@
 "refresh_adaptive" = "Adattivo";
 "refresh_adaptive_agent_aware" = "Adattivo (attività degli agenti)";
 "adaptive_activity_consent_title" = "Consentire l’aggiornamento basato sull’attività?";
-"adaptive_activity_consent_message" = "La modalità Adattiva basata sull’attività degli agenti può esaminare l’elenco dei processi locali in esecuzione, incluse le righe di comando, per identificare Codex e Claude, quindi leggere ogni 30 secondi i metadati delle sessioni note mentre programmi. Quando Agent Sessions è disattivato, CodexBar conserva in memoria solo l’ora dell’attività più recente e scarta percorsi e identità delle sessioni. Questi dati non vengono inviati da nessuna parte; il rilevamento remoto e SSH restano disattivati. Se rifiuti, CodexBar torna alla modalità Adattiva normale senza scansioni dell’attività locale.";
+"adaptive_activity_consent_message" = "La modalità Adattiva basata sull’attività degli agenti può esaminare l’elenco dei processi locali in esecuzione, incluse le righe di comando, per identificare Codex e Claude, quindi leggere ogni 30 secondi i metadati delle sessioni note mentre programmi. Quando Agent Sessions è disattivato, AnyCodex conserva in memoria solo l’ora dell’attività più recente e scarta percorsi e identità delle sessioni. Questi dati non vengono inviati da nessuna parte; il rilevamento remoto e SSH restano disattivati. Se rifiuti, AnyCodex torna alla modalità Adattiva normale senza scansioni dell’attività locale.";
 "adaptive_activity_consent_allow" = "Consenti attività locale";
 "adaptive_activity_consent_decline" = "Usa Adattivo normale";
 
@@ -780,7 +780,7 @@
 "No local data found" = "Nessun dato locale trovato";
 "Credits unavailable; keep Codex running to refresh." = "Crediti non disponibili; lascia Codex in esecuzione per aggiornare.";
 "No available fetch strategy for minimax." = "Nessuna strategia di recupero disponibile per minimax.";
-"No Cursor session found. Please log in to cursor.com in Safari, Chrome, Microsoft Edge, Brave, Arc, Dia, ChatGPT Atlas, Chromium, Helium, Vivaldi, Yandex Browser, Firefox, Zen, Colibri, Sidekick, Opera, Opera GX, or Edge Canary. If you use Safari, grant CodexBar Full Disk Access in System Settings ▸ Privacy & Security. You can also sign in to Cursor from the CodexBar menu (Add / switch account)." = "Nessuna sessione Cursor trovata. Accedi a cursor.com in Safari, Chrome, Microsoft Edge, Brave, Arc, Dia, ChatGPT Atlas, Chromium, Helium, Vivaldi, Yandex Browser, Firefox, Zen, Colibri, Sidekick, Opera, Opera GX o Edge Canary. Se usi Safari, concedi a CodexBar l'accesso completo al disco in Impostazioni di Sistema ▸ Privacy e sicurezza. Puoi anche accedere a Cursor dal menu di CodexBar (Aggiungi / cambia account).";
+"No Cursor session found. Please log in to cursor.com in Safari, Chrome, Microsoft Edge, Brave, Arc, Dia, ChatGPT Atlas, Chromium, Helium, Vivaldi, Yandex Browser, Firefox, Zen, Colibri, Sidekick, Opera, Opera GX, or Edge Canary. If you use Safari, grant CodexBar Full Disk Access in System Settings ▸ Privacy & Security. You can also sign in to Cursor from the CodexBar menu (Add / switch account)." = "Nessuna sessione Cursor trovata. Accedi a cursor.com in Safari, Chrome, Microsoft Edge, Brave, Arc, Dia, ChatGPT Atlas, Chromium, Helium, Vivaldi, Yandex Browser, Firefox, Zen, Colibri, Sidekick, Opera, Opera GX o Edge Canary. Se usi Safari, concedi a AnyCodex l'accesso completo al disco in Impostazioni di Sistema ▸ Privacy e sicurezza. Puoi anche accedere a Cursor dal menu di AnyCodex (Aggiungi / cambia account).";
 "No OpenCode session cookies found in browsers." = "Nessun cookie di sessione OpenCode trovato nei browser.";
 "No available fetch strategy for %@." = "Nessuna strategia di recupero disponibile per %@.";
 "Today" = "Oggi";
@@ -796,7 +796,7 @@
 "Status Page" = "Pagina di stato";
 "Open Status Page" = "Apri pagina di stato";
 "Settings..." = "Impostazioni...";
-"About CodexBar" = "Informazioni su CodexBar";
+"About CodexBar" = "Informazioni su AnyCodex";
 "Quit" = "Esci";
 "Last %d day" = "Ultimo %d giorno";
 "Last %d days" = "Ultimi %d giorni";
@@ -1055,31 +1055,31 @@
 "Capacity Start" = "Inizio capacità";
 "Changelog" = "Registro modifiche";
 "Choose the Moonshot/Kimi API host for international or China mainland accounts." = "Scegli l'host API Moonshot/Kimi per account internazionali o della Cina continentale.";
-"CodexBar can't replace a system account that is signed in with an API key only setup." = "CodexBar non può sostituire un account di sistema autenticato solo tramite configurazione con chiave API.";
-"CodexBar could not find saved auth for that account. Re-authenticate it and try again." = "CodexBar non ha trovato l'autenticazione salvata per quell'account. Ri-autenticati e riprova.";
-"CodexBar could not read managed account storage. Recover the store before adding another account." = "CodexBar non è riuscito a leggere l'archivio degli account gestiti. Ripristinalo prima di aggiungere un altro account.";
-"CodexBar could not read saved auth for that account. Re-authenticate it and try again." = "CodexBar non è riuscito a leggere l'autenticazione salvata per quell'account. Ri-autenticati e riprova.";
-"CodexBar could not read the current system account on this Mac." = "CodexBar non è riuscito a leggere l'account di sistema corrente su questo Mac.";
-"CodexBar could not replace the live Codex auth on this Mac." = "CodexBar non è riuscito a sostituire l'autenticazione Codex attiva su questo Mac.";
-"CodexBar could not safely preserve the current system account before switching." = "CodexBar non è riuscito a conservare in sicurezza l'account di sistema corrente prima del cambio.";
-"CodexBar could not save the current system account before switching." = "CodexBar non è riuscito a salvare l'account di sistema corrente prima del cambio.";
-"CodexBar could not update managed account storage." = "CodexBar non è riuscito ad aggiornare l'archivio degli account gestiti.";
-"CodexBar found another managed account that already uses the current system account. Resolve the duplicate account before switching." = "CodexBar ha trovato un altro account gestito che usa già l'account di sistema corrente. Risolvi il duplicato prima di cambiare.";
-"CodexBar will ask macOS Keychain for “%@” so it can decrypt browser cookies and authenticate your account. Click OK to continue." = "CodexBar chiederà al Portachiavi di macOS “%@” per poter decifrare i cookie del browser e autenticare il tuo account. Fai clic su OK per continuare.";
-"CodexBar will ask macOS Keychain for the Claude Code OAuth token so it can fetch your Claude usage. Click OK to continue." = "CodexBar chiederà al Portachiavi di macOS il token OAuth di Claude Code per recuperare il tuo utilizzo Claude. Fai clic su OK per continuare.";
-"CodexBar will ask macOS Keychain for your Amp cookie header so it can fetch usage. Click OK to continue." = "CodexBar chiederà al Portachiavi di macOS il tuo header Cookie di Amp per recuperare l'utilizzo. Fai clic su OK per continuare.";
-"CodexBar will ask macOS Keychain for your Augment cookie header so it can fetch usage. Click OK to continue." = "CodexBar chiederà al Portachiavi di macOS il tuo header Cookie di Augment per recuperare l'utilizzo. Fai clic su OK per continuare.";
-"CodexBar will ask macOS Keychain for your Claude cookie header so it can fetch Claude web usage. Click OK to continue." = "CodexBar chiederà al Portachiavi di macOS il tuo header Cookie di Claude per recuperare l'utilizzo web di Claude. Fai clic su OK per continuare.";
-"CodexBar will ask macOS Keychain for your Cursor cookie header so it can fetch usage. Click OK to continue." = "CodexBar chiederà al Portachiavi di macOS il tuo header Cookie di Cursor per recuperare l'utilizzo. Fai clic su OK per continuare.";
-"CodexBar will ask macOS Keychain for your Factory cookie header so it can fetch usage. Click OK to continue." = "CodexBar chiederà al Portachiavi di macOS il tuo header Cookie di Factory per recuperare l'utilizzo. Fai clic su OK per continuare.";
-"CodexBar will ask macOS Keychain for your GitHub Copilot token so it can fetch usage. Click OK to continue." = "CodexBar chiederà al Portachiavi di macOS il tuo token GitHub Copilot per recuperare l'utilizzo. Fai clic su OK per continuare.";
-"CodexBar will ask macOS Keychain for your Kimi auth token so it can fetch usage. Click OK to continue." = "CodexBar chiederà al Portachiavi di macOS il tuo token di autenticazione Kimi per recuperare l'utilizzo. Fai clic su OK per continuare.";
-"CodexBar will ask macOS Keychain for your MiniMax API token so it can fetch usage. Click OK to continue." = "CodexBar chiederà al Portachiavi di macOS il tuo token API MiniMax per recuperare l'utilizzo. Fai clic su OK per continuare.";
-"CodexBar will ask macOS Keychain for your MiniMax cookie header so it can fetch usage. Click OK to continue." = "CodexBar chiederà al Portachiavi di macOS il tuo header Cookie di MiniMax per recuperare l'utilizzo. Fai clic su OK per continuare.";
-"CodexBar will ask macOS Keychain for your OpenAI cookie header so it can fetch Codex dashboard extras. Click OK to continue." = "CodexBar chiederà al Portachiavi di macOS il tuo header Cookie OpenAI per recuperare gli extra della dashboard Codex. Fai clic su OK per continuare.";
-"CodexBar will ask macOS Keychain for your OpenCode cookie header so it can fetch usage. Click OK to continue." = "CodexBar chiederà al Portachiavi di macOS il tuo header Cookie OpenCode per recuperare l'utilizzo. Fai clic su OK per continuare.";
-"CodexBar will ask macOS Keychain for your Synthetic API key so it can fetch usage. Click OK to continue." = "CodexBar chiederà al Portachiavi di macOS la tua chiave API Synthetic per recuperare l'utilizzo. Fai clic su OK per continuare.";
-"CodexBar will ask macOS Keychain for your z.ai API token so it can fetch usage. Click OK to continue." = "CodexBar chiederà al Portachiavi di macOS il tuo token API z.ai per recuperare l'utilizzo. Fai clic su OK per continuare.";
+"CodexBar can't replace a system account that is signed in with an API key only setup." = "AnyCodex non può sostituire un account di sistema autenticato solo tramite configurazione con chiave API.";
+"CodexBar could not find saved auth for that account. Re-authenticate it and try again." = "AnyCodex non ha trovato l'autenticazione salvata per quell'account. Ri-autenticati e riprova.";
+"CodexBar could not read managed account storage. Recover the store before adding another account." = "AnyCodex non è riuscito a leggere l'archivio degli account gestiti. Ripristinalo prima di aggiungere un altro account.";
+"CodexBar could not read saved auth for that account. Re-authenticate it and try again." = "AnyCodex non è riuscito a leggere l'autenticazione salvata per quell'account. Ri-autenticati e riprova.";
+"CodexBar could not read the current system account on this Mac." = "AnyCodex non è riuscito a leggere l'account di sistema corrente su questo Mac.";
+"CodexBar could not replace the live Codex auth on this Mac." = "AnyCodex non è riuscito a sostituire l'autenticazione Codex attiva su questo Mac.";
+"CodexBar could not safely preserve the current system account before switching." = "AnyCodex non è riuscito a conservare in sicurezza l'account di sistema corrente prima del cambio.";
+"CodexBar could not save the current system account before switching." = "AnyCodex non è riuscito a salvare l'account di sistema corrente prima del cambio.";
+"CodexBar could not update managed account storage." = "AnyCodex non è riuscito ad aggiornare l'archivio degli account gestiti.";
+"CodexBar found another managed account that already uses the current system account. Resolve the duplicate account before switching." = "AnyCodex ha trovato un altro account gestito che usa già l'account di sistema corrente. Risolvi il duplicato prima di cambiare.";
+"CodexBar will ask macOS Keychain for “%@” so it can decrypt browser cookies and authenticate your account. Click OK to continue." = "AnyCodex chiederà al Portachiavi di macOS “%@” per poter decifrare i cookie del browser e autenticare il tuo account. Fai clic su OK per continuare.";
+"CodexBar will ask macOS Keychain for the Claude Code OAuth token so it can fetch your Claude usage. Click OK to continue." = "AnyCodex chiederà al Portachiavi di macOS il token OAuth di Claude Code per recuperare il tuo utilizzo Claude. Fai clic su OK per continuare.";
+"CodexBar will ask macOS Keychain for your Amp cookie header so it can fetch usage. Click OK to continue." = "AnyCodex chiederà al Portachiavi di macOS il tuo header Cookie di Amp per recuperare l'utilizzo. Fai clic su OK per continuare.";
+"CodexBar will ask macOS Keychain for your Augment cookie header so it can fetch usage. Click OK to continue." = "AnyCodex chiederà al Portachiavi di macOS il tuo header Cookie di Augment per recuperare l'utilizzo. Fai clic su OK per continuare.";
+"CodexBar will ask macOS Keychain for your Claude cookie header so it can fetch Claude web usage. Click OK to continue." = "AnyCodex chiederà al Portachiavi di macOS il tuo header Cookie di Claude per recuperare l'utilizzo web di Claude. Fai clic su OK per continuare.";
+"CodexBar will ask macOS Keychain for your Cursor cookie header so it can fetch usage. Click OK to continue." = "AnyCodex chiederà al Portachiavi di macOS il tuo header Cookie di Cursor per recuperare l'utilizzo. Fai clic su OK per continuare.";
+"CodexBar will ask macOS Keychain for your Factory cookie header so it can fetch usage. Click OK to continue." = "AnyCodex chiederà al Portachiavi di macOS il tuo header Cookie di Factory per recuperare l'utilizzo. Fai clic su OK per continuare.";
+"CodexBar will ask macOS Keychain for your GitHub Copilot token so it can fetch usage. Click OK to continue." = "AnyCodex chiederà al Portachiavi di macOS il tuo token GitHub Copilot per recuperare l'utilizzo. Fai clic su OK per continuare.";
+"CodexBar will ask macOS Keychain for your Kimi auth token so it can fetch usage. Click OK to continue." = "AnyCodex chiederà al Portachiavi di macOS il tuo token di autenticazione Kimi per recuperare l'utilizzo. Fai clic su OK per continuare.";
+"CodexBar will ask macOS Keychain for your MiniMax API token so it can fetch usage. Click OK to continue." = "AnyCodex chiederà al Portachiavi di macOS il tuo token API MiniMax per recuperare l'utilizzo. Fai clic su OK per continuare.";
+"CodexBar will ask macOS Keychain for your MiniMax cookie header so it can fetch usage. Click OK to continue." = "AnyCodex chiederà al Portachiavi di macOS il tuo header Cookie di MiniMax per recuperare l'utilizzo. Fai clic su OK per continuare.";
+"CodexBar will ask macOS Keychain for your OpenAI cookie header so it can fetch Codex dashboard extras. Click OK to continue." = "AnyCodex chiederà al Portachiavi di macOS il tuo header Cookie OpenAI per recuperare gli extra della dashboard Codex. Fai clic su OK per continuare.";
+"CodexBar will ask macOS Keychain for your OpenCode cookie header so it can fetch usage. Click OK to continue." = "AnyCodex chiederà al Portachiavi di macOS il tuo header Cookie OpenCode per recuperare l'utilizzo. Fai clic su OK per continuare.";
+"CodexBar will ask macOS Keychain for your Synthetic API key so it can fetch usage. Click OK to continue." = "AnyCodex chiederà al Portachiavi di macOS la tua chiave API Synthetic per recuperare l'utilizzo. Fai clic su OK per continuare.";
+"CodexBar will ask macOS Keychain for your z.ai API token so it can fetch usage. Click OK to continue." = "AnyCodex chiederà al Portachiavi di macOS il tuo token API z.ai per recuperare l'utilizzo. Fai clic su OK per continuare.";
 "Could not open Cursor login in your browser." = "Impossibile aprire l'accesso Cursor nel browser.";
 "Could not open browser for Antigravity" = "Impossibile aprire il browser per Antigravity";
 "Credits used" = "Crediti usati";
@@ -1094,7 +1094,7 @@
 "Extra usage balance: %@" = "Saldo uso extra: %@";
 "Keychain Access Required" = "Accesso Portachiavi richiesto";
 "keychain_prompt_learn_more" = "Ulteriori informazioni…";
-"keychain_prompt_privacy_note" = "L'inserimento della password di accesso al Mac è gestito da macOS, non da CodexBar. Puoi disattivare l'accesso al Portachiavi in qualsiasi momento in Impostazioni → Avanzate.";
+"keychain_prompt_privacy_note" = "L'inserimento della password di accesso al Mac è gestito da macOS, non da AnyCodex. Puoi disattivare l'accesso al Portachiavi in qualsiasi momento in Impostazioni → Avanzate.";
 "Kiro menu bar value" = "Valore barra menu Kiro";
 "Label" = "Etichetta";
 "No organizations loaded. Click Refresh after setting your API key." = "Nessuna organizzazione caricata. Fai clic su Aggiorna dopo aver impostato la chiave API.";
@@ -1155,7 +1155,7 @@
 "Service" = "Servizio";
 "Show or hide Kiro credits, percent, or both next to the menu bar icon." = "Mostra o nascondi i crediti Kiro, la percentuale o entrambi accanto all'icona della barra menu.";
 "Show usage for organizations you belong to. Personal account is always shown." = "Mostra l'utilizzo per le organizzazioni di cui fai parte. L'account personale è sempre mostrato.";
-"Sign in to cursor.com in your browser, then refresh Cursor in CodexBar." = "Accedi a cursor.com nel browser, poi aggiorna Cursor in CodexBar.";
+"Sign in to cursor.com in your browser, then refresh Cursor in CodexBar." = "Accedi a cursor.com nel browser, poi aggiorna Cursor in AnyCodex.";
 "Simulated error text" = "Testo errore simulato";
 "StepFun platform account (phone number or email)." = "Account piattaforma StepFun (numero di telefono o email).";
 "Stored in ~/.codexbar/config.json." = "Memorizzato in ~/.codexbar/config.json.";
@@ -1171,12 +1171,12 @@
 "Stored in ~/.codexbar/config.json. OPENAI_ADMIN_KEY is preferred; OPENAI_API_KEY still works." = "Memorizzato in ~/.codexbar/config.json. È preferibile OPENAI_ADMIN_KEY; OPENAI_API_KEY continua a funzionare.";
 "Stored in ~/.codexbar/config.json. Requires an Anthropic Admin API key." = "Memorizzato in ~/.codexbar/config.json. Richiede una chiave Anthropic Admin API.";
 "Stored in ~/.codexbar/config.json. Used for /v1/quota-stats." = "Memorizzato in ~/.codexbar/config.json. Usato per /v1/quota-stats.";
-"Stored in ~/.codexbar/config.json. You can also provide CODEBUFF_API_KEY or let CodexBar read ~/.config/manicode/credentials.json (created by `codebuff login`)." = "Memorizzato in ~/.codexbar/config.json. Puoi anche fornire CODEBUFF_API_KEY o lasciare che CodexBar legga ~/.config/manicode/credentials.json (creato da `codebuff login`).";
+"Stored in ~/.codexbar/config.json. You can also provide CODEBUFF_API_KEY or let CodexBar read ~/.config/manicode/credentials.json (created by `codebuff login`)." = "Memorizzato in ~/.codexbar/config.json. Puoi anche fornire CODEBUFF_API_KEY o lasciare che AnyCodex legga ~/.config/manicode/credentials.json (creato da `codebuff login`).";
 "Stored in ~/.codexbar/config.json. You can also provide CROF_API_KEY." = "Memorizzato in ~/.codexbar/config.json. Puoi anche fornire CROF_API_KEY.";
 "Stored in ~/.codexbar/config.json. You can also provide KILO_API_KEY or ~/.local/share/kilo/auth.json (kilo.access)." = "Memorizzato in ~/.codexbar/config.json. Puoi anche fornire KILO_API_KEY o ~/.local/share/kilo/auth.json (kilo.access).";
 "T3 Chat cookie" = "Cookie T3 Chat";
 "Team mode" = "Modalità team";
-"That account is no longer available in CodexBar. Refresh the account list and try again." = "Quell'account non è più disponibile in CodexBar. Aggiorna l'elenco account e riprova.";
+"That account is no longer available in CodexBar. Refresh the account list and try again." = "Quell'account non è più disponibile in AnyCodex. Aggiorna l'elenco account e riprova.";
 "The browser login did not complete in time. Try Antigravity login again." = "L'accesso nel browser non è stato completato in tempo. Riprova l'accesso ad Antigravity.";
 "Timed out waiting for Cursor login. %@" = "Timeout in attesa dell'accesso Cursor. %@";
 "Timed out waiting for Cursor login. %@ Last error: %@" = "Timeout in attesa dell'accesso Cursor. %@ Ultimo errore: %@";
@@ -1345,3 +1345,12 @@
 "Cost today unavailable" = "Costo oggi: Non disponibile";
 "30-day cost unavailable" = "Costo 30 gg: Non disponibile";
 "Resets" = "Ripristini";
+
+/* AnyCodex: embedded opencodex proxy */
+"opencodex_proxy_running" = "Proxy opencodex: in esecuzione (porta %d)";
+"opencodex_proxy_starting" = "Proxy opencodex: avvio in corso...";
+"opencodex_proxy_stopped" = "Proxy opencodex: arrestato";
+"opencodex_proxy_error" = "Proxy opencodex: %@";
+"Manage AI Providers..." = "Gestisci provider AI...";
+"Start opencodex Proxy" = "Avvia il proxy opencodex";
+"Stop opencodex Proxy" = "Arresta il proxy opencodex";

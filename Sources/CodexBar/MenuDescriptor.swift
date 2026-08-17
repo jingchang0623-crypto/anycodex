@@ -169,22 +169,22 @@ struct MenuDescriptor {
     {
         var entries: [Entry] = []
         let statusText = switch state {
-        case let .running(port): "opencodex Proxy: Running (port \(port))"
-        case .starting: "opencodex Proxy: Starting…"
-        case .stopped: "opencodex Proxy: Stopped"
-        case let .error(message): "opencodex Proxy: \(message)"
+        case let .running(port): String(format: L("opencodex_proxy_running"), port)
+        case .starting: L("opencodex_proxy_starting")
+        case .stopped: L("opencodex_proxy_stopped")
+        case let .error(message): String(format: L("opencodex_proxy_error"), message)
         }
         entries.append(.text(statusText, .secondary))
         switch state {
         case .running:
             if let dashboardURL {
-                entries.append(.action("Manage AI Providers…", .loginToProvider(url: dashboardURL)))
+                entries.append(.action(L("Manage AI Providers..."), .loginToProvider(url: dashboardURL)))
             }
-            entries.append(.action("Stop opencodex Proxy", .toggleOpenCodexProxy))
+            entries.append(.action(L("Stop opencodex Proxy"), .toggleOpenCodexProxy))
         case .starting:
-            entries.append(.action("Stop opencodex Proxy", .toggleOpenCodexProxy))
+            entries.append(.action(L("Stop opencodex Proxy"), .toggleOpenCodexProxy))
         case .stopped, .error:
-            entries.append(.action("Start opencodex Proxy", .toggleOpenCodexProxy))
+            entries.append(.action(L("Start opencodex Proxy"), .toggleOpenCodexProxy))
         }
         return Section(entries: entries)
     }

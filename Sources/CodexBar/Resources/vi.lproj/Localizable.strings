@@ -1,4 +1,4 @@
-/* English localization for CodexBar (base/fallback) */
+/* English localization for AnyCodex (base/fallback) */
 
 "tab_hooks" = "Hook";
 "hooks_enable_title" = "Bật hook";
@@ -20,9 +20,9 @@
 "hooks_add_argument" = "Thêm đối số";
 "hooks_delete_argument" = "Xóa đối số";
 
-"ollama_safari_cookie_access_hint" = "Cookie Safari cần Quyền truy cập toàn bộ ổ đĩa cho CodexBar (Cài đặt hệ thống > Quyền riêng tư & Bảo mật).";
+"ollama_safari_cookie_access_hint" = "Cookie Safari cần Quyền truy cập toàn bộ ổ đĩa cho AnyCodex (Cài đặt hệ thống > Quyền riêng tư & Bảo mật).";
 "ollama_browser_cookie_decryption_denied" = "Việc giải mã cookie %@ đã bị từ chối trong Chuỗi khóa; hãy thử lại bằng cách làm mới thủ công.";
-"ollama_browser_cookie_decryption_disabled" = "Việc giải mã cookie %@ bị tắt trong CodexBar; hãy bật quyền truy cập Chuỗi khóa rồi làm mới.";
+"ollama_browser_cookie_decryption_disabled" = "Việc giải mã cookie %@ bị tắt trong AnyCodex; hãy bật quyền truy cập Chuỗi khóa rồi làm mới.";
 
 " providers" = "nhà cung cấp";
 "(System)" = "(Hệ thống)";
@@ -62,7 +62,7 @@
 "Automatic imports browser cookies or stored sessions." = "Tự động nhập cookie trình duyệt hoặc các phiên được lưu trữ.";
 "Automatic imports browser cookies." = "Tự động nhập cookie trình duyệt.";
 "Automatically imports browser session cookie." = "Tự động nhập cookie phiên trình duyệt.";
-"Automatically opens CodexBar when you start your Mac." = "Tự động mở CodexBar khi bạn khởi động máy Mac.";
+"Automatically opens CodexBar when you start your Mac." = "Tự động mở AnyCodex khi bạn khởi động máy Mac.";
 "Automation" = "Tự động hóa";
 "Average (\\(label1) + \\(label2))" = "Trung bình (\\(label1) + \\(label2))";
 "Average (\\(metadata.sessionLabel) + \\(metadata.weeklyLabel))" = "Trung bình (\\(metadata.sessionLabel) + \\(metadata.weeklyLabel))";
@@ -88,7 +88,7 @@
 "Choose up to \\(Self.maxOverviewProviders) providers" = "Chọn tối đa nhà cung cấp \\(Self.maxOverviewProviders)";
 "Choose up to \\(count) providers" = "Chọn tối đa \\(count) nhà cung cấp";
 "Choose what to show in the menu bar (Pace shows usage vs. expected)." = "Chọn nội dung sẽ hiển thị trong thanh menu (Tốc độ hiển thị Mức sử dụng so với dự kiến).";
-"Choose which Codex account CodexBar should follow." = "Chọn tài khoản Codex mà CodexBar sẽ tuân theo.";
+"Choose which Codex account CodexBar should follow." = "Chọn tài khoản Codex mà AnyCodex sẽ tuân theo.";
 "Choose which window drives the menu bar percent." = "Chọn cửa sổ nào điều khiển phần trăm thanh menu.";
 "Chrome" = "Chrome";
 "Claude CLI not found" = "Claude CLI không tìm thấy";
@@ -103,9 +103,9 @@
 "Codex binary" = "Codex nhị phân";
 "Codex login failed" = "Đăng nhập Codex không thành công";
 "Codex login timed out" = "Đăng nhập Codex đã hết thời gian chờ";
-"CodexBar Lifecycle Keepalive" = "CodexBar Lifecycle Keepalive";
-"CodexBar can't show its menu bar icon" = "CodexBar không thể hiển thị biểu tượng thanh menu";
-"CodexBar could not read managed account storage. " = "CodexBar không thể đọc bộ nhớ tài khoản được quản lý.";
+"CodexBar Lifecycle Keepalive" = "AnyCodex Lifecycle Keepalive";
+"CodexBar can't show its menu bar icon" = "AnyCodex không thể hiển thị biểu tượng thanh menu";
+"CodexBar could not read managed account storage. " = "AnyCodex không thể đọc bộ nhớ tài khoản được quản lý.";
 "Configure…" = "Định cấu hình…";
 "Connected" = "Đã kết nối";
 "Controls how much detail is logged." = "Kiểm soát lượng chi tiết được ghi lại.";
@@ -167,7 +167,7 @@
 "Hide details" = "Ẩn chi tiết";
 "Hide personal information" = "Ẩn thông tin cá nhân";
 "Historical tracking" = "Theo dõi lịch sử";
-"How often CodexBar polls providers in the background." = "Tần suất CodexBar thăm dò ý kiến ​​các nhà cung cấp trong nền.";
+"How often CodexBar polls providers in the background." = "Tần suất AnyCodex thăm dò ý kiến ​​các nhà cung cấp trong nền.";
 "Inactive" = "Không hoạt động";
 "Install CLI" = "Cài đặt CLI";
 "Install the Claude CLI (npm i -g @anthropic-ai/claude-code) and try again." = "Cài đặt Claude CLI (npm i -g @anthropic-ai/claude-code) và thử lại.";
@@ -225,7 +225,7 @@
 "Open" = "Mở";
 "Open API Keys" = "Mở API Phím";
 "Open Amp Settings" = "Mở Amp Cài đặt";
-"Open Antigravity to sign in, then refresh CodexBar." = "Mở Chống trọng lực để đăng nhập, sau đó làm mới CodexBar .";
+"Open Antigravity to sign in, then refresh CodexBar." = "Mở Chống trọng lực để đăng nhập, sau đó làm mới AnyCodex .";
 "Open Browser" = "Mở trình duyệt";
 "Open Coding Plan" = "Mở kế hoạch mã hóa";
 "Open Console" = "Mở bảng điều khiển";
@@ -270,7 +270,7 @@
 "Progress bars fill as you consume quota (instead of showing remaining)." = "Thanh tiến trình sẽ lấp đầy khi bạn sử dụng Hạn mức (thay vì hiển thị phần còn lại).";
 "Provider" = "Nhà cung cấp";
 "Providers" = "Nhà cung cấp";
-"Quit CodexBar" = "Thoát CodexBar";
+"Quit CodexBar" = "Thoát AnyCodex";
 "Random (default)" = "Ngẫu nhiên (mặc định)";
 "Reads local usage logs. Shows today + last 30 days cost in the menu." = "Đọc nhật ký Mức sử dụng cục bộ. Hiển thị hôm nay + cửa sổ lịch sử đã chọn trong menu.";
 "Refresh" = "Làm mới";
@@ -278,8 +278,8 @@
 "Remote" = "Từ xa";
 "Remove" = "Xóa";
 "Remove Codex account?" = "Xóa tài khoản Codex?";
-"Remove \\(account.email) from CodexBar? Its managed Codex home will be deleted." = "Xóa \\(account.email) khỏi CodexBar ? Trang chủ Codex được quản lý của nó sẽ bị xóa.";
-"Remove \\(email) from CodexBar? Its managed Codex home will be deleted." = "Xóa \\(email) khỏi CodexBar ? Trang chủ Codex được quản lý của nó sẽ bị xóa.";
+"Remove \\(account.email) from CodexBar? Its managed Codex home will be deleted." = "Xóa \\(account.email) khỏi AnyCodex ? Trang chủ Codex được quản lý của nó sẽ bị xóa.";
+"Remove \\(email) from CodexBar? Its managed Codex home will be deleted." = "Xóa \\(email) khỏi AnyCodex ? Trang chủ Codex được quản lý của nó sẽ bị xóa.";
 "Remove selected account" = "Xóa tài khoản đã chọn";
 "Replace critter bars with provider branding icons and a percentage." = "Thay thế các thanh sinh vật bằng Nhà cung cấp biểu tượng nhãn hiệu và tỷ lệ phần trăm.";
 "Replay selected animation" = "Phát lại hoạt ảnh đã chọn";
@@ -320,7 +320,7 @@
 "Store multiple Ollama Cookie headers." = "Lưu trữ nhiều tiêu đề Cookie Ollama.";
 "Store multiple OpenCode Cookie headers." = "Lưu trữ nhiều tiêu đề Cookie OpenCode.";
 "Store multiple OpenCode Go Cookie headers." = "Lưu trữ nhiều tiêu đề Cookie OpenCode Go.";
-"Stored in the CodexBar config file." = "Được lưu trữ trong tệp cấu hình CodexBar.";
+"Stored in the CodexBar config file." = "Được lưu trữ trong tệp cấu hình AnyCodex.";
 "Stored in ~/.codexbar/config.json. " = "Được lưu trữ trong ~/.codexbar/config.json.";
 "Stored in ~/.codexbar/config.json. Paste the key from the Synthetic dashboard." = "Được lưu trữ trong ~/.codexbar/config.json. Dán khóa từ bảng điều khiển Tổng hợp.";
 "Stored in ~/.codexbar/config.json. Paste your Coding Plan API key from Model Studio." = "Được lưu trữ trong ~/.codexbar/config.json. Dán khóa Kế hoạch mã hóa API của bạn từ Model Studio.";
@@ -395,8 +395,8 @@
 "cursor_on_demand" = "Theo yêu cầu: %@";
 "cursor_on_demand_with_limit" = "Theo yêu cầu: %1$@ / %2$@";
 "extra_usage_format" = "Mức sử dụng bổ sung : %1$@ / %2$@";
-"jetbrains_detected_generate" = "Đã phát hiện: %@ . Sử dụng trợ lý AI một lần để tạo dữ liệu Hạn mức, sau đó làm mới CodexBar .";
-"jetbrains_detected_select" = "Đã phát hiện: %@ . Chọn IDE ưa thích của bạn trong Cài đặt , sau đó làm mới CodexBar .";
+"jetbrains_detected_generate" = "Đã phát hiện: %@ . Sử dụng trợ lý AI một lần để tạo dữ liệu Hạn mức, sau đó làm mới AnyCodex .";
+"jetbrains_detected_select" = "Đã phát hiện: %@ . Chọn IDE ưa thích của bạn trong Cài đặt , sau đó làm mới AnyCodex .";
 "last_fetch_failed_with_provider" = "Tìm nạp %@ lần cuối không thành công:";
 "last_spend" = "Chi tiêu lần cuối: %@";
 "mcp_model_usage" = "%1$@ : %2$@";
@@ -406,10 +406,10 @@
 "metric_primary" = "Sơ cấp ( %@ )";
 "metric_secondary" = "Trung học ( %@ )";
 "metric_tertiary" = "Cấp ba ( %@ )";
-"multiple_workspaces_found" = "CodexBar đã tìm thấy nhiều không gian làm việc cho %@ . Vui lòng chọn không gian làm việc để thêm.";
+"multiple_workspaces_found" = "AnyCodex đã tìm thấy nhiều không gian làm việc cho %@ . Vui lòng chọn không gian làm việc để thêm.";
 "ory_session_…=…; csrftoken=…" = "ory_session_…=…; csrftoken=…";
 "overview_choose_providers" = "Chọn tối đa %@ nhà cung cấp";
-"remove_account_message" = "Xóa %@ khỏi CodexBar ? Trang chủ Codex được quản lý của nó sẽ bị xóa.";
+"remove_account_message" = "Xóa %@ khỏi AnyCodex ? Trang chủ Codex được quản lý của nó sẽ bị xóa.";
 "version_format" = "Phiên bản %@";
 "vertex_ai_login_instructions" = "Để theo dõi Vertex AI Mức sử dụng , hãy xác thực bằng Google Cloud.\n\n1. Mở Terminal\n2. Chạy: gcloud auth application-default login\n3. Làm theo lời nhắc của trình duyệt để đăng nhập\n4. Đặt dự án của bạn: gcloud config set project PROJECT_ID\n\nMở Thiết bị đầu cuối bây giờ?";
 "workspaceID is set but only opencode, opencodego, and deepgram support workspaceID." = "ID không gian làm việc được đặt nhưng chỉ có mã mở, opencodego và deepgram hỗ trợ ID không gian làm việc.";
@@ -445,7 +445,7 @@
 "language_korean" = "Tiếng Hàn";
 "language_italian" = "Italiano";
 "start_at_login_title" = "Bắt đầu khi đăng nhập";
-"start_at_login_subtitle" = "Tự động mở CodexBar khi bạn khởi động máy Mac.";
+"start_at_login_subtitle" = "Tự động mở AnyCodex khi bạn khởi động máy Mac.";
 "show_cost_summary_subtitle" = "Đọc nhật ký Mức sử dụng cục bộ. Hiển thị hôm nay + cửa sổ lịch sử đã chọn trong menu.";
 "cost_summary_style_title" = "Kiểu hiển thị";
 "cost_summary_style_inline" = "Chỉ nội tuyến";
@@ -512,7 +512,7 @@
 "quota_warning_warning" = "Cảnh báo";
 "quota_warning_critical" = "Nghiêm trọng";
 "apply" = "Áp dụng";
-"quit_app" = "Thoát CodexBar";
+"quit_app" = "Thoát AnyCodex";
 
 /* Tab titles */
 "tab_general" = "Chung";
@@ -538,8 +538,8 @@
 "managed_login_missing_email" = "Đăng nhập Codex đã hoàn tất nhưng không có email tài khoản. Hãy thử lại sau khi xác nhận tài khoản đã đăng nhập đầy đủ.";
 "login_success_notification_title" = "%@ đăng nhập thành công";
 "login_success_notification_body" = "Bạn có thể quay lại ứng dụng; xác thực xong.";
-"workspace_selection_cancelled" = "CodexBar đã tìm thấy nhiều không gian làm việc nhưng không có không gian làm việc nào được chọn.";
-"unsafe_managed_home" = "CodexBar từ chối sửa đổi đường dẫn chính được quản lý không mong muốn: %@";
+"workspace_selection_cancelled" = "AnyCodex đã tìm thấy nhiều không gian làm việc nhưng không có không gian làm việc nào được chọn.";
+"unsafe_managed_home" = "AnyCodex từ chối sửa đổi đường dẫn chính được quản lý không mong muốn: %@";
 "menu_bar_metric_title" = "thanh menu chỉ số";
 "menu_bar_metric_subtitle" = "Chọn cửa sổ nào thúc đẩy phần trăm thanh menu.";
 "menu_bar_metric_subtitle_deepseek" = "Hiển thị số dư DeepSeek trong thanh menu .";
@@ -691,7 +691,7 @@
 "login_shell_path" = "Shell đăng nhập PATH (chụp khởi động)";
 "cleared" = "Đã xóa.";
 "no_fetch_attempts" = "Chưa có lần tìm nạp nào.";
-"macOS Tahoe can block menu bar apps in System Settings → Menu Bar → Allow in the Menu Bar. CodexBar is running, but macOS may be hiding its icon. Open Menu Bar settings and turn CodexBar on." = "macOS Tahoe có thể chặn thanh menu ứng dụng trong Hệ thống Cài đặt → thanh menu → Cho phép trong thanh menu . CodexBar đang chạy nhưng macOS có thể đang ẩn biểu tượng của nó. Mở thanh menu Cài đặt và bật CodexBar.";
+"macOS Tahoe can block menu bar apps in System Settings → Menu Bar → Allow in the Menu Bar. CodexBar is running, but macOS may be hiding its icon. Open Menu Bar settings and turn CodexBar on." = "macOS Tahoe có thể chặn thanh menu ứng dụng trong Hệ thống Cài đặt → thanh menu → Cho phép trong thanh menu . AnyCodex đang chạy nhưng macOS có thể đang ẩn biểu tượng của nó. Mở thanh menu Cài đặt và bật AnyCodex.";
 
 /* Metric preferences */
 "metric_pref_automatic" = "Tự động";
@@ -734,7 +734,7 @@
 "refresh_adaptive" = "Thích ứng";
 "refresh_adaptive_agent_aware" = "Thích ứng (nhận biết tác nhân)";
 "adaptive_activity_consent_title" = "Cho phép làm mới theo hoạt động?";
-"adaptive_activity_consent_message" = "Chế độ Thích ứng nhận biết tác nhân có thể kiểm tra danh sách tiến trình cục bộ đang chạy, bao gồm cả dòng lệnh, để nhận diện Codex và Claude, sau đó đọc siêu dữ liệu của các phiên đã biết mỗi 30 giây trong khi bạn viết mã. Khi tắt Agent Sessions, CodexBar chỉ dùng thời điểm hoạt động gần nhất trong bộ nhớ và loại bỏ đường dẫn cùng danh tính phiên. Dữ liệu này không được gửi đi đâu, còn tính năng phát hiện từ xa và SSH vẫn tắt. Nếu bạn từ chối, CodexBar trở về chế độ Thích ứng thông thường mà không quét hoạt động cục bộ.";
+"adaptive_activity_consent_message" = "Chế độ Thích ứng nhận biết tác nhân có thể kiểm tra danh sách tiến trình cục bộ đang chạy, bao gồm cả dòng lệnh, để nhận diện Codex và Claude, sau đó đọc siêu dữ liệu của các phiên đã biết mỗi 30 giây trong khi bạn viết mã. Khi tắt Agent Sessions, AnyCodex chỉ dùng thời điểm hoạt động gần nhất trong bộ nhớ và loại bỏ đường dẫn cùng danh tính phiên. Dữ liệu này không được gửi đi đâu, còn tính năng phát hiện từ xa và SSH vẫn tắt. Nếu bạn từ chối, AnyCodex trở về chế độ Thích ứng thông thường mà không quét hoạt động cục bộ.";
 "adaptive_activity_consent_allow" = "Cho phép hoạt động cục bộ";
 "adaptive_activity_consent_decline" = "Dùng Thích ứng thông thường";
 
@@ -768,7 +768,7 @@
 "No local data found" = "Không tìm thấy dữ liệu cục bộ";
 "Credits unavailable; keep Codex running to refresh." = "Không có tín dụng; giữ Codex chạy để làm mới.";
 "No available fetch strategy for minimax." = "Không có chiến lược tìm nạp nào cho minimax.";
-"No Cursor session found. Please log in to cursor.com in Safari, Chrome, Microsoft Edge, Brave, Arc, Dia, ChatGPT Atlas, Chromium, Helium, Vivaldi, Yandex Browser, Firefox, Zen, Colibri, Sidekick, Opera, Opera GX, or Edge Canary. If you use Safari, grant CodexBar Full Disk Access in System Settings ▸ Privacy & Security. You can also sign in to Cursor from the CodexBar menu (Add / switch account)." = "Không tìm thấy phiên Con trỏ. Vui lòng đăng nhập vào con trỏ.com bằng Safari , Chrome , Microsoft Edge, Brave, Arc, Dia, ChatGPT Atlas, Chrome, Helium, Vivaldi, Yandex Browser, Firefox , Zen, Colibri, Sidekick, Opera, Opera GX hoặc Edge Canary. Nếu bạn sử dụng Safari , hãy cấp cho CodexBar Quyền truy cập toàn bộ đĩa trong Hệ thống Cài đặt ▸ Quyền riêng tư & Bảo mật. Bạn cũng có thể đăng nhập vào Cursor từ menu CodexBar (Thêm/chuyển đổi tài khoản).";
+"No Cursor session found. Please log in to cursor.com in Safari, Chrome, Microsoft Edge, Brave, Arc, Dia, ChatGPT Atlas, Chromium, Helium, Vivaldi, Yandex Browser, Firefox, Zen, Colibri, Sidekick, Opera, Opera GX, or Edge Canary. If you use Safari, grant CodexBar Full Disk Access in System Settings ▸ Privacy & Security. You can also sign in to Cursor from the CodexBar menu (Add / switch account)." = "Không tìm thấy phiên Con trỏ. Vui lòng đăng nhập vào con trỏ.com bằng Safari , Chrome , Microsoft Edge, Brave, Arc, Dia, ChatGPT Atlas, Chrome, Helium, Vivaldi, Yandex Browser, Firefox , Zen, Colibri, Sidekick, Opera, Opera GX hoặc Edge Canary. Nếu bạn sử dụng Safari , hãy cấp cho AnyCodex Quyền truy cập toàn bộ đĩa trong Hệ thống Cài đặt ▸ Quyền riêng tư & Bảo mật. Bạn cũng có thể đăng nhập vào Cursor từ menu AnyCodex (Thêm/chuyển đổi tài khoản).";
 "No OpenCode session cookies found in browsers." = "Không tìm thấy cookie phiên OpenCode trong trình duyệt.";
 "No available fetch strategy for %@." = "Không có chiến lược tìm nạp nào cho %@ .";
 "Today" = "Hôm nay";
@@ -784,7 +784,7 @@
 "Status Page" = "Trang trạng thái";
 "Open Status Page" = "Mở trang trạng thái";
 "Settings..." = "Cài đặt ...";
-"About CodexBar" = "Giới thiệu về CodexBar";
+"About CodexBar" = "Giới thiệu về AnyCodex";
 "Quit" = "Thoát";
 "Last %d day" = "Ngày %d cuối cùng";
 "Last %d days" = "%d ngày cuối cùng";
@@ -1032,31 +1032,31 @@
 "Capacity Start" = "Dung lượng Start";
 "Changelog" = "Changelog";
 "Choose the Moonshot/Kimi API host for international or China mainland accounts." = "Chọn máy chủ Moonshot/Kimi API cho các tài khoản quốc tế hoặc Trung Quốc đại lục.";
-"CodexBar can't replace a system account that is signed in with an API key only setup." = "CodexBar không thể thay thế tài khoản hệ thống được đăng nhập bằng thiết lập chỉ khóa API.";
-"CodexBar could not find saved auth for that account. Re-authenticate it and try again." = "CodexBar không thể tìm thấy xác thực đã lưu cho tài khoản đó. Xác thực lại nó và thử lại.";
-"CodexBar could not read managed account storage. Recover the store before adding another account." = "CodexBar không thể đọc bộ nhớ tài khoản được quản lý. Khôi phục cửa hàng trước khi thêm tài khoản khác.";
-"CodexBar could not read saved auth for that account. Re-authenticate it and try again." = "CodexBar không thể đọc xác thực đã lưu cho tài khoản đó. Xác thực lại nó và thử lại.";
-"CodexBar could not read the current system account on this Mac." = "CodexBar không thể đọc tài khoản hệ thống hiện tại trên máy Mac này.";
-"CodexBar could not replace the live Codex auth on this Mac." = "CodexBar không thể thay thế xác thực Codex trực tiếp trên máy Mac này.";
-"CodexBar could not safely preserve the current system account before switching." = "CodexBar không thể bảo toàn tài khoản hệ thống hiện tại một cách an toàn trước khi chuyển đổi.";
-"CodexBar could not save the current system account before switching." = "CodexBar không thể lưu tài khoản hệ thống hiện tại trước khi chuyển đổi.";
-"CodexBar could not update managed account storage." = "CodexBar không thể cập nhật bộ nhớ tài khoản được quản lý.";
-"CodexBar found another managed account that already uses the current system account. Resolve the duplicate account before switching." = "CodexBar đã tìm thấy một tài khoản được quản lý khác đã sử dụng tài khoản hệ thống hiện tại. Giải quyết tài khoản trùng lặp trước khi chuyển đổi.";
-"CodexBar will ask macOS Keychain for “%@” so it can decrypt browser cookies and authenticate your account. Click OK to continue." = "CodexBar sẽ yêu cầu macOS Keychain cho “ %@ ” để nó có thể giải mã cookie của trình duyệt và xác thực tài khoản của bạn. Nhấn OK để tiếp tục.";
-"CodexBar will ask macOS Keychain for the Claude Code OAuth token so it can fetch your Claude usage. Click OK to continue." = "CodexBar sẽ yêu cầu macOS Keychain cung cấp Claude Mã OAuth token để nó có thể tìm nạp Claude Mức sử dụng của bạn. Nhấn OK để tiếp tục.";
-"CodexBar will ask macOS Keychain for your Amp cookie header so it can fetch usage. Click OK to continue." = "CodexBar sẽ yêu cầu macOS Keychain cho tiêu đề cookie Amp của bạn để nó có thể tìm nạp Mức sử dụng . Nhấn OK để tiếp tục.";
-"CodexBar will ask macOS Keychain for your Augment cookie header so it can fetch usage. Click OK to continue." = "CodexBar sẽ yêu cầu macOS Keychain cho tiêu đề cookie Augment của bạn để nó có thể tìm nạp Mức sử dụng . Nhấn OK để tiếp tục.";
-"CodexBar will ask macOS Keychain for your Claude cookie header so it can fetch Claude web usage. Click OK to continue." = "CodexBar sẽ yêu cầu macOS Keychain về tiêu đề cookie Claude của bạn để nó có thể tìm nạp Claude web Mức sử dụng . Nhấn OK để tiếp tục.";
-"CodexBar will ask macOS Keychain for your Cursor cookie header so it can fetch usage. Click OK to continue." = "CodexBar sẽ yêu cầu macOS Keychain cho tiêu đề cookie Con trỏ của bạn để nó có thể tìm nạp Mức sử dụng . Nhấn OK để tiếp tục.";
-"CodexBar will ask macOS Keychain for your Factory cookie header so it can fetch usage. Click OK to continue." = "CodexBar sẽ yêu cầu macOS Keychain cho tiêu đề cookie Factory của bạn để nó có thể tìm nạp Mức sử dụng . Nhấn OK để tiếp tục.";
-"CodexBar will ask macOS Keychain for your GitHub Copilot token so it can fetch usage. Click OK to continue." = "CodexBar sẽ yêu cầu macOS Keychain cho GitHub Copilot token của bạn để nó có thể tìm nạp Mức sử dụng . Nhấn OK để tiếp tục.";
-"CodexBar will ask macOS Keychain for your Kimi auth token so it can fetch usage. Click OK to continue." = "CodexBar sẽ yêu cầu macOS Keychain cho Kimi auth token của bạn để nó có thể tìm nạp Mức sử dụng . Nhấn OK để tiếp tục.";
-"CodexBar will ask macOS Keychain for your MiniMax API token so it can fetch usage. Click OK to continue." = "CodexBar sẽ yêu cầu macOS Keychain cung cấp MiniMax API token của bạn để nó có thể tìm nạp Mức sử dụng . Nhấn OK để tiếp tục.";
-"CodexBar will ask macOS Keychain for your MiniMax cookie header so it can fetch usage. Click OK to continue." = "CodexBar sẽ yêu cầu macOS Keychain cho tiêu đề cookie MiniMax của bạn để nó có thể tìm nạp Mức sử dụng . Nhấn OK để tiếp tục.";
-"CodexBar will ask macOS Keychain for your OpenAI cookie header so it can fetch Codex dashboard extras. Click OK to continue." = "CodexBar sẽ yêu cầu macOS Keychain cho tiêu đề cookie OpenAI của bạn để nó có thể tìm nạp các tính năng bổ sung của trang tổng quan Codex. Nhấn OK để tiếp tục.";
-"CodexBar will ask macOS Keychain for your OpenCode cookie header so it can fetch usage. Click OK to continue." = "CodexBar sẽ yêu cầu macOS Keychain cho tiêu đề cookie OpenCode của bạn để nó có thể tìm nạp Mức sử dụng . Nhấn OK để tiếp tục.";
-"CodexBar will ask macOS Keychain for your Synthetic API key so it can fetch usage. Click OK to continue." = "CodexBar sẽ yêu cầu macOS Keychain cung cấp khóa Tổng hợp API của bạn để nó có thể tìm nạp Mức sử dụng . Nhấn OK để tiếp tục.";
-"CodexBar will ask macOS Keychain for your z.ai API token so it can fetch usage. Click OK to continue." = "CodexBar sẽ yêu cầu macOS Keychain cung cấp z.ai API token của bạn để nó có thể tìm nạp Mức sử dụng . Nhấn OK để tiếp tục.";
+"CodexBar can't replace a system account that is signed in with an API key only setup." = "AnyCodex không thể thay thế tài khoản hệ thống được đăng nhập bằng thiết lập chỉ khóa API.";
+"CodexBar could not find saved auth for that account. Re-authenticate it and try again." = "AnyCodex không thể tìm thấy xác thực đã lưu cho tài khoản đó. Xác thực lại nó và thử lại.";
+"CodexBar could not read managed account storage. Recover the store before adding another account." = "AnyCodex không thể đọc bộ nhớ tài khoản được quản lý. Khôi phục cửa hàng trước khi thêm tài khoản khác.";
+"CodexBar could not read saved auth for that account. Re-authenticate it and try again." = "AnyCodex không thể đọc xác thực đã lưu cho tài khoản đó. Xác thực lại nó và thử lại.";
+"CodexBar could not read the current system account on this Mac." = "AnyCodex không thể đọc tài khoản hệ thống hiện tại trên máy Mac này.";
+"CodexBar could not replace the live Codex auth on this Mac." = "AnyCodex không thể thay thế xác thực Codex trực tiếp trên máy Mac này.";
+"CodexBar could not safely preserve the current system account before switching." = "AnyCodex không thể bảo toàn tài khoản hệ thống hiện tại một cách an toàn trước khi chuyển đổi.";
+"CodexBar could not save the current system account before switching." = "AnyCodex không thể lưu tài khoản hệ thống hiện tại trước khi chuyển đổi.";
+"CodexBar could not update managed account storage." = "AnyCodex không thể cập nhật bộ nhớ tài khoản được quản lý.";
+"CodexBar found another managed account that already uses the current system account. Resolve the duplicate account before switching." = "AnyCodex đã tìm thấy một tài khoản được quản lý khác đã sử dụng tài khoản hệ thống hiện tại. Giải quyết tài khoản trùng lặp trước khi chuyển đổi.";
+"CodexBar will ask macOS Keychain for “%@” so it can decrypt browser cookies and authenticate your account. Click OK to continue." = "AnyCodex sẽ yêu cầu macOS Keychain cho “ %@ ” để nó có thể giải mã cookie của trình duyệt và xác thực tài khoản của bạn. Nhấn OK để tiếp tục.";
+"CodexBar will ask macOS Keychain for the Claude Code OAuth token so it can fetch your Claude usage. Click OK to continue." = "AnyCodex sẽ yêu cầu macOS Keychain cung cấp Claude Mã OAuth token để nó có thể tìm nạp Claude Mức sử dụng của bạn. Nhấn OK để tiếp tục.";
+"CodexBar will ask macOS Keychain for your Amp cookie header so it can fetch usage. Click OK to continue." = "AnyCodex sẽ yêu cầu macOS Keychain cho tiêu đề cookie Amp của bạn để nó có thể tìm nạp Mức sử dụng . Nhấn OK để tiếp tục.";
+"CodexBar will ask macOS Keychain for your Augment cookie header so it can fetch usage. Click OK to continue." = "AnyCodex sẽ yêu cầu macOS Keychain cho tiêu đề cookie Augment của bạn để nó có thể tìm nạp Mức sử dụng . Nhấn OK để tiếp tục.";
+"CodexBar will ask macOS Keychain for your Claude cookie header so it can fetch Claude web usage. Click OK to continue." = "AnyCodex sẽ yêu cầu macOS Keychain về tiêu đề cookie Claude của bạn để nó có thể tìm nạp Claude web Mức sử dụng . Nhấn OK để tiếp tục.";
+"CodexBar will ask macOS Keychain for your Cursor cookie header so it can fetch usage. Click OK to continue." = "AnyCodex sẽ yêu cầu macOS Keychain cho tiêu đề cookie Con trỏ của bạn để nó có thể tìm nạp Mức sử dụng . Nhấn OK để tiếp tục.";
+"CodexBar will ask macOS Keychain for your Factory cookie header so it can fetch usage. Click OK to continue." = "AnyCodex sẽ yêu cầu macOS Keychain cho tiêu đề cookie Factory của bạn để nó có thể tìm nạp Mức sử dụng . Nhấn OK để tiếp tục.";
+"CodexBar will ask macOS Keychain for your GitHub Copilot token so it can fetch usage. Click OK to continue." = "AnyCodex sẽ yêu cầu macOS Keychain cho GitHub Copilot token của bạn để nó có thể tìm nạp Mức sử dụng . Nhấn OK để tiếp tục.";
+"CodexBar will ask macOS Keychain for your Kimi auth token so it can fetch usage. Click OK to continue." = "AnyCodex sẽ yêu cầu macOS Keychain cho Kimi auth token của bạn để nó có thể tìm nạp Mức sử dụng . Nhấn OK để tiếp tục.";
+"CodexBar will ask macOS Keychain for your MiniMax API token so it can fetch usage. Click OK to continue." = "AnyCodex sẽ yêu cầu macOS Keychain cung cấp MiniMax API token của bạn để nó có thể tìm nạp Mức sử dụng . Nhấn OK để tiếp tục.";
+"CodexBar will ask macOS Keychain for your MiniMax cookie header so it can fetch usage. Click OK to continue." = "AnyCodex sẽ yêu cầu macOS Keychain cho tiêu đề cookie MiniMax của bạn để nó có thể tìm nạp Mức sử dụng . Nhấn OK để tiếp tục.";
+"CodexBar will ask macOS Keychain for your OpenAI cookie header so it can fetch Codex dashboard extras. Click OK to continue." = "AnyCodex sẽ yêu cầu macOS Keychain cho tiêu đề cookie OpenAI của bạn để nó có thể tìm nạp các tính năng bổ sung của trang tổng quan Codex. Nhấn OK để tiếp tục.";
+"CodexBar will ask macOS Keychain for your OpenCode cookie header so it can fetch usage. Click OK to continue." = "AnyCodex sẽ yêu cầu macOS Keychain cho tiêu đề cookie OpenCode của bạn để nó có thể tìm nạp Mức sử dụng . Nhấn OK để tiếp tục.";
+"CodexBar will ask macOS Keychain for your Synthetic API key so it can fetch usage. Click OK to continue." = "AnyCodex sẽ yêu cầu macOS Keychain cung cấp khóa Tổng hợp API của bạn để nó có thể tìm nạp Mức sử dụng . Nhấn OK để tiếp tục.";
+"CodexBar will ask macOS Keychain for your z.ai API token so it can fetch usage. Click OK to continue." = "AnyCodex sẽ yêu cầu macOS Keychain cung cấp z.ai API token của bạn để nó có thể tìm nạp Mức sử dụng . Nhấn OK để tiếp tục.";
 "Could not open Cursor login in your browser." = "Không thể mở đăng nhập Con trỏ trong trình duyệt của bạn.";
 "Could not open browser for Antigravity" = "Không thể mở trình duyệt cho AntiGravity";
 "Credits used" = "Tín dụng đã sử dụng";
@@ -1071,7 +1071,7 @@
 "Extra usage balance: %@" = "Extra usage balance: %@";
 "Keychain Access Required" = "Keychain Yêu cầu quyền truy cập";
 "keychain_prompt_learn_more" = "Tìm hiểu thêm…";
-"keychain_prompt_privacy_note" = "macOS, không phải CodexBar, xử lý việc nhập mật khẩu đăng nhập Mac. Bạn có thể tắt mọi quyền truy cập Keychain bất kỳ lúc nào trong Cài đặt → Nâng cao.";
+"keychain_prompt_privacy_note" = "macOS, không phải AnyCodex, xử lý việc nhập mật khẩu đăng nhập Mac. Bạn có thể tắt mọi quyền truy cập Keychain bất kỳ lúc nào trong Cài đặt → Nâng cao.";
 "Kiro menu bar value" = "Kiro thanh menu value";
 "Label" = "Nhãn";
 "No organizations loaded. Click Refresh after setting your API key." = "Chưa có tổ chức nào được tải. Nhấp vào Làm mới sau khi đặt khóa API của bạn.";
@@ -1132,7 +1132,7 @@
 "Service" = "Dịch vụ";
 "Show or hide Kiro credits, percent, or both next to the menu bar icon." = "Hiển thị hoặc ẩn tín dụng Kiro, phần trăm hoặc cả hai bên cạnh biểu tượng thanh menu.";
 "Show usage for organizations you belong to. Personal account is always shown." = "Hiển thị Mức sử dụng cho các tổ chức mà bạn là thành viên. Tài khoản cá nhân luôn được hiển thị.";
-"Sign in to cursor.com in your browser, then refresh Cursor in CodexBar." = "Đăng nhập vào con trỏ.com trong trình duyệt của bạn, sau đó làm mới Con trỏ trong CodexBar .";
+"Sign in to cursor.com in your browser, then refresh Cursor in CodexBar." = "Đăng nhập vào con trỏ.com trong trình duyệt của bạn, sau đó làm mới Con trỏ trong AnyCodex .";
 "Simulated error text" = "Văn bản lỗi mô phỏng";
 "StepFun platform account (phone number or email)." = "Tài khoản nền tảng StepFun (số điện thoại hoặc email).";
 "Stored in ~/.codexbar/config.json." = "Được lưu trữ trong ~/.codexbar/config.json.";
@@ -1148,12 +1148,12 @@
 "Stored in ~/.codexbar/config.json. OPENAI_ADMIN_KEY is preferred; OPENAI_API_KEY still works." = "Được lưu trữ trong ~/.codexbar/config.json. OPENAI_ADMIN_KEY được ưu tiên; OPENAI_API_KEY vẫn hoạt động.";
 "Stored in ~/.codexbar/config.json. Requires an Anthropic Admin API key." = "Được lưu trữ trong ~/.codexbar/config.json. Yêu cầu khóa Anthropic Quản trị viên API.";
 "Stored in ~/.codexbar/config.json. Used for /v1/quota-stats." = "Được lưu trữ trong ~/.codexbar/config.json. Được sử dụng cho /v1/ Hạn mức -stats.";
-"Stored in ~/.codexbar/config.json. You can also provide CODEBUFF_API_KEY or let CodexBar read ~/.config/manicode/credentials.json (created by `codebuff login`)." = "Được lưu trữ trong ~/.codexbar/config.json. Bạn cũng có thể cung cấp CODEBUFF_API_KEY hoặc để CodexBar đọc ~/.config/manicode/credentials.json (được tạo bởi `codebuff login`).";
+"Stored in ~/.codexbar/config.json. You can also provide CODEBUFF_API_KEY or let CodexBar read ~/.config/manicode/credentials.json (created by `codebuff login`)." = "Được lưu trữ trong ~/.codexbar/config.json. Bạn cũng có thể cung cấp CODEBUFF_API_KEY hoặc để AnyCodex đọc ~/.config/manicode/credentials.json (được tạo bởi `codebuff login`).";
 "Stored in ~/.codexbar/config.json. You can also provide CROF_API_KEY." = "Được lưu trữ trong ~/.codexbar/config.json. Bạn cũng có thể cung cấp CROF_API_KEY.";
 "Stored in ~/.codexbar/config.json. You can also provide KILO_API_KEY or ~/.local/share/kilo/auth.json (kilo.access)." = "Được lưu trữ trong ~/.codexbar/config.json. Bạn cũng có thể cung cấp KILO_API_KEY hoặc ~/.local/share/kilo/auth.json (kilo.access).";
 "T3 Chat cookie" = "Cookie trò chuyện T3";
 "Team mode" = "Chế độ nhóm";
-"That account is no longer available in CodexBar. Refresh the account list and try again." = "Tài khoản đó không còn khả dụng trong CodexBar . Hãy làm mới danh sách tài khoản và thử lại.";
+"That account is no longer available in CodexBar. Refresh the account list and try again." = "Tài khoản đó không còn khả dụng trong AnyCodex . Hãy làm mới danh sách tài khoản và thử lại.";
 "The browser login did not complete in time. Try Antigravity login again." = "Quá trình đăng nhập trình duyệt không hoàn tất kịp thời. Hãy thử đăng nhập lại bằng AntiGravity.";
 "Timed out waiting for Cursor login. %@" = "Đã hết thời gian chờ đăng nhập Con trỏ. %@";
 "Timed out waiting for Cursor login. %@ Last error: %@" = "Đã hết thời gian chờ đăng nhập Con trỏ. %@ Lỗi cuối cùng: %@";
@@ -1237,11 +1237,11 @@
 
 "%@: %@" = "%@: %@";
 "Alternatively, set a custom path in Settings." = "Ngoài ra, hãy đặt đường dẫn tùy chỉnh trong Cài đặt.";
-"Choose a supported browser so CodexBar can read the matching account." = "Chọn một trình duyệt được hỗ trợ để CodexBar có thể đọc tài khoản phù hợp.";
+"Choose a supported browser so CodexBar can read the matching account." = "Chọn một trình duyệt được hỗ trợ để AnyCodex có thể đọc tài khoản phù hợp.";
 "Choose Cursor account" = "Chọn tài khoản Cursor";
-"Choose which Cursor account CodexBar should use." = "Chọn tài khoản Cursor mà CodexBar nên sử dụng.";
+"Choose which Cursor account CodexBar should use." = "Chọn tài khoản Cursor mà AnyCodex nên sử dụng.";
 "Finish switching to a different Cursor account in your browser, then try again." = "Hoàn tất việc chuyển sang tài khoản Cursor khác trong trình duyệt, sau đó thử lại.";
-"Install a JetBrains IDE with AI Assistant enabled, then refresh CodexBar." = "Cài đặt JetBrains IDE có bật AI Assistant, sau đó làm mới CodexBar.";
+"Install a JetBrains IDE with AI Assistant enabled, then refresh CodexBar." = "Cài đặt JetBrains IDE có bật AI Assistant, sau đó làm mới AnyCodex.";
 "Request quota: %@ / %@" = "Hạn mức yêu cầu: %@ / %@";
 "Sign in with Claude Code..." = "Đăng nhập bằng Claude Code...";
 "Timed out waiting for Cursor account switch. %@" = "Đã hết thời gian chờ chuyển đổi tài khoản Cursor. %@";
@@ -1342,3 +1342,12 @@
 "Cost today unavailable" = "Chi phí hôm nay: Không có sẵn";
 "30-day cost unavailable" = "Chi phí 30 ngày: Không có sẵn";
 "Resets" = "Lần đặt lại";
+
+/* AnyCodex: embedded opencodex proxy */
+"opencodex_proxy_running" = "Proxy opencodex: Đang chạy (cổng %d)";
+"opencodex_proxy_starting" = "Proxy opencodex: Đang khởi động...";
+"opencodex_proxy_stopped" = "Proxy opencodex: Đã dừng";
+"opencodex_proxy_error" = "Proxy opencodex: %@";
+"Manage AI Providers..." = "Quản lý nhà cung cấp AI...";
+"Start opencodex Proxy" = "Khởi động Proxy opencodex";
+"Stop opencodex Proxy" = "Dừng Proxy opencodex";

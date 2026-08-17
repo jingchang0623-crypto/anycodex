@@ -1,8 +1,8 @@
-/* Catalan localization for CodexBar */
+/* Catalan localization for AnyCodex */
 
-"ollama_safari_cookie_access_hint" = "Les galetes de Safari necessiten accés complet al disc per a CodexBar (Configuració del Sistema > Privadesa i seguretat).";
+"ollama_safari_cookie_access_hint" = "Les galetes de Safari necessiten accés complet al disc per a AnyCodex (Configuració del Sistema > Privadesa i seguretat).";
 "ollama_browser_cookie_decryption_denied" = "S'ha denegat el desxifratge de les galetes de %@ al Clauer; torneu-ho a provar amb una actualització manual.";
-"ollama_browser_cookie_decryption_disabled" = "El desxifratge de les galetes de %@ està desactivat a CodexBar; activeu l'accés al Clauer i actualitzeu.";
+"ollama_browser_cookie_decryption_disabled" = "El desxifratge de les galetes de %@ està desactivat a AnyCodex; activeu l'accés al Clauer i actualitzeu.";
 
 " providers" = " proveïdors";
 "(System)" = "(Sistema)";
@@ -43,7 +43,7 @@
 "Automatic imports browser cookies or stored sessions." = "El mode automàtic importa galetes del navegador o sessions desades.";
 "Automatic imports browser cookies." = "El mode automàtic importa galetes del navegador.";
 "Automatically imports browser session cookie." = "Importa automàticament la galeta de sessió del navegador.";
-"Automatically opens CodexBar when you start your Mac." = "Obre el CodexBar automàticament en iniciar el Mac.";
+"Automatically opens CodexBar when you start your Mac." = "Obre el AnyCodex automàticament en iniciar el Mac.";
 "Automation" = "Automatització";
 "Average (\\(label1) + \\(label2))" = "Mitjana (\\(label1) + \\(label2))";
 "Average (\\(metadata.sessionLabel) + \\(metadata.weeklyLabel))" = "Mitjana (\\(metadata.sessionLabel) + \\(metadata.weeklyLabel))";
@@ -63,7 +63,7 @@
 "Check for updates automatically" = "Cerca actualitzacions automàticament";
 "Check if you like your agents having some fun up there." = "Activeu-ho si us agrada que els vostres agents es diverteixin allà dalt.";
 "Check provider status" = "Comproveu l'estat del proveïdor";
-"Choose a supported browser so CodexBar can read the matching account." = "Trieu un navegador compatible perquè CodexBar pugui llegir el compte corresponent.";
+"Choose a supported browser so CodexBar can read the matching account." = "Trieu un navegador compatible perquè AnyCodex pugui llegir el compte corresponent.";
 "Choose Codex workspace" = "Trieu l'espai de treball de Codex";
 "Choose Cursor account" = "Trieu el compte de Cursor";
 "Choose the MiniMax host (global .io or China mainland .com)." = "Trieu l'amfitrió de MiniMax (global .io o la Xina continental .com).";
@@ -71,8 +71,8 @@
 "Choose up to \\(Self.maxOverviewProviders) providers" = "Trieu fins a \\(Self.maxOverviewProviders) proveïdors";
 "Choose up to \\(count) providers" = "Trieu fins a \\(count) proveïdors";
 "Choose what to show in the menu bar (Pace shows usage vs. expected)." = "Trieu què es mostra a la barra de menús (Ritme mostra l'ús respecte al previst).";
-"Choose which Codex account CodexBar should follow." = "Trieu quin compte de Codex ha de seguir el CodexBar.";
-"Choose which Cursor account CodexBar should use." = "Trieu quin compte de Cursor ha d'utilitzar CodexBar.";
+"Choose which Codex account CodexBar should follow." = "Trieu quin compte de Codex ha de seguir el AnyCodex.";
+"Choose which Cursor account CodexBar should use." = "Trieu quin compte de Cursor ha d'utilitzar AnyCodex.";
 "Choose which window drives the menu bar percent." = "Trieu quina finestra determina el percentatge de la barra de menús.";
 "Chrome" = "Chrome";
 "Claude CLI not found" = "No s'ha trobat la CLI de Claude";
@@ -86,9 +86,9 @@
 "Codex binary" = "Binari de Codex";
 "Codex login failed" = "L'inici de sessió de Codex ha fallat";
 "Codex login timed out" = "L'inici de sessió de Codex ha esgotat el temps d'espera";
-"CodexBar Lifecycle Keepalive" = "Manteniment del cicle de vida del CodexBar";
-"CodexBar can't show its menu bar icon" = "El CodexBar no pot mostrar la seva icona a la barra de menús";
-"CodexBar could not read managed account storage. " = "El CodexBar no ha pogut llegir l'emmagatzematge de comptes gestionats. ";
+"CodexBar Lifecycle Keepalive" = "Manteniment del cicle de vida del AnyCodex";
+"CodexBar can't show its menu bar icon" = "El AnyCodex no pot mostrar la seva icona a la barra de menús";
+"CodexBar could not read managed account storage. " = "El AnyCodex no ha pogut llegir l'emmagatzematge de comptes gestionats. ";
 "Configure…" = "Configureu…";
 "Connected" = "Connectat";
 "Controls how much detail is logged." = "Controla quant detall es registra.";
@@ -150,13 +150,13 @@
 "Hide details" = "Amagueu els detalls";
 "Hide personal information" = "Amagueu la informació personal";
 "Historical tracking" = "Seguiment històric";
-"How often CodexBar polls providers in the background." = "Amb quina freqüència el CodexBar consulta els proveïdors en segon pla.";
+"How often CodexBar polls providers in the background." = "Amb quina freqüència el AnyCodex consulta els proveïdors en segon pla.";
 "Inactive" = "Inactiu";
 "Install CLI" = "Instal·la la CLI";
 "Install the Claude CLI (npm i -g @anthropic-ai/claude-code) and try again." = "Instal·leu la CLI de Claude (npm i -g @anthropic-ai/claude-code) i torneu-ho a provar.";
 "Install the Codex CLI (npm i -g @openai/codex) and try again." = "Instal·leu la CLI de Codex (npm i -g @openai/codex) i torneu-ho a provar.";
 "Install the Gemini CLI (npm i -g @google/gemini-cli) and try again." = "Instal·leu la CLI de Gemini (npm i -g @google/gemini-cli) i torneu-ho a provar.";
-"Install a JetBrains IDE with AI Assistant enabled, then refresh CodexBar." = "Instal·leu un IDE de JetBrains amb l'AI Assistant activat i després actualitzeu el CodexBar.";
+"Install a JetBrains IDE with AI Assistant enabled, then refresh CodexBar." = "Instal·leu un IDE de JetBrains amb l'AI Assistant activat i després actualitzeu el AnyCodex.";
 "JetBrains AI is ready" = "JetBrains AI està a punt";
 "JetBrains IDE" = "IDE de JetBrains";
 "Keep CLI sessions alive" = "Mantingueu actives les sessions de la CLI";
@@ -210,7 +210,7 @@
 "Open" = "Obriu";
 "Open API Keys" = "Obriu les claus d'API";
 "Open Amp Settings" = "Obriu la configuració d'Amp";
-"Open Antigravity to sign in, then refresh CodexBar." = "Obriu Antigravity per iniciar la sessió i després actualitzeu el CodexBar.";
+"Open Antigravity to sign in, then refresh CodexBar." = "Obriu Antigravity per iniciar la sessió i després actualitzeu el AnyCodex.";
 "Open Browser" = "Obriu el navegador";
 "Open Coding Plan" = "Obriu el pla de programació";
 "Open Console" = "Obriu la Consola";
@@ -255,7 +255,7 @@
 "Progress bars fill as you consume quota (instead of showing remaining)." = "Les barres de progrés s'omplen a mesura que consumiu la quota (en comptes de mostrar el que queda).";
 "Provider" = "Proveïdor";
 "Providers" = "Proveïdors";
-"Quit CodexBar" = "Sortiu del CodexBar";
+"Quit CodexBar" = "Sortiu del AnyCodex";
 "Random (default)" = "Aleatori (per defecte)";
 "Reads local usage logs. Shows today + last 30 days cost in the menu." = "Llegeix els registres d'ús locals. Mostra el cost d'avui + la finestra d'historial seleccionada al menú.";
 "Refresh" = "Actualitza";
@@ -263,8 +263,8 @@
 "Remote" = "Remot";
 "Remove" = "Elimineu";
 "Remove Codex account?" = "Voleu eliminar el compte de Codex?";
-"Remove \\(account.email) from CodexBar? Its managed Codex home will be deleted." = "Voleu eliminar \\(account.email) del CodexBar? El seu directori Codex gestionat s'esborrarà.";
-"Remove \\(email) from CodexBar? Its managed Codex home will be deleted." = "Voleu eliminar \\(email) del CodexBar? El seu directori Codex gestionat s'esborrarà.";
+"Remove \\(account.email) from CodexBar? Its managed Codex home will be deleted." = "Voleu eliminar \\(account.email) del AnyCodex? El seu directori Codex gestionat s'esborrarà.";
+"Remove \\(email) from CodexBar? Its managed Codex home will be deleted." = "Voleu eliminar \\(email) del AnyCodex? El seu directori Codex gestionat s'esborrarà.";
 "Remove selected account" = "Elimineu el compte seleccionat";
 "Replace critter bars with provider branding icons and a percentage." = "Substituïu les barres de bestioles per icones de marca del proveïdor i un percentatge.";
 "Replay selected animation" = "Reprodueix l'animació seleccionada";
@@ -307,7 +307,7 @@
 "Store multiple Ollama Cookie headers." = "Deseu diverses capçaleres Cookie d'Ollama.";
 "Store multiple OpenCode Cookie headers." = "Deseu diverses capçaleres Cookie d'OpenCode.";
 "Store multiple OpenCode Go Cookie headers." = "Deseu diverses capçaleres Cookie d'OpenCode Go.";
-"Stored in the CodexBar config file." = "Desat al fitxer de configuració del CodexBar.";
+"Stored in the CodexBar config file." = "Desat al fitxer de configuració del AnyCodex.";
 "Stored in ~/.codexbar/config.json. " = "Desat a ~/.codexbar/config.json. ";
 "Stored in ~/.codexbar/config.json. Paste the key from the Synthetic dashboard." = "Desat a ~/.codexbar/config.json. Enganxeu la clau del tauler de Synthetic.";
 "Stored in ~/.codexbar/config.json. Paste your Coding Plan API key from Model Studio." = "Desat a ~/.codexbar/config.json. Enganxeu la clau d'API del vostre pla de programació des de Model Studio.";
@@ -381,8 +381,8 @@
 "cursor_on_demand" = "Sota demanda: %@";
 "cursor_on_demand_with_limit" = "Sota demanda: %1$@ / %2$@";
 "extra_usage_format" = "Ús addicional: %1$@ / %2$@";
-"jetbrains_detected_generate" = "Detectat: %@. Feu servir l'assistent d'IA una vegada per generar dades de quota i després actualitzeu el CodexBar.";
-"jetbrains_detected_select" = "Detectat: %@. Seleccioneu el vostre IDE preferit a la configuració i després actualitzeu el CodexBar.";
+"jetbrains_detected_generate" = "Detectat: %@. Feu servir l'assistent d'IA una vegada per generar dades de quota i després actualitzeu el AnyCodex.";
+"jetbrains_detected_select" = "Detectat: %@. Seleccioneu el vostre IDE preferit a la configuració i després actualitzeu el AnyCodex.";
 "last_fetch_failed_with_provider" = "L'última obtenció de %@ ha fallat:";
 "last_spend" = "Última despesa: %@";
 "mcp_model_usage" = "%1$@: %2$@";
@@ -392,10 +392,10 @@
 "metric_primary" = "Principal (%@)";
 "metric_secondary" = "Secundari (%@)";
 "metric_tertiary" = "Terciari (%@)";
-"multiple_workspaces_found" = "El CodexBar ha trobat diversos espais de treball per a %@. Trieu l'espai de treball que voleu afegir.";
+"multiple_workspaces_found" = "El AnyCodex ha trobat diversos espais de treball per a %@. Trieu l'espai de treball que voleu afegir.";
 "ory_session_…=…; csrftoken=…" = "ory_session_…=…; csrftoken=…";
 "overview_choose_providers" = "Trieu fins a %@ proveïdors";
-"remove_account_message" = "Voleu eliminar %@ del CodexBar? El seu directori Codex gestionat s'esborrarà.";
+"remove_account_message" = "Voleu eliminar %@ del AnyCodex? El seu directori Codex gestionat s'esborrarà.";
 "version_format" = "Versió %@";
 "vertex_ai_login_instructions" = "Per fer un seguiment de l'ús de Vertex AI, autentiqueu-vos amb Google Cloud.\n\n1. Obriu el Terminal\n2. Executeu: gcloud auth application-default login\n3. Seguiu les indicacions del navegador per iniciar la sessió\n4. Definiu el vostre projecte: gcloud config set project PROJECT_ID\n\nVoleu obrir el Terminal ara?";
 "workspaceID is set but only opencode, opencodego, and deepgram support workspaceID." = "workspaceID està definit, però només opencode, opencodego i deepgram admeten workspaceID.";
@@ -432,7 +432,7 @@
 "language_italian" = "Italiano";
 "language_polish" = "Polski";
 "start_at_login_title" = "Obrir en iniciar la sessió";
-"start_at_login_subtitle" = "Obre el CodexBar automàticament en iniciar el Mac.";
+"start_at_login_subtitle" = "Obre el AnyCodex automàticament en iniciar el Mac.";
 "show_cost_summary_subtitle" = "Llegeix els registres d'ús locals. Mostra el cost d'avui + la finestra d'historial seleccionada al menú.";
 "cost_summary_style_title" = "Estil de visualització";
 "cost_summary_style_inline" = "Només integrat";
@@ -481,7 +481,7 @@
 "quota_warning_warning" = "Avís";
 "quota_warning_critical" = "Crític";
 "apply" = "Apliqueu";
-"quit_app" = "Sortiu del CodexBar";
+"quit_app" = "Sortiu del AnyCodex";
 
 /* Tab titles */
 "tab_general" = "General";
@@ -526,8 +526,8 @@
 "managed_login_failed" = "L'inici de sessió gestionat de Codex no s'ha completat. Comproveu que `codex --version` funciona al Terminal. Si macOS ha bloquejat o ha mogut `codex` a la Paperera, elimineu les instal·lacions duplicades obsoletes, executeu `npm install -g --include=optional @openai/codex@latest` i torneu-ho a provar.";
 "codex_login_output" = "Sortida de codex login:";
 "managed_login_missing_email" = "L'inici de sessió de Codex s'ha completat, però no hi havia cap correu de compte disponible. Torneu-ho a provar després de confirmar que el compte té la sessió totalment iniciada.";
-"workspace_selection_cancelled" = "El CodexBar ha trobat diversos espais de treball, però no se n'ha seleccionat cap.";
-"unsafe_managed_home" = "El CodexBar s'ha negat a modificar un camí de directori gestionat inesperat: %@";
+"workspace_selection_cancelled" = "El AnyCodex ha trobat diversos espais de treball, però no se n'ha seleccionat cap.";
+"unsafe_managed_home" = "El AnyCodex s'ha negat a modificar un camí de directori gestionat inesperat: %@";
 "menu_bar_metric_title" = "Mètrica de la barra de menús";
 "menu_bar_metric_subtitle" = "Trieu quina finestra determina el percentatge de la barra de menús.";
 "menu_bar_metric_subtitle_deepseek" = "Mostra el saldo de DeepSeek a la barra de menús.";
@@ -679,7 +679,7 @@
 "login_shell_path" = "PATH del shell d'inici de sessió (captura a l'arrencada)";
 "cleared" = "Esborrat.";
 "no_fetch_attempts" = "Encara no hi ha intents d'obtenció.";
-"macOS Tahoe can block menu bar apps in System Settings → Menu Bar → Allow in the Menu Bar. CodexBar is running, but macOS may be hiding its icon. Open Menu Bar settings and turn CodexBar on." = "macOS Tahoe pot bloquejar les apps de la barra de menús a Configuració del Sistema → Barra de menús → Permet a la barra de menús. El CodexBar s'està executant, però macOS podria estar amagant-ne la icona. Obriu la configuració de la barra de menús i activeu el CodexBar.";
+"macOS Tahoe can block menu bar apps in System Settings → Menu Bar → Allow in the Menu Bar. CodexBar is running, but macOS may be hiding its icon. Open Menu Bar settings and turn CodexBar on." = "macOS Tahoe pot bloquejar les apps de la barra de menús a Configuració del Sistema → Barra de menús → Permet a la barra de menús. El AnyCodex s'està executant, però macOS podria estar amagant-ne la icona. Obriu la configuració de la barra de menús i activeu el AnyCodex.";
 
 /* Metric preferences */
 "metric_pref_automatic" = "Automàtic";
@@ -722,7 +722,7 @@
 "refresh_adaptive" = "Adaptatiu";
 "refresh_adaptive_agent_aware" = "Adaptatiu (activitat dels agents)";
 "adaptive_activity_consent_title" = "Voleu permetre l’actualització segons l’activitat?";
-"adaptive_activity_consent_message" = "El mode Adaptatiu segons l’activitat dels agents pot inspeccionar la llista de processos locals en execució, incloses les línies d’ordres, per identificar Codex i Claude, i llegir les metadades de sessions conegudes cada 30 segons mentre programeu. Amb Agent Sessions desactivat, CodexBar només conserva a la memòria l’hora de l’activitat més recent i descarta les rutes i identitats de les sessions. Aquestes dades no s’envien enlloc, i la detecció remota i SSH continuen desactivats. Si ho rebutgeu, CodexBar tornarà al mode Adaptatiu normal sense exploracions d’activitat local.";
+"adaptive_activity_consent_message" = "El mode Adaptatiu segons l’activitat dels agents pot inspeccionar la llista de processos locals en execució, incloses les línies d’ordres, per identificar Codex i Claude, i llegir les metadades de sessions conegudes cada 30 segons mentre programeu. Amb Agent Sessions desactivat, AnyCodex només conserva a la memòria l’hora de l’activitat més recent i descarta les rutes i identitats de les sessions. Aquestes dades no s’envien enlloc, i la detecció remota i SSH continuen desactivats. Si ho rebutgeu, AnyCodex tornarà al mode Adaptatiu normal sense exploracions d’activitat local.";
 "adaptive_activity_consent_allow" = "Permeteu l’activitat local";
 "adaptive_activity_consent_decline" = "Utilitzeu l’Adaptatiu normal";
 
@@ -890,31 +890,31 @@
 "Capacity Start" = "Inici de capacitat";
 "Changelog" = "Registre de canvis";
 "Choose the Moonshot/Kimi API host for international or China mainland accounts." = "Trieu el host de l'API Moonshot/Kimi per a comptes internacionals o de la Xina continental.";
-"CodexBar can't replace a system account that is signed in with an API key only setup." = "CodexBar no pot substituir un compte del sistema iniciat només amb una clau API.";
-"CodexBar could not find saved auth for that account. Re-authenticate it and try again." = "CodexBar no ha trobat autenticació desada per a aquest compte. Torneu-lo a autenticar i torneu-ho a provar.";
-"CodexBar could not read managed account storage. Recover the store before adding another account." = "CodexBar no ha pogut llegir l'emmagatzematge de comptes gestionats. Recupereu-lo abans d'afegir un altre compte.";
-"CodexBar could not read saved auth for that account. Re-authenticate it and try again." = "CodexBar no ha pogut llegir l'autenticació desada per a aquest compte. Torneu-lo a autenticar i torneu-ho a provar.";
-"CodexBar could not read the current system account on this Mac." = "CodexBar no ha pogut llegir el compte del sistema actual en aquest Mac.";
-"CodexBar could not replace the live Codex auth on this Mac." = "CodexBar no ha pogut substituir l'autenticació activa de Codex en aquest Mac.";
-"CodexBar could not safely preserve the current system account before switching." = "CodexBar no ha pogut preservar de manera segura el compte del sistema actual abans de canviar.";
-"CodexBar could not save the current system account before switching." = "CodexBar no ha pogut desar el compte del sistema actual abans de canviar.";
-"CodexBar could not update managed account storage." = "CodexBar no ha pogut actualitzar l'emmagatzematge de comptes gestionats.";
-"CodexBar found another managed account that already uses the current system account. Resolve the duplicate account before switching." = "CodexBar ha trobat un altre compte gestionat que ja utilitza el compte del sistema actual. Resoleu el compte duplicat abans de canviar.";
-"CodexBar will ask macOS Keychain for “%@” so it can decrypt browser cookies and authenticate your account. Click OK to continue." = "CodexBar demanarà a Clauer de macOS “%@” per desxifrar galetes del navegador i autenticar el compte. Premeu D'acord per continuar.";
-"CodexBar will ask macOS Keychain for the Claude Code OAuth token so it can fetch your Claude usage. Click OK to continue." = "CodexBar demanarà a Clauer de macOS el token OAuth de Claude Code per obtenir l'ús de Claude. Premeu D'acord per continuar.";
-"CodexBar will ask macOS Keychain for your Amp cookie header so it can fetch usage. Click OK to continue." = "CodexBar demanarà a Clauer de macOS la capçalera Cookie d'Amp per obtenir l'ús. Premeu D'acord per continuar.";
-"CodexBar will ask macOS Keychain for your Augment cookie header so it can fetch usage. Click OK to continue." = "CodexBar demanarà a Clauer de macOS la capçalera Cookie d'Augment per obtenir l'ús. Premeu D'acord per continuar.";
-"CodexBar will ask macOS Keychain for your Claude cookie header so it can fetch Claude web usage. Click OK to continue." = "CodexBar demanarà a Clauer de macOS la capçalera Cookie de Claude per obtenir l'ús web de Claude. Premeu D'acord per continuar.";
-"CodexBar will ask macOS Keychain for your Cursor cookie header so it can fetch usage. Click OK to continue." = "CodexBar demanarà a Clauer de macOS la capçalera Cookie de Cursor per obtenir l'ús. Premeu D'acord per continuar.";
-"CodexBar will ask macOS Keychain for your Factory cookie header so it can fetch usage. Click OK to continue." = "CodexBar demanarà a Clauer de macOS la capçalera Cookie de Factory per obtenir l'ús. Premeu D'acord per continuar.";
-"CodexBar will ask macOS Keychain for your GitHub Copilot token so it can fetch usage. Click OK to continue." = "CodexBar demanarà a Clauer de macOS el token de GitHub Copilot per obtenir l'ús. Premeu D'acord per continuar.";
-"CodexBar will ask macOS Keychain for your Kimi auth token so it can fetch usage. Click OK to continue." = "CodexBar demanarà a Clauer de macOS el token d'autenticació de Kimi per obtenir l'ús. Premeu D'acord per continuar.";
-"CodexBar will ask macOS Keychain for your MiniMax API token so it can fetch usage. Click OK to continue." = "CodexBar demanarà a Clauer de macOS el token API de MiniMax per obtenir l'ús. Premeu D'acord per continuar.";
-"CodexBar will ask macOS Keychain for your MiniMax cookie header so it can fetch usage. Click OK to continue." = "CodexBar demanarà a Clauer de macOS la capçalera Cookie de MiniMax per obtenir l'ús. Premeu D'acord per continuar.";
-"CodexBar will ask macOS Keychain for your OpenAI cookie header so it can fetch Codex dashboard extras. Click OK to continue." = "CodexBar demanarà a Clauer de macOS la capçalera Cookie d'OpenAI per obtenir extres del tauler de Codex. Premeu D'acord per continuar.";
-"CodexBar will ask macOS Keychain for your OpenCode cookie header so it can fetch usage. Click OK to continue." = "CodexBar demanarà a Clauer de macOS la capçalera Cookie d'OpenCode per obtenir l'ús. Premeu D'acord per continuar.";
-"CodexBar will ask macOS Keychain for your Synthetic API key so it can fetch usage. Click OK to continue." = "CodexBar demanarà a Clauer de macOS la clau API de Synthetic per obtenir l'ús. Premeu D'acord per continuar.";
-"CodexBar will ask macOS Keychain for your z.ai API token so it can fetch usage. Click OK to continue." = "CodexBar demanarà a Clauer de macOS el token API de z.ai per obtenir l'ús. Premeu D'acord per continuar.";
+"CodexBar can't replace a system account that is signed in with an API key only setup." = "AnyCodex no pot substituir un compte del sistema iniciat només amb una clau API.";
+"CodexBar could not find saved auth for that account. Re-authenticate it and try again." = "AnyCodex no ha trobat autenticació desada per a aquest compte. Torneu-lo a autenticar i torneu-ho a provar.";
+"CodexBar could not read managed account storage. Recover the store before adding another account." = "AnyCodex no ha pogut llegir l'emmagatzematge de comptes gestionats. Recupereu-lo abans d'afegir un altre compte.";
+"CodexBar could not read saved auth for that account. Re-authenticate it and try again." = "AnyCodex no ha pogut llegir l'autenticació desada per a aquest compte. Torneu-lo a autenticar i torneu-ho a provar.";
+"CodexBar could not read the current system account on this Mac." = "AnyCodex no ha pogut llegir el compte del sistema actual en aquest Mac.";
+"CodexBar could not replace the live Codex auth on this Mac." = "AnyCodex no ha pogut substituir l'autenticació activa de Codex en aquest Mac.";
+"CodexBar could not safely preserve the current system account before switching." = "AnyCodex no ha pogut preservar de manera segura el compte del sistema actual abans de canviar.";
+"CodexBar could not save the current system account before switching." = "AnyCodex no ha pogut desar el compte del sistema actual abans de canviar.";
+"CodexBar could not update managed account storage." = "AnyCodex no ha pogut actualitzar l'emmagatzematge de comptes gestionats.";
+"CodexBar found another managed account that already uses the current system account. Resolve the duplicate account before switching." = "AnyCodex ha trobat un altre compte gestionat que ja utilitza el compte del sistema actual. Resoleu el compte duplicat abans de canviar.";
+"CodexBar will ask macOS Keychain for “%@” so it can decrypt browser cookies and authenticate your account. Click OK to continue." = "AnyCodex demanarà a Clauer de macOS “%@” per desxifrar galetes del navegador i autenticar el compte. Premeu D'acord per continuar.";
+"CodexBar will ask macOS Keychain for the Claude Code OAuth token so it can fetch your Claude usage. Click OK to continue." = "AnyCodex demanarà a Clauer de macOS el token OAuth de Claude Code per obtenir l'ús de Claude. Premeu D'acord per continuar.";
+"CodexBar will ask macOS Keychain for your Amp cookie header so it can fetch usage. Click OK to continue." = "AnyCodex demanarà a Clauer de macOS la capçalera Cookie d'Amp per obtenir l'ús. Premeu D'acord per continuar.";
+"CodexBar will ask macOS Keychain for your Augment cookie header so it can fetch usage. Click OK to continue." = "AnyCodex demanarà a Clauer de macOS la capçalera Cookie d'Augment per obtenir l'ús. Premeu D'acord per continuar.";
+"CodexBar will ask macOS Keychain for your Claude cookie header so it can fetch Claude web usage. Click OK to continue." = "AnyCodex demanarà a Clauer de macOS la capçalera Cookie de Claude per obtenir l'ús web de Claude. Premeu D'acord per continuar.";
+"CodexBar will ask macOS Keychain for your Cursor cookie header so it can fetch usage. Click OK to continue." = "AnyCodex demanarà a Clauer de macOS la capçalera Cookie de Cursor per obtenir l'ús. Premeu D'acord per continuar.";
+"CodexBar will ask macOS Keychain for your Factory cookie header so it can fetch usage. Click OK to continue." = "AnyCodex demanarà a Clauer de macOS la capçalera Cookie de Factory per obtenir l'ús. Premeu D'acord per continuar.";
+"CodexBar will ask macOS Keychain for your GitHub Copilot token so it can fetch usage. Click OK to continue." = "AnyCodex demanarà a Clauer de macOS el token de GitHub Copilot per obtenir l'ús. Premeu D'acord per continuar.";
+"CodexBar will ask macOS Keychain for your Kimi auth token so it can fetch usage. Click OK to continue." = "AnyCodex demanarà a Clauer de macOS el token d'autenticació de Kimi per obtenir l'ús. Premeu D'acord per continuar.";
+"CodexBar will ask macOS Keychain for your MiniMax API token so it can fetch usage. Click OK to continue." = "AnyCodex demanarà a Clauer de macOS el token API de MiniMax per obtenir l'ús. Premeu D'acord per continuar.";
+"CodexBar will ask macOS Keychain for your MiniMax cookie header so it can fetch usage. Click OK to continue." = "AnyCodex demanarà a Clauer de macOS la capçalera Cookie de MiniMax per obtenir l'ús. Premeu D'acord per continuar.";
+"CodexBar will ask macOS Keychain for your OpenAI cookie header so it can fetch Codex dashboard extras. Click OK to continue." = "AnyCodex demanarà a Clauer de macOS la capçalera Cookie d'OpenAI per obtenir extres del tauler de Codex. Premeu D'acord per continuar.";
+"CodexBar will ask macOS Keychain for your OpenCode cookie header so it can fetch usage. Click OK to continue." = "AnyCodex demanarà a Clauer de macOS la capçalera Cookie d'OpenCode per obtenir l'ús. Premeu D'acord per continuar.";
+"CodexBar will ask macOS Keychain for your Synthetic API key so it can fetch usage. Click OK to continue." = "AnyCodex demanarà a Clauer de macOS la clau API de Synthetic per obtenir l'ús. Premeu D'acord per continuar.";
+"CodexBar will ask macOS Keychain for your z.ai API token so it can fetch usage. Click OK to continue." = "AnyCodex demanarà a Clauer de macOS el token API de z.ai per obtenir l'ús. Premeu D'acord per continuar.";
 "Could not open Cursor login in your browser." = "No s'ha pogut obrir l'inici de sessió de Cursor al navegador.";
 "Could not open browser for Antigravity" = "No s'ha pogut obrir el navegador per a Antigravity";
 "Credits used" = "Crèdits usats";
@@ -929,7 +929,7 @@
 "Extra usage balance: %@" = "Saldo d'ús extra: %@";
 "Keychain Access Required" = "Cal accés al Clauer";
 "keychain_prompt_learn_more" = "Més informació…";
-"keychain_prompt_privacy_note" = "macOS —no CodexBar— gestiona la introducció de la contrasenya d'inici de sessió del Mac. Podeu desactivar l'accés al Clauer en qualsevol moment a Configuració → Avançat.";
+"keychain_prompt_privacy_note" = "macOS —no AnyCodex— gestiona la introducció de la contrasenya d'inici de sessió del Mac. Podeu desactivar l'accés al Clauer en qualsevol moment a Configuració → Avançat.";
 "Kiro menu bar value" = "Valor de Kiro a la barra de menús";
 "Label" = "Etiqueta";
 "No organizations loaded. Click Refresh after setting your API key." = "No hi ha organitzacions carregades. Feu clic a Actualitza després de configurar la clau API.";
@@ -990,7 +990,7 @@
 "Service" = "Servei";
 "Show or hide Kiro credits, percent, or both next to the menu bar icon." = "Mostreu o amagueu crèdits de Kiro, percentatge o tots dos al costat de la icona de la barra de menús.";
 "Show usage for organizations you belong to. Personal account is always shown." = "Mostreu l'ús de les organitzacions a què pertanyeu. El compte personal sempre es mostra.";
-"Sign in to cursor.com in your browser, then refresh Cursor in CodexBar." = "Inicieu sessió a cursor.com al navegador i després actualitzeu Cursor a CodexBar.";
+"Sign in to cursor.com in your browser, then refresh Cursor in CodexBar." = "Inicieu sessió a cursor.com al navegador i després actualitzeu Cursor a AnyCodex.";
 "Simulated error text" = "Text d'error simulat";
 "StepFun platform account (phone number or email)." = "Compte de la plataforma StepFun (telèfon o correu).";
 "Stored in ~/.codexbar/config.json." = "Desat a ~/.codexbar/config.json.";
@@ -1006,12 +1006,12 @@
 "Stored in ~/.codexbar/config.json. OPENAI_ADMIN_KEY is preferred; OPENAI_API_KEY still works." = "Desat a ~/.codexbar/config.json. Es prefereix OPENAI_ADMIN_KEY; OPENAI_API_KEY encara funciona.";
 "Stored in ~/.codexbar/config.json. Requires an Anthropic Admin API key." = "Desat a ~/.codexbar/config.json. Requereix una clau Anthropic Admin API.";
 "Stored in ~/.codexbar/config.json. Used for /v1/quota-stats." = "Desat a ~/.codexbar/config.json. S'usa per a /v1/quota-stats.";
-"Stored in ~/.codexbar/config.json. You can also provide CODEBUFF_API_KEY or let CodexBar read ~/.config/manicode/credentials.json (created by `codebuff login`)." = "Desat a ~/.codexbar/config.json. També podeu proporcionar CODEBUFF_API_KEY o deixar que CodexBar llegeixi ~/.config/manicode/credentials.json (creat per `codebuff login`).";
+"Stored in ~/.codexbar/config.json. You can also provide CODEBUFF_API_KEY or let CodexBar read ~/.config/manicode/credentials.json (created by `codebuff login`)." = "Desat a ~/.codexbar/config.json. També podeu proporcionar CODEBUFF_API_KEY o deixar que AnyCodex llegeixi ~/.config/manicode/credentials.json (creat per `codebuff login`).";
 "Stored in ~/.codexbar/config.json. You can also provide CROF_API_KEY." = "Desat a ~/.codexbar/config.json. També podeu proporcionar CROF_API_KEY.";
 "Stored in ~/.codexbar/config.json. You can also provide KILO_API_KEY or ~/.local/share/kilo/auth.json (kilo.access)." = "Desat a ~/.codexbar/config.json. També podeu proporcionar KILO_API_KEY o ~/.local/share/kilo/auth.json (kilo.access).";
 "T3 Chat cookie" = "Galeta de T3 Chat";
 "Team mode" = "Mode d'equip";
-"That account is no longer available in CodexBar. Refresh the account list and try again." = "Aquest compte ja no està disponible a CodexBar. Actualitzeu la llista de comptes i torneu-ho a provar.";
+"That account is no longer available in CodexBar. Refresh the account list and try again." = "Aquest compte ja no està disponible a AnyCodex. Actualitzeu la llista de comptes i torneu-ho a provar.";
 "The browser login did not complete in time. Try Antigravity login again." = "L'inici de sessió del navegador no s'ha completat a temps. Torneu a provar l'inici de sessió d'Antigravity.";
 "Timed out waiting for Cursor login. %@" = "S'ha esgotat el temps esperant l'inici de sessió de Cursor. %@";
 "Timed out waiting for Cursor login. %@ Last error: %@" = "S'ha esgotat el temps esperant l'inici de sessió de Cursor. %@ Últim error: %@";
@@ -1073,7 +1073,7 @@
 "%d%% in deficit" = "%d%% en dèficit";
 "%d%% in reserve" = "%d%% en reserva";
 "%dd" = "%dd";
-"About CodexBar" = "Quant al CodexBar";
+"About CodexBar" = "Quant al AnyCodex";
 "Add Account..." = "Afegiu un compte...";
 "Add accounts via GitHub OAuth Device Flow on the selected host." = "Afegiu comptes mitjançant el flux de dispositiu de GitHub OAuth a l'amfitrió seleccionat.";
 "Add Google Account" = "Afegiu un compte de Google";
@@ -1146,7 +1146,7 @@
 "No %@ utilization data yet." = "Encara no hi ha dades d'utilització de %@.";
 "No available fetch strategy for %@." = "No hi ha cap estratègia d'obtenció disponible per a %@.";
 "No available fetch strategy for minimax." = "No hi ha cap estratègia d'obtenció disponible per a MiniMax.";
-"No Cursor session found. Please log in to cursor.com in Safari, Chrome, Microsoft Edge, Brave, Arc, Dia, ChatGPT Atlas, Chromium, Helium, Vivaldi, Yandex Browser, Firefox, Zen, Colibri, Sidekick, Opera, Opera GX, or Edge Canary. If you use Safari, grant CodexBar Full Disk Access in System Settings ▸ Privacy & Security. You can also sign in to Cursor from the CodexBar menu (Add / switch account)." = "No s'ha trobat cap sessió de Cursor. Inicieu la sessió a cursor.com amb Safari, Chrome, Microsoft Edge, Brave, Arc, Dia, ChatGPT Atlas, Chromium, Helium, Vivaldi, Yandex Browser, Firefox, Zen, Colibri, Sidekick, Opera, Opera GX o Edge Canary. Si feu servir Safari, atorgueu al CodexBar Accés complet al disc a Configuració del Sistema ▸ Privadesa i Seguretat. També podeu iniciar la sessió a Cursor des del menú del CodexBar (Afegiu / canvieu de compte).";
+"No Cursor session found. Please log in to cursor.com in Safari, Chrome, Microsoft Edge, Brave, Arc, Dia, ChatGPT Atlas, Chromium, Helium, Vivaldi, Yandex Browser, Firefox, Zen, Colibri, Sidekick, Opera, Opera GX, or Edge Canary. If you use Safari, grant CodexBar Full Disk Access in System Settings ▸ Privacy & Security. You can also sign in to Cursor from the CodexBar menu (Add / switch account)." = "No s'ha trobat cap sessió de Cursor. Inicieu la sessió a cursor.com amb Safari, Chrome, Microsoft Edge, Brave, Arc, Dia, ChatGPT Atlas, Chromium, Helium, Vivaldi, Yandex Browser, Firefox, Zen, Colibri, Sidekick, Opera, Opera GX o Edge Canary. Si feu servir Safari, atorgueu al AnyCodex Accés complet al disc a Configuració del Sistema ▸ Privadesa i Seguretat. També podeu iniciar la sessió a Cursor des del menú del AnyCodex (Afegiu / canvieu de compte).";
 "No JetBrains IDE with AI Assistant detected. Install a JetBrains IDE and enable AI Assistant." = "No s'ha detectat cap IDE de JetBrains amb AI Assistant. Instal·leu un IDE de JetBrains i activeu l'AI Assistant.";
 "No local data found" = "No s'han trobat dades locals";
 "No OpenCode session cookies found in browsers." = "No s'han trobat galetes de sessió d'OpenCode als navegadors.";
@@ -1344,3 +1344,12 @@
 "Cost today unavailable" = "Cost d’avui: No disponible";
 "30-day cost unavailable" = "Cost de 30 dies: No disponible";
 "Resets" = "Reinicis";
+
+/* AnyCodex: embedded opencodex proxy */
+"opencodex_proxy_running" = "Proxy d'opencodex: en execució (port %d)";
+"opencodex_proxy_starting" = "Proxy d'opencodex: s'està iniciant...";
+"opencodex_proxy_stopped" = "Proxy d'opencodex: aturat";
+"opencodex_proxy_error" = "Proxy d'opencodex: %@";
+"Manage AI Providers..." = "Gestiona els proveïdors d'AI...";
+"Start opencodex Proxy" = "Inicia el proxy d'opencodex";
+"Stop opencodex Proxy" = "Atura el proxy d'opencodex";

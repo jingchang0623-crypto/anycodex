@@ -1,8 +1,8 @@
-/* Persian localization for CodexBar */
+/* Persian localization for AnyCodex */
 
-"ollama_safari_cookie_access_hint" = "کوکی‌های Safari برای CodexBar به دسترسی کامل دیسک نیاز دارند (تنظیمات سیستم > حریم خصوصی و امنیت).";
+"ollama_safari_cookie_access_hint" = "کوکی‌های Safari برای AnyCodex به دسترسی کامل دیسک نیاز دارند (تنظیمات سیستم > حریم خصوصی و امنیت).";
 "ollama_browser_cookie_decryption_denied" = "رمزگشایی کوکی‌های %@ در Keychain رد شد؛ با یک تازه‌سازی دستی دوباره تلاش کنید.";
-"ollama_browser_cookie_decryption_disabled" = "رمزگشایی کوکی‌های %@ در CodexBar غیرفعال است؛ دسترسی Keychain را فعال و تازه‌سازی کنید.";
+"ollama_browser_cookie_decryption_disabled" = "رمزگشایی کوکی‌های %@ در AnyCodex غیرفعال است؛ دسترسی Keychain را فعال و تازه‌سازی کنید.";
 
 " providers" = " providers";
 "(System)" = "(سیستم)";
@@ -43,7 +43,7 @@
 "Automatic imports browser cookies or stored sessions." = "به طور خودکار کوکی های مرورگر یا جلسات ذخیره شده را وارد می کند.";
 "Automatic imports browser cookies." = "کوکی های مرورگر را به صورت خودکار وارد می کند.";
 "Automatically imports browser session cookie." = "به طور خودکار کوکی نشست مرورگر را وارد می کند.";
-"Automatically opens CodexBar when you start your Mac." = "وقتی مک را روشن می کنید، CodexBar به طور خودکار باز می شود.";
+"Automatically opens CodexBar when you start your Mac." = "وقتی مک را روشن می کنید، AnyCodex به طور خودکار باز می شود.";
 "Automation" = "اتوماسیون";
 "Average (\\(label1) + \\(label2))" = "میانگین (\\(label1) + \\(label2))";
 "Average (\\(metadata.sessionLabel) + \\(metadata.weeklyLabel))" = "میانگین (\\(metadata.sessionLabel) + \\(metadata.weeklyLabel))";
@@ -63,7 +63,7 @@
 "Check for updates automatically" = "به طور خودکار به روزرسانی ها را بررسی کنید";
 "Check if you like your agents having some fun up there." = "بررسی کن که آیا دوست داری مأمورانت آنجا خوش بگذرانند یا نه.";
 "Check provider status" = "وضعیت ارائه دهنده را بررسی کنید";
-"Choose a supported browser so CodexBar can read the matching account." = "یک مرورگر پشتیبانی‌شده انتخاب کنید تا CodexBar بتواند حساب منطبق را بخواند.";
+"Choose a supported browser so CodexBar can read the matching account." = "یک مرورگر پشتیبانی‌شده انتخاب کنید تا AnyCodex بتواند حساب منطبق را بخواند.";
 "Choose Codex workspace" = "فضای کاری Codex را انتخاب کنید";
 "Choose Cursor account" = "حساب Cursor را انتخاب کنید";
 "Choose the MiniMax host (global .io or China mainland .com)." = "میزبان MiniMax را انتخاب کنید (جهانی .io یا .com سرزمین اصلی چین).";
@@ -71,8 +71,8 @@
 "Choose up to \\(Self.maxOverviewProviders) providers" = "تا \\(Self.maxOverviewProviders) ارائه دهنده را انتخاب کنید";
 "Choose up to \\(count) providers" = "تا \\(count) ارائه دهنده را انتخاب کنید";
 "Choose what to show in the menu bar (Pace shows usage vs. expected)." = "انتخاب کنید که در نوار منو چه چیزی نمایش داده شود (Pace میزان مصرف در مقابل مورد انتظار را نشان می دهد).";
-"Choose which Codex account CodexBar should follow." = "انتخاب کنید که کدام حساب Codex را دنبال CodexBar.";
-"Choose which Cursor account CodexBar should use." = "انتخاب کنید CodexBar از کدام حساب Cursor استفاده کند.";
+"Choose which Codex account CodexBar should follow." = "انتخاب کنید که کدام حساب Codex را دنبال AnyCodex.";
+"Choose which Cursor account CodexBar should use." = "انتخاب کنید AnyCodex از کدام حساب Cursor استفاده کند.";
 "Choose which window drives the menu bar percent." = "انتخاب کنید کدام پنجره درصد نوار منو را تنظیم کند.";
 "Chrome" = "Chrome";
 "Claude CLI not found" = "Claude CLI پیدا نشد";
@@ -87,9 +87,9 @@
 "Codex binary" = "Codex دودویی";
 "Codex login failed" = "ورود Codex ناموفق";
 "Codex login timed out" = "ورود Codex به پایان رسید";
-"CodexBar Lifecycle Keepalive" = "CodexBar چرخه زندگی زنده نگه داشتن";
-"CodexBar can't show its menu bar icon" = "CodexBar نمی تواند آیکون نوار منویش را نشان دهد";
-"CodexBar could not read managed account storage. " = "CodexBar نمی توانست ذخیره سازی حساب مدیریت شده را بخواند.  ";
+"CodexBar Lifecycle Keepalive" = "AnyCodex چرخه زندگی زنده نگه داشتن";
+"CodexBar can't show its menu bar icon" = "AnyCodex نمی تواند آیکون نوار منویش را نشان دهد";
+"CodexBar could not read managed account storage. " = "AnyCodex نمی توانست ذخیره سازی حساب مدیریت شده را بخواند.  ";
 "Configure…" = "پیکربندی کن...";
 "Connected" = "متصل";
 "Controls how much detail is logged." = "میزان جزئیات ثبت شده را کنترل می کند.";
@@ -151,13 +151,13 @@
 "Hide details" = "مخفی کردن جزئیات";
 "Hide personal information" = "مخفی کردن اطلاعات شخصی";
 "Historical tracking" = "ردیابی تاریخی";
-"How often CodexBar polls providers in the background." = "چند وقت یکبار CodexBar ارائه دهندگان نظرسنجی در پس زمینه انجام می دهند.";
+"How often CodexBar polls providers in the background." = "چند وقت یکبار AnyCodex ارائه دهندگان نظرسنجی در پس زمینه انجام می دهند.";
 "Inactive" = "غیرفعال";
 "Install CLI" = "نصب CLI";
 "Install the Claude CLI (npm i -g @anthropic-ai/claude-code) and try again." = "Claude CLI (npm i -g @anthropic-ai/claude-code) را نصب کنید و دوباره امتحان کنید.";
 "Install the Codex CLI (npm i -g @openai/codex) and try again." = "Codex CLI (npm i -g @openai/codex) را نصب کنید و دوباره امتحان کنید.";
 "Install the Gemini CLI (npm i -g @google/gemini-cli) and try again." = "Gemini CLI (npm i -g @google/gemini-cli) را نصب کنید و دوباره امتحان کنید.";
-"Install a JetBrains IDE with AI Assistant enabled, then refresh CodexBar." = "یک IDE از JetBrains با AI Assistant فعال نصب کنید، سپس CodexBar را تازه‌سازی کنید.";
+"Install a JetBrains IDE with AI Assistant enabled, then refresh CodexBar." = "یک IDE از JetBrains با AI Assistant فعال نصب کنید، سپس AnyCodex را تازه‌سازی کنید.";
 "JetBrains AI is ready" = "JetBrains هوش مصنوعی آماده است";
 "JetBrains IDE" = "JetBrains IDE";
 "Keep CLI sessions alive" = "جلسات CLI را زنده نگه دارید";
@@ -210,7 +210,7 @@
 "Open" = "باز";
 "Open API Keys" = "کلیدهای API باز";
 "Open Amp Settings" = "تنظیمات باز Amp";
-"Open Antigravity to sign in, then refresh CodexBar." = "Antigravity را باز کنید تا وارد شوید، سپس CodexBar را تازه کنید.";
+"Open Antigravity to sign in, then refresh CodexBar." = "Antigravity را باز کنید تا وارد شوید، سپس AnyCodex را تازه کنید.";
 "Open Browser" = "مرورگر باز";
 "Open Coding Plan" = "طرح کدگذاری باز";
 "Open Console" = "کنسول باز";
@@ -255,7 +255,7 @@
 "Progress bars fill as you consume quota (instead of showing remaining)." = "نوارهای پیشرفت هنگام مصرف سهمیه پر می شوند (به جای اینکه باقی مانده را نشان دهند).";
 "Provider" = "ارائه دهنده";
 "Providers" = "ارائه دهندگان";
-"Quit CodexBar" = "ترک CodexBar";
+"Quit CodexBar" = "ترک AnyCodex";
 "Random (default)" = "تصادفی (پیش فرض)";
 "Reads local usage logs. Shows today + last 30 days cost in the menu." = "گزارش های استفاده محلی را می خواند. امروز نمایش داده می شود + پنجره تاریخچه انتخاب شده در منو.";
 "Refresh" = "تازه سازی";
@@ -263,8 +263,8 @@
 "Remote" = "دورافتاده";
 "Remove" = "حذف";
 "Remove Codex account?" = "حساب Codex حذف کنم؟";
-"Remove \\(account.email) from CodexBar? Its managed Codex home will be deleted." = "حذف \\(account.email) از CodexBar؟ مدیریت Codex خانه آن حذف خواهد شد.";
-"Remove \\(email) from CodexBar? Its managed Codex home will be deleted." = "حذف \\(email) از CodexBar؟ مدیریت Codex خانه آن حذف خواهد شد.";
+"Remove \\(account.email) from CodexBar? Its managed Codex home will be deleted." = "حذف \\(account.email) از AnyCodex؟ مدیریت Codex خانه آن حذف خواهد شد.";
+"Remove \\(email) from CodexBar? Its managed Codex home will be deleted." = "حذف \\(email) از AnyCodex؟ مدیریت Codex خانه آن حذف خواهد شد.";
 "Remove selected account" = "حذف حساب انتخاب شده";
 "Replace critter bars with provider branding icons and a percentage." = "بارهای کریتر را با آیکون های برندینگ ارائه دهنده و درصدی جایگزین کنید.";
 "Replay selected animation" = "بازپخش انیمیشن انتخاب شده";
@@ -306,7 +306,7 @@
 "Store multiple Ollama Cookie headers." = "چندین هدر Ollama کوکی را ذخیره کنید.";
 "Store multiple OpenCode Cookie headers." = "چندین هدر OpenCode کوکی را ذخیره کنید.";
 "Store multiple OpenCode Go Cookie headers." = "چندین هدر OpenCode Go Cookie را ذخیره کنید.";
-"Stored in the CodexBar config file." = "در فایل پیکربندی CodexBar ذخیره شده است.";
+"Stored in the CodexBar config file." = "در فایل پیکربندی AnyCodex ذخیره شده است.";
 "Stored in ~/.codexbar/config.json. " = "ذخیره شده در ~/.codexbar/config.json. ";
 "Stored in ~/.codexbar/config.json. Paste the key from the Synthetic dashboard." = "ذخیره شده در ~/.codexbar/config.json. کلید را از داشبورد Synthetic پیست کنید.";
 "Stored in ~/.codexbar/config.json. Paste your Coding Plan API key from Model Studio." = "ذخیره شده در ~/.codexbar/config.json. کلید API برنامه کدنویسی خود را از مدل استودیو چسبانده کنید.";
@@ -382,8 +382,8 @@
 "cursor_on_demand" = "درخواست: %@";
 "cursor_on_demand_with_limit" = "درخواست: %1$@ / %2$@";
 "extra_usage_format" = "استفاده اضافی: %1$@ / %2$@";
-"jetbrains_detected_generate" = "شناسایی شد: %@. یک بار از دستیار هوش مصنوعی برای تولید داده های سهمیه استفاده کنید، سپس CodexBar را تازه کنید.";
-"jetbrains_detected_select" = "شناسایی شد: %@. IDE مورد علاقه تان را در تنظیمات انتخاب کنید، سپس CodexBar را تازه کنید.";
+"jetbrains_detected_generate" = "شناسایی شد: %@. یک بار از دستیار هوش مصنوعی برای تولید داده های سهمیه استفاده کنید، سپس AnyCodex را تازه کنید.";
+"jetbrains_detected_select" = "شناسایی شد: %@. IDE مورد علاقه تان را در تنظیمات انتخاب کنید، سپس AnyCodex را تازه کنید.";
 "last_fetch_failed_with_provider" = "آخرین %@ آوردن ناموفق بود:";
 "last_spend" = "آخرین هزینه ها: %@";
 "mcp_model_usage" = "%1$@: %2$@";
@@ -393,10 +393,10 @@
 "metric_primary" = "ابتدایی (%@)";
 "metric_secondary" = "ثانویه (%@)";
 "metric_tertiary" = "دوره سوم (%@)";
-"multiple_workspaces_found" = "CodexBar چندین فضای کاری برای %@ پیدا کردم. لطفا فضای کاری را برای افزودن انتخاب کنید.";
+"multiple_workspaces_found" = "AnyCodex چندین فضای کاری برای %@ پیدا کردم. لطفا فضای کاری را برای افزودن انتخاب کنید.";
 "ory_session_…=…; csrftoken=…" = "ory_session_...=...; csrftoken=...";
 "overview_choose_providers" = "تا %@ ارائه دهنده را انتخاب کنید";
-"remove_account_message" = "حذف %@ از CodexBar؟ مدیریت Codex خانه آن حذف خواهد شد.";
+"remove_account_message" = "حذف %@ از AnyCodex؟ مدیریت Codex خانه آن حذف خواهد شد.";
 "version_format" = "نسخه %@";
 "vertex_ai_login_instructions" = "برای پیگیری Vertex AI استفاده، با Google Cloud.\n\n1 احراز هویت کنید. ترمینال باز\n2. اجرا: gcloud auth application-default-login\n3. دستورالعمل های مرورگر را دنبال کنید تا in\n4 را امضا کنید. پروژه ات را تنظیم کن: gcloud config set project PROJECT_ID\n\nOpen Terminal را همین حالا؟";
 "workspaceID is set but only opencode, opencodego, and deepgram support workspaceID." = "workspaceID فعال است اما فقط opencode، opencodego و deepgram از workspaceID پشتیبانی می کنند.";
@@ -434,7 +434,7 @@
 "language_italian" = "ایتالیانو";
 "language_polish" = "پولسکی";
 "start_at_login_title" = "شروع از ورود";
-"start_at_login_subtitle" = "وقتی مک را روشن می کنید، CodexBar به طور خودکار باز می شود.";
+"start_at_login_subtitle" = "وقتی مک را روشن می کنید، AnyCodex به طور خودکار باز می شود.";
 "show_cost_summary_subtitle" = "گزارش های استفاده محلی را می خواند. امروز نمایش داده می شود + پنجره تاریخچه انتخاب شده در منو.";
 "cost_summary_style_title" = "سبک نمایش";
 "cost_summary_style_inline" = "فقط درون‌خطی";
@@ -501,7 +501,7 @@
 "quota_warning_warning" = "هشدار";
 "quota_warning_critical" = "بحرانی";
 "apply" = "درخواست بده";
-"quit_app" = "خروج از CodexBar";
+"quit_app" = "خروج از AnyCodex";
 
 /* Tab titles */
 "tab_general" = "عمومی";
@@ -548,8 +548,8 @@
 "managed_login_missing_email" = "ورود Codex تکمیل شد، اما هیچ ایمیل حسابی در دسترس نبود. پس از اطمینان از اینکه حساب کاملا وارد شده است، دوباره تلاش کنید.";
 "login_success_notification_title" = "ورود %@ موفقیت آمیز بود";
 "login_success_notification_body" = "می توانید به اپلیکیشن بازگردید؛ احراز هویت تمام شد.";
-"workspace_selection_cancelled" = "CodexBar چندین فضای کاری پیدا کردم، اما هیچ فضای کاری انتخاب نشده بود.";
-"unsafe_managed_home" = "CodexBar از تغییر مسیر خانه مدیریت شده غیرمنتظره خودداری کرد: %@";
+"workspace_selection_cancelled" = "AnyCodex چندین فضای کاری پیدا کردم، اما هیچ فضای کاری انتخاب نشده بود.";
+"unsafe_managed_home" = "AnyCodex از تغییر مسیر خانه مدیریت شده غیرمنتظره خودداری کرد: %@";
 "menu_bar_metric_title" = "معیار نوار منو";
 "menu_bar_metric_subtitle" = "انتخاب کنید کدام پنجره درصد نوار منو را تنظیم کند.";
 "menu_bar_metric_subtitle_deepseek" = "تعادل DeepSeek را در نوار منو نشان می دهد.";
@@ -701,7 +701,7 @@
 "login_shell_path" = "PATH پوسته ورود (ضبط راه انداز)";
 "cleared" = "تأیید شد.";
 "no_fetch_attempts" = "هنوز هیچ تلاشی برای آوردن توپ انجام نشده.";
-"macOS Tahoe can block menu bar apps in System Settings → Menu Bar → Allow in the Menu Bar. CodexBar is running, but macOS may be hiding its icon. Open Menu Bar settings and turn CodexBar on." = "macOS تاهو می تواند برنامه های نوار منو را در تنظیمات سیستم → نوار منو → اجازه را در نوار منو مسدود کند. CodexBar در حال اجرا است، اما ممکن است آیکون macOS مخفی شده باشد. تنظیمات نوار منو را باز کنید و CodexBar را روشن کنید.";
+"macOS Tahoe can block menu bar apps in System Settings → Menu Bar → Allow in the Menu Bar. CodexBar is running, but macOS may be hiding its icon. Open Menu Bar settings and turn CodexBar on." = "macOS تاهو می تواند برنامه های نوار منو را در تنظیمات سیستم → نوار منو → اجازه را در نوار منو مسدود کند. AnyCodex در حال اجرا است، اما ممکن است آیکون macOS مخفی شده باشد. تنظیمات نوار منو را باز کنید و AnyCodex را روشن کنید.";
 
 /* Metric preferences */
 "metric_pref_automatic" = "اتوماتیک";
@@ -744,7 +744,7 @@
 "refresh_adaptive" = "تطبیقی";
 "refresh_adaptive_agent_aware" = "تطبیقی (آگاه از عامل)";
 "adaptive_activity_consent_title" = "اجازه به تازه‌سازی آگاه از فعالیت؟";
-"adaptive_activity_consent_message" = "حالت تطبیقی آگاه از عامل می‌تواند برای شناسایی Codex و Claude فهرست فرایندهای محلی در حال اجرا، از جمله خط‌های فرمان، را بررسی کند و هنگام کدنویسی هر ۳۰ ثانیه فرادادهٔ نشست‌های شناخته‌شده را بخواند. وقتی Agent Sessions خاموش است، CodexBar فقط زمان آخرین فعالیت را در حافظه نگه می‌دارد و مسیرها و هویت‌های نشست را دور می‌ریزد. این داده به هیچ‌جا ارسال نمی‌شود و شناسایی راه‌دور و SSH خاموش می‌مانند. اگر رد کنید، CodexBar بدون پویش فعالیت محلی به حالت تطبیقی عادی بازمی‌گردد.";
+"adaptive_activity_consent_message" = "حالت تطبیقی آگاه از عامل می‌تواند برای شناسایی Codex و Claude فهرست فرایندهای محلی در حال اجرا، از جمله خط‌های فرمان، را بررسی کند و هنگام کدنویسی هر ۳۰ ثانیه فرادادهٔ نشست‌های شناخته‌شده را بخواند. وقتی Agent Sessions خاموش است، AnyCodex فقط زمان آخرین فعالیت را در حافظه نگه می‌دارد و مسیرها و هویت‌های نشست را دور می‌ریزد. این داده به هیچ‌جا ارسال نمی‌شود و شناسایی راه‌دور و SSH خاموش می‌مانند. اگر رد کنید، AnyCodex بدون پویش فعالیت محلی به حالت تطبیقی عادی بازمی‌گردد.";
 "adaptive_activity_consent_allow" = "اجازه به فعالیت محلی";
 "adaptive_activity_consent_decline" = "استفاده از حالت تطبیقی عادی";
 
@@ -778,7 +778,7 @@
 "No local data found" = "داده محلی یافت نشد";
 "Credits unavailable; keep Codex running to refresh." = "اعتبارها در دسترس نیست؛ Codex را روشن نگه دارید تا تازه شوید.";
 "No available fetch strategy for minimax." = "هیچ استراتژی جمع آوری برای مینیمکس در دسترس نیست.";
-"No Cursor session found. Please log in to cursor.com in Safari, Chrome, Microsoft Edge, Brave, Arc, Dia, ChatGPT Atlas, Chromium, Helium, Vivaldi, Yandex Browser, Firefox, Zen, Colibri, Sidekick, Opera, Opera GX, or Edge Canary. If you use Safari, grant CodexBar Full Disk Access in System Settings ▸ Privacy & Security. You can also sign in to Cursor from the CodexBar menu (Add / switch account)." = "جلسه Cursor پیدا نشد. لطفا در Safari، Chrome، مایکروسافت اج، بریو، آرک، دیا، چت جی پی تی اطلس، کرومیوم، هلیوم، ویوالدی، مرورگر یاندکس، فایرفاکس، زن، کولیبری، سایدکیک، اپرا، اپرا جی ایکس یا اج کنری وارد cursor.com شوید. اگر از Safari استفاده می کنید، به CodexBar دسترسی کامل دیسک در تنظیمات سیستم ▸ حریم خصوصی و امنیت اعطا کنید. همچنین می توانید از منوی CodexBar (افزودن / تغییر حساب) وارد Cursor شوید.";
+"No Cursor session found. Please log in to cursor.com in Safari, Chrome, Microsoft Edge, Brave, Arc, Dia, ChatGPT Atlas, Chromium, Helium, Vivaldi, Yandex Browser, Firefox, Zen, Colibri, Sidekick, Opera, Opera GX, or Edge Canary. If you use Safari, grant CodexBar Full Disk Access in System Settings ▸ Privacy & Security. You can also sign in to Cursor from the CodexBar menu (Add / switch account)." = "جلسه Cursor پیدا نشد. لطفا در Safari، Chrome، مایکروسافت اج، بریو، آرک، دیا، چت جی پی تی اطلس، کرومیوم، هلیوم، ویوالدی، مرورگر یاندکس، فایرفاکس، زن، کولیبری، سایدکیک، اپرا، اپرا جی ایکس یا اج کنری وارد cursor.com شوید. اگر از Safari استفاده می کنید، به AnyCodex دسترسی کامل دیسک در تنظیمات سیستم ▸ حریم خصوصی و امنیت اعطا کنید. همچنین می توانید از منوی AnyCodex (افزودن / تغییر حساب) وارد Cursor شوید.";
 "No OpenCode session cookies found in browsers." = "هیچ کوکی نشست OpenCode در مرورگرها یافت نمی شود.";
 "No available fetch strategy for %@." = "استراتژی جمع آوری برای %@ موجود نیست.";
 "Today" = "امروز";
@@ -794,7 +794,7 @@
 "Status Page" = "صفحه وضعیت";
 "Open Status Page" = "باز کردن صفحه وضعیت";
 "Settings..." = "محیط ها...";
-"About CodexBar" = "درباره CodexBar";
+"About CodexBar" = "درباره AnyCodex";
 "Quit" = "ترک کن";
 "Last %d day" = "روز %d گذشته";
 "Last %d days" = "%d روز آخر";
@@ -1053,31 +1053,31 @@
 "Capacity Start" = "شروع ظرفیت";
 "Changelog" = "فهرست تغییرات";
 "Choose the Moonshot/Kimi API host for international or China mainland accounts." = "میزبان Moonshot/Kimi API را برای حساب های بین المللی یا حساب های سرزمین اصلی چین انتخاب کنید.";
-"CodexBar can't replace a system account that is signed in with an API key only setup." = "نمی CodexBar حساب سیستمی که فقط با کلید API وارد شده جایگزین شود.";
-"CodexBar could not find saved auth for that account. Re-authenticate it and try again." = "CodexBar نتوانستم احراز هویت ذخیره شده آن حساب را پیدا کنم. دوباره احراز هویت کنید و دوباره تلاش کنید.";
-"CodexBar could not read managed account storage. Recover the store before adding another account." = "CodexBar نمی توانست ذخیره سازی حساب مدیریت شده را بخواند. قبل از اضافه کردن حساب جدید، فروشگاه را بازیابی کنید.";
-"CodexBar could not read saved auth for that account. Re-authenticate it and try again." = "CodexBar نمی توانستم احراز هویت ذخیره شده آن حساب را بخوانم. دوباره احراز هویت کنید و دوباره تلاش کنید.";
-"CodexBar could not read the current system account on this Mac." = "CodexBar نمی توانستم حساب فعلی سیستم را روی این مک بخوانم.";
-"CodexBar could not replace the live Codex auth on this Mac." = "CodexBar نتوانستم احراز هویت زنده Codex این مک را جایگزین کنم.";
-"CodexBar could not safely preserve the current system account before switching." = "CodexBar نتوانستم حساب فعلی سیستم را قبل از تغییر به طور ایمن حفظ کنم.";
-"CodexBar could not save the current system account before switching." = "CodexBar نتوانستم حساب فعلی سیستم را قبل از تغییر ذخیره کنم.";
-"CodexBar could not update managed account storage." = "CodexBar نتوانست ذخیره سازی حساب مدیریت شده را به روزرسانی کند.";
-"CodexBar found another managed account that already uses the current system account. Resolve the duplicate account before switching." = "CodexBar یک حساب مدیریت شده دیگر پیدا کردم که قبلا از حساب فعلی سیستم استفاده می کند. قبل از تغییر حساب، حساب تکراری را حل کنید.";
-"CodexBar will ask macOS Keychain for “%@” so it can decrypt browser cookies and authenticate your account. Click OK to continue." = "CodexBar از macOS Keychain درخواست «%@» می کند تا بتواند کوکی های مرورگر را رمزگشایی کرده و حساب شما را احراز هویت کند. برای ادامه روی OK کلیک کنید.";
-"CodexBar will ask macOS Keychain for the Claude Code OAuth token so it can fetch your Claude usage. Click OK to continue." = "CodexBar از macOS Keychain کد Claude توکن OAuth را درخواست می کند تا بتواند استفاده Claude شما را دریافت کند. برای ادامه روی OK کلیک کنید.";
-"CodexBar will ask macOS Keychain for your Amp cookie header so it can fetch usage. Click OK to continue." = "CodexBar از macOS Keychain Amp هدر کوکی تان را می خواهید تا بتواند استفاده را دریافت کند. برای ادامه روی OK کلیک کنید.";
-"CodexBar will ask macOS Keychain for your Augment cookie header so it can fetch usage. Click OK to continue." = "CodexBar از macOS Keychain Augment هدر کوکی تان را می خواهید تا بتواند استفاده را دریافت کند. برای ادامه روی OK کلیک کنید.";
-"CodexBar will ask macOS Keychain for your Claude cookie header so it can fetch Claude web usage. Click OK to continue." = "CodexBar از macOS Keychain هدر کوکی Claude شما را می خواهید تا بتواند استفاده Claude وب را دریافت کند. برای ادامه روی OK کلیک کنید.";
-"CodexBar will ask macOS Keychain for your Cursor cookie header so it can fetch usage. Click OK to continue." = "CodexBar از macOS Keychain Cursor هدر کوکی تان را می خواهید تا بتواند استفاده را دریافت کند. برای ادامه روی OK کلیک کنید.";
-"CodexBar will ask macOS Keychain for your Factory cookie header so it can fetch usage. Click OK to continue." = "CodexBar از macOS Keychain Factory هدر کوکی تان را می خواهید تا بتواند استفاده را دریافت کند. برای ادامه روی OK کلیک کنید.";
-"CodexBar will ask macOS Keychain for your GitHub Copilot token so it can fetch usage. Click OK to continue." = "CodexBar از macOS Keychain توکن GitHub Copilot شما را درخواست می کند تا بتواند استفاده را دریافت کند. برای ادامه روی OK کلیک کنید.";
-"CodexBar will ask macOS Keychain for your Kimi auth token so it can fetch usage. Click OK to continue." = "CodexBar از macOS Keychain توکن احراز هویت Kimi می خواهید تا بتواند استفاده را دریافت کند. برای ادامه روی OK کلیک کنید.";
-"CodexBar will ask macOS Keychain for your MiniMax API token so it can fetch usage. Click OK to continue." = "CodexBar از macOS Keychain توکن MiniMax API شما را درخواست می کند تا بتواند استفاده را دریافت کند. برای ادامه روی OK کلیک کنید.";
-"CodexBar will ask macOS Keychain for your MiniMax cookie header so it can fetch usage. Click OK to continue." = "CodexBar از macOS Keychain MiniMax هدر کوکی تان را می خواهید تا بتواند استفاده را دریافت کند. برای ادامه روی OK کلیک کنید.";
-"CodexBar will ask macOS Keychain for your OpenAI cookie header so it can fetch Codex dashboard extras. Click OK to continue." = "CodexBar از macOS Keychain OpenAI هدر کوکی تان را می خواهید تا اضافه های داشبورد Codex را دریافت کند. برای ادامه روی OK کلیک کنید.";
-"CodexBar will ask macOS Keychain for your OpenCode cookie header so it can fetch usage. Click OK to continue." = "CodexBar از macOS Keychain OpenCode هدر کوکی تان را می خواهید تا بتواند استفاده را دریافت کند. برای ادامه روی OK کلیک کنید.";
-"CodexBar will ask macOS Keychain for your Synthetic API key so it can fetch usage. Click OK to continue." = "CodexBar از macOS Keychain کلید Synthetic API می خواهید تا بتواند استفاده را دریافت کند. برای ادامه روی OK کلیک کنید.";
-"CodexBar will ask macOS Keychain for your z.ai API token so it can fetch usage. Click OK to continue." = "CodexBar از macOS Keychain توکن z.ai API شما را درخواست می کند تا بتواند استفاده را دریافت کند. برای ادامه روی OK کلیک کنید.";
+"CodexBar can't replace a system account that is signed in with an API key only setup." = "نمی AnyCodex حساب سیستمی که فقط با کلید API وارد شده جایگزین شود.";
+"CodexBar could not find saved auth for that account. Re-authenticate it and try again." = "AnyCodex نتوانستم احراز هویت ذخیره شده آن حساب را پیدا کنم. دوباره احراز هویت کنید و دوباره تلاش کنید.";
+"CodexBar could not read managed account storage. Recover the store before adding another account." = "AnyCodex نمی توانست ذخیره سازی حساب مدیریت شده را بخواند. قبل از اضافه کردن حساب جدید، فروشگاه را بازیابی کنید.";
+"CodexBar could not read saved auth for that account. Re-authenticate it and try again." = "AnyCodex نمی توانستم احراز هویت ذخیره شده آن حساب را بخوانم. دوباره احراز هویت کنید و دوباره تلاش کنید.";
+"CodexBar could not read the current system account on this Mac." = "AnyCodex نمی توانستم حساب فعلی سیستم را روی این مک بخوانم.";
+"CodexBar could not replace the live Codex auth on this Mac." = "AnyCodex نتوانستم احراز هویت زنده Codex این مک را جایگزین کنم.";
+"CodexBar could not safely preserve the current system account before switching." = "AnyCodex نتوانستم حساب فعلی سیستم را قبل از تغییر به طور ایمن حفظ کنم.";
+"CodexBar could not save the current system account before switching." = "AnyCodex نتوانستم حساب فعلی سیستم را قبل از تغییر ذخیره کنم.";
+"CodexBar could not update managed account storage." = "AnyCodex نتوانست ذخیره سازی حساب مدیریت شده را به روزرسانی کند.";
+"CodexBar found another managed account that already uses the current system account. Resolve the duplicate account before switching." = "AnyCodex یک حساب مدیریت شده دیگر پیدا کردم که قبلا از حساب فعلی سیستم استفاده می کند. قبل از تغییر حساب، حساب تکراری را حل کنید.";
+"CodexBar will ask macOS Keychain for “%@” so it can decrypt browser cookies and authenticate your account. Click OK to continue." = "AnyCodex از macOS Keychain درخواست «%@» می کند تا بتواند کوکی های مرورگر را رمزگشایی کرده و حساب شما را احراز هویت کند. برای ادامه روی OK کلیک کنید.";
+"CodexBar will ask macOS Keychain for the Claude Code OAuth token so it can fetch your Claude usage. Click OK to continue." = "AnyCodex از macOS Keychain کد Claude توکن OAuth را درخواست می کند تا بتواند استفاده Claude شما را دریافت کند. برای ادامه روی OK کلیک کنید.";
+"CodexBar will ask macOS Keychain for your Amp cookie header so it can fetch usage. Click OK to continue." = "AnyCodex از macOS Keychain Amp هدر کوکی تان را می خواهید تا بتواند استفاده را دریافت کند. برای ادامه روی OK کلیک کنید.";
+"CodexBar will ask macOS Keychain for your Augment cookie header so it can fetch usage. Click OK to continue." = "AnyCodex از macOS Keychain Augment هدر کوکی تان را می خواهید تا بتواند استفاده را دریافت کند. برای ادامه روی OK کلیک کنید.";
+"CodexBar will ask macOS Keychain for your Claude cookie header so it can fetch Claude web usage. Click OK to continue." = "AnyCodex از macOS Keychain هدر کوکی Claude شما را می خواهید تا بتواند استفاده Claude وب را دریافت کند. برای ادامه روی OK کلیک کنید.";
+"CodexBar will ask macOS Keychain for your Cursor cookie header so it can fetch usage. Click OK to continue." = "AnyCodex از macOS Keychain Cursor هدر کوکی تان را می خواهید تا بتواند استفاده را دریافت کند. برای ادامه روی OK کلیک کنید.";
+"CodexBar will ask macOS Keychain for your Factory cookie header so it can fetch usage. Click OK to continue." = "AnyCodex از macOS Keychain Factory هدر کوکی تان را می خواهید تا بتواند استفاده را دریافت کند. برای ادامه روی OK کلیک کنید.";
+"CodexBar will ask macOS Keychain for your GitHub Copilot token so it can fetch usage. Click OK to continue." = "AnyCodex از macOS Keychain توکن GitHub Copilot شما را درخواست می کند تا بتواند استفاده را دریافت کند. برای ادامه روی OK کلیک کنید.";
+"CodexBar will ask macOS Keychain for your Kimi auth token so it can fetch usage. Click OK to continue." = "AnyCodex از macOS Keychain توکن احراز هویت Kimi می خواهید تا بتواند استفاده را دریافت کند. برای ادامه روی OK کلیک کنید.";
+"CodexBar will ask macOS Keychain for your MiniMax API token so it can fetch usage. Click OK to continue." = "AnyCodex از macOS Keychain توکن MiniMax API شما را درخواست می کند تا بتواند استفاده را دریافت کند. برای ادامه روی OK کلیک کنید.";
+"CodexBar will ask macOS Keychain for your MiniMax cookie header so it can fetch usage. Click OK to continue." = "AnyCodex از macOS Keychain MiniMax هدر کوکی تان را می خواهید تا بتواند استفاده را دریافت کند. برای ادامه روی OK کلیک کنید.";
+"CodexBar will ask macOS Keychain for your OpenAI cookie header so it can fetch Codex dashboard extras. Click OK to continue." = "AnyCodex از macOS Keychain OpenAI هدر کوکی تان را می خواهید تا اضافه های داشبورد Codex را دریافت کند. برای ادامه روی OK کلیک کنید.";
+"CodexBar will ask macOS Keychain for your OpenCode cookie header so it can fetch usage. Click OK to continue." = "AnyCodex از macOS Keychain OpenCode هدر کوکی تان را می خواهید تا بتواند استفاده را دریافت کند. برای ادامه روی OK کلیک کنید.";
+"CodexBar will ask macOS Keychain for your Synthetic API key so it can fetch usage. Click OK to continue." = "AnyCodex از macOS Keychain کلید Synthetic API می خواهید تا بتواند استفاده را دریافت کند. برای ادامه روی OK کلیک کنید.";
+"CodexBar will ask macOS Keychain for your z.ai API token so it can fetch usage. Click OK to continue." = "AnyCodex از macOS Keychain توکن z.ai API شما را درخواست می کند تا بتواند استفاده را دریافت کند. برای ادامه روی OK کلیک کنید.";
 "Could not open Cursor login in your browser." = "نتوانستم مرورگر Cursor ورود را باز کنم.";
 "Could not open browser for Antigravity" = "برای مدت Antigravity نتوانستم مرورگر را باز کنم";
 "Credits used" = "اعتبارات استفاده شده";
@@ -1092,7 +1092,7 @@
 "Extra usage balance: %@" = "تعادل استفاده اضافی: %@";
 "Keychain Access Required" = "دسترسی Keychain مورد نیاز است";
 "keychain_prompt_learn_more" = "بیشتر بدانید…";
-"keychain_prompt_privacy_note" = "macOS، نه CodexBar، ورود گذرواژهٔ Mac را مدیریت می‌کند. می‌توانید دسترسی به Keychain را هر زمان از تنظیمات ← پیشرفته غیرفعال کنید.";
+"keychain_prompt_privacy_note" = "macOS، نه AnyCodex، ورود گذرواژهٔ Mac را مدیریت می‌کند. می‌توانید دسترسی به Keychain را هر زمان از تنظیمات ← پیشرفته غیرفعال کنید.";
 "Kiro menu bar value" = "Kiro مقدار نوار منو";
 "Label" = "برچسب";
 "No organizations loaded. Click Refresh after setting your API key." = "هیچ سازمانی بارگذاری نشده بود. پس از تنظیم کلید API روی «تازه سازی» کلیک کنید.";
@@ -1153,7 +1153,7 @@
 "Service" = "خدمت";
 "Show or hide Kiro credits, percent, or both next to the menu bar icon." = "Kiro اعتبار، درصد یا هر دو را کنار آیکون نوار منو نمایش یا پنهان کنید.";
 "Show usage for organizations you belong to. Personal account is always shown." = "استفاده از سازمان هایی که عضو آن هستید را نشان دهید. حساب شخصی همیشه نمایش داده می شود.";
-"Sign in to cursor.com in your browser, then refresh Cursor in CodexBar." = "در مرورگر خود وارد cursor.com شوید، سپس Cursor را در CodexBar تازه سازی کنید.";
+"Sign in to cursor.com in your browser, then refresh Cursor in CodexBar." = "در مرورگر خود وارد cursor.com شوید، سپس Cursor را در AnyCodex تازه سازی کنید.";
 "Simulated error text" = "متن خطای شبیه سازی شده";
 "StepFun platform account (phone number or email)." = "StepFun حساب پلتفرم (شماره تلفن یا ایمیل).";
 "Stored in ~/.codexbar/config.json." = "ذخیره شده در ~/.codexbar/config.json.";
@@ -1169,12 +1169,12 @@
 "Stored in ~/.codexbar/config.json. OPENAI_ADMIN_KEY is preferred; OPENAI_API_KEY still works." = "نگهداری در ~/.codexbar/config.json. OPENAI_ADMIN_KEY ترجیح داده می شود؛ OPENAI_API_KEY هنوز کار می کند.";
 "Stored in ~/.codexbar/config.json. Requires an Anthropic Admin API key." = "ذخیره سازی در ~/.codexbar/config.json. نیاز به کلید API مدیریت انسان شناسی دارد.";
 "Stored in ~/.codexbar/config.json. Used for /v1/quota-stats." = "ذخیره شده در ~/.codexbar/config.json. برای /v1/quota-stats.";
-"Stored in ~/.codexbar/config.json. You can also provide CODEBUFF_API_KEY or let CodexBar read ~/.config/manicode/credentials.json (created by `codebuff login`)." = "ذخیره شده در ~/.codexbar/config.json. همچنین می توانید CODEBUFF_API_KEY ارائه دهید یا اجازه دهید CodexBar ~/.config/manicode/credentials.json (ایجاد شده توسط `codebuff login`) را بخوانند.";
+"Stored in ~/.codexbar/config.json. You can also provide CODEBUFF_API_KEY or let CodexBar read ~/.config/manicode/credentials.json (created by `codebuff login`)." = "ذخیره شده در ~/.codexbar/config.json. همچنین می توانید CODEBUFF_API_KEY ارائه دهید یا اجازه دهید AnyCodex ~/.config/manicode/credentials.json (ایجاد شده توسط `codebuff login`) را بخوانند.";
 "Stored in ~/.codexbar/config.json. You can also provide CROF_API_KEY." = "ذخیره شده در ~/.codexbar/config.json. همچنین می توانید CROF_API_KEY ارائه دهید.";
 "Stored in ~/.codexbar/config.json. You can also provide KILO_API_KEY or ~/.local/share/kilo/auth.json (kilo.access)." = "ذخیره شده در ~/.codexbar/config.json. همچنین می توانید KILO_API_KEY یا ~/.local/share/kilo/auth.json (kilo.access) ارائه دهید.";
 "T3 Chat cookie" = "T3 Chat کوکی";
 "Team mode" = "حالت تیم";
-"That account is no longer available in CodexBar. Refresh the account list and try again." = "آن حساب دیگر در CodexBar در دسترس نیست. لیست حساب ها را تازه کنید و دوباره تلاش کنید.";
+"That account is no longer available in CodexBar. Refresh the account list and try again." = "آن حساب دیگر در AnyCodex در دسترس نیست. لیست حساب ها را تازه کنید و دوباره تلاش کنید.";
 "The browser login did not complete in time. Try Antigravity login again." = "ورود به مرورگر به موقع کامل نشد. دوباره Antigravity حساب کاربری امتحان کن.";
 "Timed out waiting for Cursor login. %@" = "زمان خروج منتظر ورود Cursor هستم. %@";
 "Timed out waiting for Cursor login. %@ Last error: %@" = "زمان خروج منتظر ورود Cursor هستم. %@ آخرین خطا: %@";
@@ -1345,3 +1345,12 @@
 "Cost today unavailable" = "هزینهٔ امروز: در دسترس نیست";
 "30-day cost unavailable" = "هزینهٔ ۳۰ روز: در دسترس نیست";
 "Resets" = "بازنشانی‌ها";
+
+/* AnyCodex: embedded opencodex proxy */
+"opencodex_proxy_running" = "پراکسی opencodex: در حال اجرا (پورت %d)";
+"opencodex_proxy_starting" = "پراکسی opencodex: در حال راه‌اندازی...";
+"opencodex_proxy_stopped" = "پراکسی opencodex: متوقف شد";
+"opencodex_proxy_error" = "پراکسی opencodex: %@";
+"Manage AI Providers..." = "مدیریت ارائه‌دهندگان هوش مصنوعی...";
+"Start opencodex Proxy" = "راه‌اندازی پراکسی opencodex";
+"Stop opencodex Proxy" = "توقف پراکسی opencodex";

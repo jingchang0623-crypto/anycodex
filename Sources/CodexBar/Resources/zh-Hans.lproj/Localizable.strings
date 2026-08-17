@@ -1,4 +1,4 @@
-/* Chinese (Simplified) localization for CodexBar */
+/* Chinese (Simplified) localization for AnyCodex */
 
 "tab_hooks" = "钩子";
 "hooks_enable_title" = "启用钩子";
@@ -20,9 +20,9 @@
 "hooks_add_argument" = "添加参数";
 "hooks_delete_argument" = "删除参数";
 
-"ollama_safari_cookie_access_hint" = "CodexBar 需要“完全磁盘访问权限”才能读取 Safari Cookie（系统设置 > 隐私与安全性）。";
+"ollama_safari_cookie_access_hint" = "AnyCodex 需要“完全磁盘访问权限”才能读取 Safari Cookie（系统设置 > 隐私与安全性）。";
 "ollama_browser_cookie_decryption_denied" = "钥匙串拒绝解密 %@ Cookie；请通过手动刷新重试。";
-"ollama_browser_cookie_decryption_disabled" = "CodexBar 中已停用 %@ Cookie 解密；请启用钥匙串访问权限并刷新。";
+"ollama_browser_cookie_decryption_disabled" = "AnyCodex 中已停用 %@ Cookie 解密；请启用钥匙串访问权限并刷新。";
 
 " providers" = " 提供商";
 "(System)" = "（System）";
@@ -65,7 +65,7 @@
 "Automatic imports browser cookies or stored sessions." = "自动导入浏览器 Cookie 或已存储的会话。";
 "Automatic imports browser cookies." = "自动导入浏览器 Cookie。";
 "Automatically imports browser session cookie." = "自动导入浏览器会话 Cookie。";
-"Automatically opens CodexBar when you start your Mac." = "启动 Mac 时自动打开 CodexBar。";
+"Automatically opens CodexBar when you start your Mac." = "启动 Mac 时自动打开 AnyCodex。";
 "Automation" = "自动化";
 "Average (\\(label1) + \\(label2))" = "平均（\\(label1) + \\(label2)）";
 "Average (\\(metadata.sessionLabel) + \\(metadata.weeklyLabel))" = "平均（\\(metadata.sessionLabel) + \\(metadata.weeklyLabel)）";
@@ -91,7 +91,7 @@
 "Choose up to \\(Self.maxOverviewProviders) providers" = "选择至多 \\(Self.maxOverviewProviders) 个提供商";
 "Choose up to \\(count) providers" = "选择至多 \\(count) 个提供商";
 "Choose what to show in the menu bar (Pace shows usage vs. expected)." = "选择菜单栏中显示的内容（进度会显示实际用量与预期的对比）。";
-"Choose which Codex account CodexBar should follow." = "选择 CodexBar 要跟随的 Codex 账户。";
+"Choose which Codex account CodexBar should follow." = "选择 AnyCodex 要跟随的 Codex 账户。";
 "Choose which window drives the menu bar percent." = "选择用于驱动菜单栏百分比的窗口。";
 "Chrome" = "Chrome";
 "Claude CLI not found" = "未找到 Claude CLI";
@@ -106,8 +106,8 @@
 "Codex binary" = "Codex 二进制文件";
 "Codex login failed" = "Codex 登录失败";
 "Codex login timed out" = "Codex 登录超时";
-"CodexBar Lifecycle Keepalive" = "CodexBar 生命周期保活";
-"CodexBar could not read managed account storage. " = "CodexBar 无法读取托管账户存储。";
+"CodexBar Lifecycle Keepalive" = "AnyCodex 生命周期保活";
+"CodexBar could not read managed account storage. " = "AnyCodex 无法读取托管账户存储。";
 "Configure…" = "配置…";
 "Connected" = "已连接";
 "Controls how much detail is logged." = "控制日志记录的详细程度。";
@@ -169,7 +169,7 @@
 "Hide details" = "隐藏详情";
 "Hide personal information" = "隐藏个人信息";
 "Historical tracking" = "历史跟踪";
-"How often CodexBar polls providers in the background." = "CodexBar 在后台轮询提供商的频率。";
+"How often CodexBar polls providers in the background." = "AnyCodex 在后台轮询提供商的频率。";
 "Inactive" = "非活跃";
 "Install CLI" = "安装 CLI";
 "Install the Claude CLI (npm i -g @anthropic-ai/claude-code) and try again." = "安装 Claude CLI（npm i -g @anthropic-ai/claude-code）后重试。";
@@ -231,7 +231,7 @@
 "Open" = "打开";
 "Open API Keys" = "打开 API 密钥";
 "Open Amp Settings" = "打开 Amp 设置";
-"Open Antigravity to sign in, then refresh CodexBar." = "打开 Antigravity 登录，然后刷新 CodexBar。";
+"Open Antigravity to sign in, then refresh CodexBar." = "打开 Antigravity 登录，然后刷新 AnyCodex。";
 "Open Browser" = "打开浏览器";
 "Open Coding Plan" = "打开 Coding Plan";
 "Open Console" = "打开控制台";
@@ -275,7 +275,7 @@
 "Progress bars fill as you consume quota (instead of showing remaining)." = "进度条会随配额消耗而填充（而不是显示剩余量）。";
 "Provider" = "提供商";
 "Providers" = "提供商";
-"Quit CodexBar" = "退出 CodexBar";
+"Quit CodexBar" = "退出 AnyCodex";
 "Random (default)" = "随机（默认）";
 "Reads local usage logs. Shows today + last 30 days cost in the menu." = "读取本地用量日志。在菜单中显示今天及所选历史窗口的费用。";
 "Refresh" = "刷新";
@@ -284,8 +284,8 @@
 "Remote" = "远程";
 "Remove" = "移除";
 "Remove Codex account?" = "移除 Codex 账户？";
-"Remove \\(account.email) from CodexBar? Its managed Codex home will be deleted." = "要从 CodexBar 中移除 \\(account.email) 吗？其托管的 Codex 主目录将被删除。";
-"Remove \\(email) from CodexBar? Its managed Codex home will be deleted." = "要从 CodexBar 中移除 \\(email) 吗？其托管的 Codex 主目录将被删除。";
+"Remove \\(account.email) from CodexBar? Its managed Codex home will be deleted." = "要从 AnyCodex 中移除 \\(account.email) 吗？其托管的 Codex 主目录将被删除。";
+"Remove \\(email) from CodexBar? Its managed Codex home will be deleted." = "要从 AnyCodex 中移除 \\(email) 吗？其托管的 Codex 主目录将被删除。";
 "Remove selected account" = "移除所选账户";
 "Replace critter bars with provider branding icons and a percentage." = "将小动物进度条替换为提供商品牌图标和百分比。";
 "Replay selected animation" = "重放选中的动画";
@@ -329,7 +329,7 @@
 "Store multiple Ollama Cookie headers." = "存储多个 Ollama Cookie 标头。";
 "Store multiple OpenCode Cookie headers." = "存储多个 OpenCode Cookie 标头。";
 "Store multiple OpenCode Go Cookie headers." = "存储多个 OpenCode Go Cookie 标头。";
-"Stored in the CodexBar config file." = "存储在 CodexBar 配置文件中。";
+"Stored in the CodexBar config file." = "存储在 AnyCodex 配置文件中。";
 "Stored in ~/.codexbar/config.json. " = "存储在 ~/.codexbar/config.json 中。";
 "Stored in ~/.codexbar/config.json. Paste the key from the Synthetic dashboard." = "存储在 ~/.codexbar/config.json 中。请粘贴来自 Synthetic 仪表盘的密钥。";
 "Stored in ~/.codexbar/config.json. Paste your Coding Plan API key from Model Studio." = "存储在 ~/.codexbar/config.json 中。请粘贴来自 Model Studio 的 Coding Plan API 密钥。";
@@ -405,8 +405,8 @@
 "cursor_on_demand" = "按需计费：%@";
 "cursor_on_demand_with_limit" = "按需计费：%1$@ / %2$@";
 "extra_usage_format" = "额外用量：%1$@ / %2$@";
-"jetbrains_detected_generate" = "检测到：%@。使用一次 AI 助手以生成配额数据，然后刷新 CodexBar。";
-"jetbrains_detected_select" = "检测到：%@。在设置中选择你偏好的 IDE，然后刷新 CodexBar。";
+"jetbrains_detected_generate" = "检测到：%@。使用一次 AI 助手以生成配额数据，然后刷新 AnyCodex。";
+"jetbrains_detected_select" = "检测到：%@。在设置中选择你偏好的 IDE，然后刷新 AnyCodex。";
 "last_fetch_failed_with_provider" = "上次获取 %@ 失败：";
 "last_spend" = "上次支出：%@";
 "mcp_model_usage" = "%1$@：%2$@";
@@ -416,10 +416,10 @@
 "metric_primary" = "主要（%@）";
 "metric_secondary" = "次要（%@）";
 "metric_tertiary" = "第三（%@）";
-"multiple_workspaces_found" = "CodexBar 发现 %@ 有多个工作区。请选择要添加的工作区。";
+"multiple_workspaces_found" = "AnyCodex 发现 %@ 有多个工作区。请选择要添加的工作区。";
 "ory_session_…=…; csrftoken=…" = "ory_session_…=…; csrftoken=…";
 "overview_choose_providers" = "最多选择 %@ 个提供商";
-"remove_account_message" = "要从 CodexBar 中移除 %@ 吗？其托管的 Codex 主目录将被删除。";
+"remove_account_message" = "要从 AnyCodex 中移除 %@ 吗？其托管的 Codex 主目录将被删除。";
 "version_format" = "版本 %@";
 "workspaceID is set but only opencode, opencodego, and deepgram support workspaceID." = "已设置 workspaceID，但只有 opencode、opencodego 和 deepgram 支持 workspaceID。";
 "© 2026 Peter Steinberger. MIT License." = "© 2026 Peter Steinberger。MIT 许可证。";
@@ -453,7 +453,7 @@
 "language_italian" = "Italiano";
 "language_polish" = "Polski";
 "start_at_login_title" = "开机启动";
-"start_at_login_subtitle" = "启动 Mac 时自动打开 CodexBar。";
+"start_at_login_subtitle" = "启动 Mac 时自动打开 AnyCodex。";
 "show_cost_summary_subtitle" = "读取本地用量日志。在菜单中显示今天及所选历史窗口的费用。";
 "cost_summary_style_title" = "显示样式";
 "cost_summary_style_inline" = "仅内联";
@@ -502,7 +502,7 @@
 "quota_warning_warning" = "警告";
 "quota_warning_critical" = "严重";
 "apply" = "应用";
-"quit_app" = "退出 CodexBar";
+"quit_app" = "退出 AnyCodex";
 "tab_general" = "通用";
 "tab_providers" = "提供商";
 "tab_notifications" = "通知";
@@ -522,8 +522,8 @@
 "managed_login_failed" = "托管 Codex 登录未完成。请先在终端确认 `codex --version` 可以运行。如果 macOS 阻止了 `codex` 或将它移到废纸篓，请移除旧的重复安装，运行 `npm install -g --include=optional @openai/codex@latest`，然后重试。";
 "codex_login_output" = "codex login 输出：";
 "managed_login_missing_email" = "Codex 登录已完成，但无法获取账户邮箱。请在确认账户已完全登录后重试。";
-"workspace_selection_cancelled" = "CodexBar 发现多个工作区，但未选择任何工作区。";
-"unsafe_managed_home" = "CodexBar 拒绝修改意外的托管主目录路径：%@";
+"workspace_selection_cancelled" = "AnyCodex 发现多个工作区，但未选择任何工作区。";
+"unsafe_managed_home" = "AnyCodex 拒绝修改意外的托管主目录路径：%@";
 "menu_bar_metric_title" = "菜单栏指标";
 "menu_bar_metric_subtitle" = "选择哪个窗口驱动菜单栏百分比。";
 "menu_bar_metric_subtitle_deepseek" = "在菜单栏显示 DeepSeek 余额。";
@@ -699,14 +699,14 @@
 "refresh_adaptive" = "自适应";
 "refresh_adaptive_agent_aware" = "自适应（感知智能体活动）";
 "adaptive_activity_consent_title" = "允许根据活动自适应刷新？";
-"adaptive_activity_consent_message" = "感知智能体活动的自适应模式可以检查本地运行中的进程列表（包括命令行）来识别 Codex 和 Claude，并在你编写代码时每 30 秒读取一次已知的会话元数据。关闭 Agent Sessions 时，CodexBar 仅在内存中使用最近一次活动时间，并丢弃会话路径和身份信息。此数据不会发送到任何地方，远程探测和 SSH 保持关闭。如果拒绝，CodexBar 将返回不扫描本地活动的普通自适应模式。";
+"adaptive_activity_consent_message" = "感知智能体活动的自适应模式可以检查本地运行中的进程列表（包括命令行）来识别 Codex 和 Claude，并在你编写代码时每 30 秒读取一次已知的会话元数据。关闭 Agent Sessions 时，AnyCodex 仅在内存中使用最近一次活动时间，并丢弃会话路径和身份信息。此数据不会发送到任何地方，远程探测和 SSH 保持关闭。如果拒绝，AnyCodex 将返回不扫描本地活动的普通自适应模式。";
 "adaptive_activity_consent_allow" = "允许本地活动";
 "adaptive_activity_consent_decline" = "使用普通自适应模式";
 "not_found" = "未找到";
-"CodexBar can't show its menu bar icon" = "CodexBar 无法显示菜单栏图标";
+"CodexBar can't show its menu bar icon" = "AnyCodex 无法显示菜单栏图标";
 "Dismiss" = "关闭";
 "Open Menu Bar Settings" = "打开菜单栏设置";
-"macOS Tahoe can block menu bar apps in System Settings → Menu Bar → Allow in the Menu Bar. CodexBar is running, but macOS may be hiding its icon. Open Menu Bar settings and turn CodexBar on." = "macOS Tahoe 可能会在“系统设置”→“菜单栏”→“允许显示在菜单栏”中阻止菜单栏应用。CodexBar 正在运行，但 macOS 可能隐藏了它的图标。请打开菜单栏设置并启用 CodexBar。";
+"macOS Tahoe can block menu bar apps in System Settings → Menu Bar → Allow in the Menu Bar. CodexBar is running, but macOS may be hiding its icon. Open Menu Bar settings and turn CodexBar on." = "macOS Tahoe 可能会在“系统设置”→“菜单栏”→“允许显示在菜单栏”中阻止菜单栏应用。AnyCodex 正在运行，但 macOS 可能隐藏了它的图标。请打开菜单栏设置并启用 AnyCodex。";
 "cost_estimate_hint" = "根据本地日志估算 · 可能与账单不同";
 "codex_api_estimate_hint" = "根据 Token 用量估算 · 不是订阅账单";
 "cost_data_explanation" = "费用可能由提供商报告，也可能根据 Token 用量按公开 API 价格估算。估算值不是订阅费用。";
@@ -735,7 +735,7 @@
 "No local data found" = "未找到本地数据";
 "Credits unavailable; keep Codex running to refresh." = "额度暂不可用；请保持 Codex 运行后再刷新。";
 "No available fetch strategy for minimax." = "没有可用的 MiniMax 抓取策略。";
-"No Cursor session found. Please log in to cursor.com in Safari, Chrome, Microsoft Edge, Brave, Arc, Dia, ChatGPT Atlas, Chromium, Helium, Vivaldi, Yandex Browser, Firefox, Zen, Colibri, Sidekick, Opera, Opera GX, or Edge Canary. If you use Safari, grant CodexBar Full Disk Access in System Settings ▸ Privacy & Security. You can also sign in to Cursor from the CodexBar menu (Add / switch account)." = "未找到 Cursor 会话。请在 Safari、Chrome、Microsoft Edge、Brave、Arc、Dia、ChatGPT Atlas、Chromium、Helium、Vivaldi、Yandex Browser、Firefox、Zen、Colibri、Sidekick、Opera、Opera GX 或 Edge Canary 中登录 cursor.com。若使用 Safari，请在“系统设置 ▸ 隐私与安全性”中授予 CodexBar“完全磁盘访问权限”。你也可以在 CodexBar 菜单中登录 Cursor（添加/切换账户）。";
+"No Cursor session found. Please log in to cursor.com in Safari, Chrome, Microsoft Edge, Brave, Arc, Dia, ChatGPT Atlas, Chromium, Helium, Vivaldi, Yandex Browser, Firefox, Zen, Colibri, Sidekick, Opera, Opera GX, or Edge Canary. If you use Safari, grant CodexBar Full Disk Access in System Settings ▸ Privacy & Security. You can also sign in to Cursor from the CodexBar menu (Add / switch account)." = "未找到 Cursor 会话。请在 Safari、Chrome、Microsoft Edge、Brave、Arc、Dia、ChatGPT Atlas、Chromium、Helium、Vivaldi、Yandex Browser、Firefox、Zen、Colibri、Sidekick、Opera、Opera GX 或 Edge Canary 中登录 cursor.com。若使用 Safari，请在“系统设置 ▸ 隐私与安全性”中授予 AnyCodex“完全磁盘访问权限”。你也可以在 AnyCodex 菜单中登录 Cursor（添加/切换账户）。";
 "No OpenCode session cookies found in browsers." = "在浏览器中未找到 OpenCode 会话 Cookie。";
 "No available fetch strategy for %@." = "%@ 暂无可用的获取策略。";
 "Today" = "今日";
@@ -751,7 +751,7 @@
 "Status Page" = "状态页";
 "Open Status Page" = "打开状态页";
 "Settings..." = "设置…";
-"About CodexBar" = "关于 CodexBar";
+"About CodexBar" = "关于 AnyCodex";
 "Quit" = "退出";
 "Last %d day" = "近 %d 天";
 "Last %d days" = "近 %d 天";
@@ -1007,31 +1007,31 @@
 "Capacity Start" = "容量起点";
 "Changelog" = "变更记录";
 "Choose the Moonshot/Kimi API host for international or China mainland accounts." = "选择国际或中国大陆账号使用的 Moonshot/Kimi API 主机。";
-"CodexBar can't replace a system account that is signed in with an API key only setup." = "CodexBar 无法替换仅使用 API 密钥登录设置的系统账号。";
-"CodexBar could not find saved auth for that account. Re-authenticate it and try again." = "CodexBar 找不到该账号已保存的认证。请重新认证后再试。";
-"CodexBar could not read managed account storage. Recover the store before adding another account." = "CodexBar 无法读取托管账号存储区。请先修复存储区，再添加其他账号。";
-"CodexBar could not read saved auth for that account. Re-authenticate it and try again." = "CodexBar 无法读取该账号已保存的认证。请重新认证后再试。";
-"CodexBar could not read the current system account on this Mac." = "CodexBar 无法读取此 Mac 上当前的系统账号。";
-"CodexBar could not replace the live Codex auth on this Mac." = "CodexBar 无法替换此 Mac 上当前的 Codex 认证。";
-"CodexBar could not safely preserve the current system account before switching." = "CodexBar 无法在切换前安全保留当前的系统账号。";
-"CodexBar could not save the current system account before switching." = "CodexBar 无法在切换前保存当前的系统账号。";
-"CodexBar could not update managed account storage." = "CodexBar 无法更新托管账号存储区。";
-"CodexBar found another managed account that already uses the current system account. Resolve the duplicate account before switching." = "CodexBar 发现另一个托管账号已使用当前的系统账号。请先解决重复账号，再进行切换。";
-"CodexBar will ask macOS Keychain for “%@” so it can decrypt browser cookies and authenticate your account. Click OK to continue." = "CodexBar 将向 macOS 钥匙串请求“%@”，以解密浏览器 Cookie 并认证你的账号。点击“确定”继续。";
-"CodexBar will ask macOS Keychain for the Claude Code OAuth token so it can fetch your Claude usage. Click OK to continue." = "CodexBar 将向 macOS 钥匙串请求 Claude Code OAuth token，以获取你的 Claude 用量。点击“确定”继续。";
-"CodexBar will ask macOS Keychain for your Amp cookie header so it can fetch usage. Click OK to continue." = "CodexBar 将向 macOS 钥匙串请求你的 Amp Cookie 标头，以获取用量。点击“确定”继续。";
-"CodexBar will ask macOS Keychain for your Augment cookie header so it can fetch usage. Click OK to continue." = "CodexBar 将向 macOS 钥匙串请求你的 Augment Cookie 标头，以获取用量。点击“确定”继续。";
-"CodexBar will ask macOS Keychain for your Claude cookie header so it can fetch Claude web usage. Click OK to continue." = "CodexBar 将向 macOS 钥匙串请求你的 Claude Cookie 标头，以获取 Claude 网页用量。点击“确定”继续。";
-"CodexBar will ask macOS Keychain for your Cursor cookie header so it can fetch usage. Click OK to continue." = "CodexBar 将向 macOS 钥匙串请求你的 Cursor Cookie 标头，以获取用量。点击“确定”继续。";
-"CodexBar will ask macOS Keychain for your Factory cookie header so it can fetch usage. Click OK to continue." = "CodexBar 将向 macOS 钥匙串请求你的 Factory Cookie 标头，以获取用量。点击“确定”继续。";
-"CodexBar will ask macOS Keychain for your GitHub Copilot token so it can fetch usage. Click OK to continue." = "CodexBar 将向 macOS 钥匙串请求你的 GitHub Copilot token，以获取用量。点击“确定”继续。";
-"CodexBar will ask macOS Keychain for your Kimi auth token so it can fetch usage. Click OK to continue." = "CodexBar 将向 macOS 钥匙串请求你的 Kimi 认证 token，以获取用量。点击“确定”继续。";
-"CodexBar will ask macOS Keychain for your MiniMax API token so it can fetch usage. Click OK to continue." = "CodexBar 将向 macOS 钥匙串请求你的 MiniMax API token，以获取用量。点击“确定”继续。";
-"CodexBar will ask macOS Keychain for your MiniMax cookie header so it can fetch usage. Click OK to continue." = "CodexBar 将向 macOS 钥匙串请求你的 MiniMax Cookie 标头，以获取用量。点击“确定”继续。";
-"CodexBar will ask macOS Keychain for your OpenAI cookie header so it can fetch Codex dashboard extras. Click OK to continue." = "CodexBar 将向 macOS 钥匙串请求你的 OpenAI Cookie 标头，以获取 Codex 仪表盘额外数据。点击“确定”继续。";
-"CodexBar will ask macOS Keychain for your OpenCode cookie header so it can fetch usage. Click OK to continue." = "CodexBar 将向 macOS 钥匙串请求你的 OpenCode Cookie 标头，以获取用量。点击“确定”继续。";
-"CodexBar will ask macOS Keychain for your Synthetic API key so it can fetch usage. Click OK to continue." = "CodexBar 将向 macOS 钥匙串请求你的 Synthetic API 密钥，以获取用量。点击“确定”继续。";
-"CodexBar will ask macOS Keychain for your z.ai API token so it can fetch usage. Click OK to continue." = "CodexBar 将向 macOS 钥匙串请求你的 z.ai API token，以获取用量。点击“确定”继续。";
+"CodexBar can't replace a system account that is signed in with an API key only setup." = "AnyCodex 无法替换仅使用 API 密钥登录设置的系统账号。";
+"CodexBar could not find saved auth for that account. Re-authenticate it and try again." = "AnyCodex 找不到该账号已保存的认证。请重新认证后再试。";
+"CodexBar could not read managed account storage. Recover the store before adding another account." = "AnyCodex 无法读取托管账号存储区。请先修复存储区，再添加其他账号。";
+"CodexBar could not read saved auth for that account. Re-authenticate it and try again." = "AnyCodex 无法读取该账号已保存的认证。请重新认证后再试。";
+"CodexBar could not read the current system account on this Mac." = "AnyCodex 无法读取此 Mac 上当前的系统账号。";
+"CodexBar could not replace the live Codex auth on this Mac." = "AnyCodex 无法替换此 Mac 上当前的 Codex 认证。";
+"CodexBar could not safely preserve the current system account before switching." = "AnyCodex 无法在切换前安全保留当前的系统账号。";
+"CodexBar could not save the current system account before switching." = "AnyCodex 无法在切换前保存当前的系统账号。";
+"CodexBar could not update managed account storage." = "AnyCodex 无法更新托管账号存储区。";
+"CodexBar found another managed account that already uses the current system account. Resolve the duplicate account before switching." = "AnyCodex 发现另一个托管账号已使用当前的系统账号。请先解决重复账号，再进行切换。";
+"CodexBar will ask macOS Keychain for “%@” so it can decrypt browser cookies and authenticate your account. Click OK to continue." = "AnyCodex 将向 macOS 钥匙串请求“%@”，以解密浏览器 Cookie 并认证你的账号。点击“确定”继续。";
+"CodexBar will ask macOS Keychain for the Claude Code OAuth token so it can fetch your Claude usage. Click OK to continue." = "AnyCodex 将向 macOS 钥匙串请求 Claude Code OAuth token，以获取你的 Claude 用量。点击“确定”继续。";
+"CodexBar will ask macOS Keychain for your Amp cookie header so it can fetch usage. Click OK to continue." = "AnyCodex 将向 macOS 钥匙串请求你的 Amp Cookie 标头，以获取用量。点击“确定”继续。";
+"CodexBar will ask macOS Keychain for your Augment cookie header so it can fetch usage. Click OK to continue." = "AnyCodex 将向 macOS 钥匙串请求你的 Augment Cookie 标头，以获取用量。点击“确定”继续。";
+"CodexBar will ask macOS Keychain for your Claude cookie header so it can fetch Claude web usage. Click OK to continue." = "AnyCodex 将向 macOS 钥匙串请求你的 Claude Cookie 标头，以获取 Claude 网页用量。点击“确定”继续。";
+"CodexBar will ask macOS Keychain for your Cursor cookie header so it can fetch usage. Click OK to continue." = "AnyCodex 将向 macOS 钥匙串请求你的 Cursor Cookie 标头，以获取用量。点击“确定”继续。";
+"CodexBar will ask macOS Keychain for your Factory cookie header so it can fetch usage. Click OK to continue." = "AnyCodex 将向 macOS 钥匙串请求你的 Factory Cookie 标头，以获取用量。点击“确定”继续。";
+"CodexBar will ask macOS Keychain for your GitHub Copilot token so it can fetch usage. Click OK to continue." = "AnyCodex 将向 macOS 钥匙串请求你的 GitHub Copilot token，以获取用量。点击“确定”继续。";
+"CodexBar will ask macOS Keychain for your Kimi auth token so it can fetch usage. Click OK to continue." = "AnyCodex 将向 macOS 钥匙串请求你的 Kimi 认证 token，以获取用量。点击“确定”继续。";
+"CodexBar will ask macOS Keychain for your MiniMax API token so it can fetch usage. Click OK to continue." = "AnyCodex 将向 macOS 钥匙串请求你的 MiniMax API token，以获取用量。点击“确定”继续。";
+"CodexBar will ask macOS Keychain for your MiniMax cookie header so it can fetch usage. Click OK to continue." = "AnyCodex 将向 macOS 钥匙串请求你的 MiniMax Cookie 标头，以获取用量。点击“确定”继续。";
+"CodexBar will ask macOS Keychain for your OpenAI cookie header so it can fetch Codex dashboard extras. Click OK to continue." = "AnyCodex 将向 macOS 钥匙串请求你的 OpenAI Cookie 标头，以获取 Codex 仪表盘额外数据。点击“确定”继续。";
+"CodexBar will ask macOS Keychain for your OpenCode cookie header so it can fetch usage. Click OK to continue." = "AnyCodex 将向 macOS 钥匙串请求你的 OpenCode Cookie 标头，以获取用量。点击“确定”继续。";
+"CodexBar will ask macOS Keychain for your Synthetic API key so it can fetch usage. Click OK to continue." = "AnyCodex 将向 macOS 钥匙串请求你的 Synthetic API 密钥，以获取用量。点击“确定”继续。";
+"CodexBar will ask macOS Keychain for your z.ai API token so it can fetch usage. Click OK to continue." = "AnyCodex 将向 macOS 钥匙串请求你的 z.ai API token，以获取用量。点击“确定”继续。";
 "Could not open Cursor login in your browser." = "无法在浏览器中打开 Cursor 登录。";
 "Could not open browser for Antigravity" = "无法为 Antigravity 打开浏览器";
 "Credits used" = "已用额度";
@@ -1046,7 +1046,7 @@
 "Extra usage balance: %@" = "额外使用量余额：%@";
 "Keychain Access Required" = "需要钥匙串访问权限";
 "keychain_prompt_learn_more" = "了解更多…";
-"keychain_prompt_privacy_note" = "Mac 登录密码由 macOS（而非 CodexBar）处理。你可以随时在“设置”→“高级”中停用所有钥匙串访问。";
+"keychain_prompt_privacy_note" = "Mac 登录密码由 macOS（而非 AnyCodex）处理。你可以随时在“设置”→“高级”中停用所有钥匙串访问。";
 "Kiro menu bar value" = "Kiro 菜单栏数值";
 "Label" = "标签";
 "No organizations loaded. Click Refresh after setting your API key." = "尚未加载组织。设置 API 密钥后点击“刷新”。";
@@ -1107,7 +1107,7 @@
 "Service" = "服务";
 "Show or hide Kiro credits, percent, or both next to the menu bar icon." = "在菜单栏图标旁显示或隐藏 Kiro 额度、百分比，或两者都显示。";
 "Show usage for organizations you belong to. Personal account is always shown." = "显示你所属组织的用量。个人账号始终显示。";
-"Sign in to cursor.com in your browser, then refresh Cursor in CodexBar." = "请在浏览器中登录 cursor.com，然后在 CodexBar 刷新 Cursor。";
+"Sign in to cursor.com in your browser, then refresh Cursor in CodexBar." = "请在浏览器中登录 cursor.com，然后在 AnyCodex 刷新 Cursor。";
 "Simulated error text" = "模拟错误文字";
 "StepFun platform account (phone number or email)." = "StepFun 平台账号（手机号或电子邮件）。";
 "Stored in ~/.codexbar/config.json." = "存储在 ~/.codexbar/config.json 中。";
@@ -1123,12 +1123,12 @@
 "Stored in ~/.codexbar/config.json. OPENAI_ADMIN_KEY is preferred; OPENAI_API_KEY still works." = "存储在 ~/.codexbar/config.json 中。优先使用 OPENAI_ADMIN_KEY；OPENAI_API_KEY 仍可使用。";
 "Stored in ~/.codexbar/config.json. Requires an Anthropic Admin API key." = "存储在 ~/.codexbar/config.json 中。需要 Anthropic Admin API 密钥。";
 "Stored in ~/.codexbar/config.json. Used for /v1/quota-stats." = "存储在 ~/.codexbar/config.json 中。用于 /v1/quota-stats。";
-"Stored in ~/.codexbar/config.json. You can also provide CODEBUFF_API_KEY or let CodexBar read ~/.config/manicode/credentials.json (created by `codebuff login`)." = "存储在 ~/.codexbar/config.json 中。你也可以提供 CODEBUFF_API_KEY，或让 CodexBar 读取由 `codebuff login` 创建的 ~/.config/manicode/credentials.json。";
+"Stored in ~/.codexbar/config.json. You can also provide CODEBUFF_API_KEY or let CodexBar read ~/.config/manicode/credentials.json (created by `codebuff login`)." = "存储在 ~/.codexbar/config.json 中。你也可以提供 CODEBUFF_API_KEY，或让 AnyCodex 读取由 `codebuff login` 创建的 ~/.config/manicode/credentials.json。";
 "Stored in ~/.codexbar/config.json. You can also provide CROF_API_KEY." = "存储在 ~/.codexbar/config.json 中。你也可以提供 CROF_API_KEY。";
 "Stored in ~/.codexbar/config.json. You can also provide KILO_API_KEY or ~/.local/share/kilo/auth.json (kilo.access)." = "存储在 ~/.codexbar/config.json 中。你也可以提供 KILO_API_KEY 或 ~/.local/share/kilo/auth.json（kilo.access）。";
 "T3 Chat cookie" = "T3 Chat Cookie";
 "Team mode" = "团队模式";
-"That account is no longer available in CodexBar. Refresh the account list and try again." = "该账号已无法在 CodexBar 中使用。请刷新账号列表后再试。";
+"That account is no longer available in CodexBar. Refresh the account list and try again." = "该账号已无法在 AnyCodex 中使用。请刷新账号列表后再试。";
 "The browser login did not complete in time. Try Antigravity login again." = "浏览器登录未在时限内完成。请再次尝试 Antigravity 登录。";
 "Timed out waiting for Cursor login. %@" = "等待 Cursor 登录超时。%@";
 "Timed out waiting for Cursor login. %@ Last error: %@" = "等待 Cursor 登录超时。%@ 最后错误：%@";
@@ -1213,11 +1213,11 @@
 
 "%@: %@" = "%@：%@";
 "Alternatively, set a custom path in Settings." = "或者在“设置”中指定自定义路径。";
-"Choose a supported browser so CodexBar can read the matching account." = "选择一个受支持的浏览器，以便 CodexBar 读取对应账户。";
+"Choose a supported browser so CodexBar can read the matching account." = "选择一个受支持的浏览器，以便 AnyCodex 读取对应账户。";
 "Choose Cursor account" = "选择 Cursor 账户";
-"Choose which Cursor account CodexBar should use." = "选择 CodexBar 应使用的 Cursor 账户。";
+"Choose which Cursor account CodexBar should use." = "选择 AnyCodex 应使用的 Cursor 账户。";
 "Finish switching to a different Cursor account in your browser, then try again." = "在浏览器中完成切换到其他 Cursor 账户，然后重试。";
-"Install a JetBrains IDE with AI Assistant enabled, then refresh CodexBar." = "安装并启用 JetBrains IDE 的 AI Assistant，然后刷新 CodexBar。";
+"Install a JetBrains IDE with AI Assistant enabled, then refresh CodexBar." = "安装并启用 JetBrains IDE 的 AI Assistant，然后刷新 AnyCodex。";
 "Sign in with Claude Code..." = "使用 Claude Code 登录...";
 "Timed out waiting for Cursor account switch. %@" = "等待切换 Cursor 账户超时。%@";
 "Timed out waiting for Cursor account switch. %@ Last error: %@" = "等待切换 Cursor 账户超时。%@ 最近错误：%@";
@@ -1317,3 +1317,12 @@
 "Cost today unavailable" = "今日费用: 不可用";
 "30-day cost unavailable" = "30 天费用: 不可用";
 "Resets" = "重置";
+
+/* AnyCodex: embedded opencodex proxy */
+"opencodex_proxy_running" = "opencodex 代理：运行中（端口 %d）";
+"opencodex_proxy_starting" = "opencodex 代理：正在启动…";
+"opencodex_proxy_stopped" = "opencodex 代理：已停止";
+"opencodex_proxy_error" = "opencodex 代理：%@";
+"Manage AI Providers..." = "管理 AI 供应商…";
+"Start opencodex Proxy" = "启动 opencodex 代理";
+"Stop opencodex Proxy" = "停止 opencodex 代理";

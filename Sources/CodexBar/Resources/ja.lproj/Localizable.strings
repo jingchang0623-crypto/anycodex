@@ -1,4 +1,4 @@
-/* Japanese localization for CodexBar */
+/* Japanese localization for AnyCodex */
 
 "tab_hooks" = "フック";
 "hooks_enable_title" = "フックを有効にする";
@@ -20,9 +20,9 @@
 "hooks_add_argument" = "引数を追加";
 "hooks_delete_argument" = "引数を削除";
 
-"ollama_safari_cookie_access_hint" = "Safari Cookie を読み込むには、CodexBar にフルディスクアクセスが必要です（システム設定 > プライバシーとセキュリティ）。";
+"ollama_safari_cookie_access_hint" = "Safari Cookie を読み込むには、AnyCodex にフルディスクアクセスが必要です（システム設定 > プライバシーとセキュリティ）。";
 "ollama_browser_cookie_decryption_denied" = "%@ Cookie の復号がキーチェーンで拒否されました。手動で更新して再試行してください。";
-"ollama_browser_cookie_decryption_disabled" = "%@ Cookie の復号が CodexBar で無効です。キーチェーンへのアクセスを有効にして更新してください。";
+"ollama_browser_cookie_decryption_disabled" = "%@ Cookie の復号が AnyCodex で無効です。キーチェーンへのアクセスを有効にして更新してください。";
 
 " providers" = " 件のプロバイダ";
 "(System)" = "（システム）";
@@ -62,7 +62,7 @@
 "Automatic imports browser cookies or stored sessions." = "自動では、ブラウザの Cookie または保存済みセッションを読み込みます。";
 "Automatic imports browser cookies." = "自動では、ブラウザの Cookie を読み込みます。";
 "Automatically imports browser session cookie." = "ブラウザのセッション Cookie を自動的に読み込みます。";
-"Automatically opens CodexBar when you start your Mac." = "Mac の起動時に CodexBar を自動的に開きます。";
+"Automatically opens CodexBar when you start your Mac." = "Mac の起動時に AnyCodex を自動的に開きます。";
 "Automation" = "オートメーション";
 "Average (\\(label1) + \\(label2))" = "平均 (\\(label1) + \\(label2))";
 "Average (\\(metadata.sessionLabel) + \\(metadata.weeklyLabel))" = "平均 (\\(metadata.sessionLabel) + \\(metadata.weeklyLabel))";
@@ -88,7 +88,7 @@
 "Choose up to \\(Self.maxOverviewProviders) providers" = "最大 \\(Self.maxOverviewProviders) 件のプロバイダを選択";
 "Choose up to \\(count) providers" = "最大 \\(count) 件のプロバイダを選択";
 "Choose what to show in the menu bar (Pace shows usage vs. expected)." = "メニューバーに表示する内容を選択します（ペースは想定に対する使用量を表示します）。";
-"Choose which Codex account CodexBar should follow." = "CodexBar が追跡する Codex アカウントを選択します。";
+"Choose which Codex account CodexBar should follow." = "AnyCodex が追跡する Codex アカウントを選択します。";
 "Choose which window drives the menu bar percent." = "メニューバーのパーセント表示に使用するウインドウを選択します。";
 "Chrome" = "Chrome";
 "Claude CLI not found" = "Claude CLI が見つかりません";
@@ -103,9 +103,9 @@
 "Codex binary" = "Codex バイナリ";
 "Codex login failed" = "Codex のログインに失敗しました";
 "Codex login timed out" = "Codex のログインがタイムアウトしました";
-"CodexBar Lifecycle Keepalive" = "CodexBar ライフサイクルキープアライブ";
-"CodexBar can't show its menu bar icon" = "CodexBar はメニューバーアイコンを表示できません";
-"CodexBar could not read managed account storage. " = "CodexBar は管理対象アカウントのストレージを読み取れませんでした。";
+"CodexBar Lifecycle Keepalive" = "AnyCodex ライフサイクルキープアライブ";
+"CodexBar can't show its menu bar icon" = "AnyCodex はメニューバーアイコンを表示できません";
+"CodexBar could not read managed account storage. " = "AnyCodex は管理対象アカウントのストレージを読み取れませんでした。";
 "Configure…" = "設定…";
 "Connected" = "接続済み";
 "Controls how much detail is logged." = "記録するログの詳細度を制御します。";
@@ -167,7 +167,7 @@
 "Hide details" = "詳細を非表示";
 "Hide personal information" = "個人情報を非表示";
 "Historical tracking" = "履歴トラッキング";
-"How often CodexBar polls providers in the background." = "CodexBar がバックグラウンドでプロバイダをポーリングする頻度です。";
+"How often CodexBar polls providers in the background." = "AnyCodex がバックグラウンドでプロバイダをポーリングする頻度です。";
 "Inactive" = "非アクティブ";
 "Install CLI" = "CLI をインストール";
 "Install the Claude CLI (npm i -g @anthropic-ai/claude-code) and try again." = "Claude CLI をインストールして（npm i -g @anthropic-ai/claude-code）、もう一度お試しください。";
@@ -225,7 +225,7 @@
 "Open" = "開く";
 "Open API Keys" = "API キーを開く";
 "Open Amp Settings" = "Amp の設定を開く";
-"Open Antigravity to sign in, then refresh CodexBar." = "Antigravity を開いてサインインしてから、CodexBar を更新してください。";
+"Open Antigravity to sign in, then refresh CodexBar." = "Antigravity を開いてサインインしてから、AnyCodex を更新してください。";
 "Open Browser" = "ブラウザを開く";
 "Open Coding Plan" = "コーディングプランを開く";
 "Open Console" = "コンソールを開く";
@@ -270,7 +270,7 @@
 "Progress bars fill as you consume quota (instead of showing remaining)." = "プログレスバーは（残量表示ではなく）クォータの消費に応じて満たされていきます。";
 "Provider" = "プロバイダ";
 "Providers" = "プロバイダ";
-"Quit CodexBar" = "CodexBar を終了";
+"Quit CodexBar" = "AnyCodex を終了";
 "Random (default)" = "ランダム（デフォルト）";
 "Reads local usage logs. Shows today + last 30 days cost in the menu." = "ローカルの使用ログを読み取り、今日のコストと選択した履歴期間のコストをメニューに表示します。";
 "Refresh" = "更新";
@@ -278,8 +278,8 @@
 "Remote" = "リモート";
 "Remove" = "削除";
 "Remove Codex account?" = "Codex アカウントを削除しますか？";
-"Remove \\(account.email) from CodexBar? Its managed Codex home will be deleted." = "\\(account.email) を CodexBar から削除しますか？管理対象の Codex ホームは削除されます。";
-"Remove \\(email) from CodexBar? Its managed Codex home will be deleted." = "\\(email) を CodexBar から削除しますか？管理対象の Codex ホームは削除されます。";
+"Remove \\(account.email) from CodexBar? Its managed Codex home will be deleted." = "\\(account.email) を AnyCodex から削除しますか？管理対象の Codex ホームは削除されます。";
+"Remove \\(email) from CodexBar? Its managed Codex home will be deleted." = "\\(email) を AnyCodex から削除しますか？管理対象の Codex ホームは削除されます。";
 "Remove selected account" = "選択したアカウントを削除";
 "Replace critter bars with provider branding icons and a percentage." = "クリッターバーをプロバイダのブランドアイコンとパーセント表示に置き換えます。";
 "Replay selected animation" = "選択したアニメーションを再生";
@@ -320,7 +320,7 @@
 "Store multiple Ollama Cookie headers." = "複数の Ollama Cookie ヘッダーを保存します。";
 "Store multiple OpenCode Cookie headers." = "複数の OpenCode Cookie ヘッダーを保存します。";
 "Store multiple OpenCode Go Cookie headers." = "複数の OpenCode Go Cookie ヘッダーを保存します。";
-"Stored in the CodexBar config file." = "CodexBar の設定ファイルに保存されます。";
+"Stored in the CodexBar config file." = "AnyCodex の設定ファイルに保存されます。";
 "Stored in ~/.codexbar/config.json. " = "~/.codexbar/config.json に保存されます。 ";
 "Stored in ~/.codexbar/config.json. Paste the key from the Synthetic dashboard." = "~/.codexbar/config.json に保存されます。Synthetic ダッシュボードのキーを貼り付けてください。";
 "Stored in ~/.codexbar/config.json. Paste your Coding Plan API key from Model Studio." = "~/.codexbar/config.json に保存されます。Model Studio の Coding Plan API キーを貼り付けてください。";
@@ -395,8 +395,8 @@
 "cursor_on_demand" = "オンデマンド: %@";
 "cursor_on_demand_with_limit" = "オンデマンド: %1$@ / %2$@";
 "extra_usage_format" = "追加使用量: %1$@ / %2$@";
-"jetbrains_detected_generate" = "検出: %@。AI アシスタントを一度使用してクォータデータを生成してから、CodexBar を更新してください。";
-"jetbrains_detected_select" = "検出: %@。設定でお使いの IDE を選択してから、CodexBar を更新してください。";
+"jetbrains_detected_generate" = "検出: %@。AI アシスタントを一度使用してクォータデータを生成してから、AnyCodex を更新してください。";
+"jetbrains_detected_select" = "検出: %@。設定でお使いの IDE を選択してから、AnyCodex を更新してください。";
 "last_fetch_failed_with_provider" = "前回の %@ の取得に失敗しました:";
 "last_spend" = "直近の支出: %@";
 "mcp_model_usage" = "%1$@: %2$@";
@@ -406,10 +406,10 @@
 "metric_primary" = "プライマリ（%@）";
 "metric_secondary" = "セカンダリ（%@）";
 "metric_tertiary" = "第3（%@）";
-"multiple_workspaces_found" = "CodexBar は %@ の複数のワークスペースを見つけました。追加するワークスペースを選択してください。";
+"multiple_workspaces_found" = "AnyCodex は %@ の複数のワークスペースを見つけました。追加するワークスペースを選択してください。";
 "ory_session_…=…; csrftoken=…" = "ory_session_…=…; csrftoken=…";
 "overview_choose_providers" = "最大 %@ 個のプロバイダを選択";
-"remove_account_message" = "%@ を CodexBar から削除しますか？マネージド Codex ホームも削除されます。";
+"remove_account_message" = "%@ を AnyCodex から削除しますか？マネージド Codex ホームも削除されます。";
 "version_format" = "バージョン %@";
 "vertex_ai_login_instructions" = "Vertex AI の使用状況を追跡するには、Google Cloud で認証してください。\n\n1. ターミナルを開く\n2. 実行: gcloud auth application-default login\n3. ブラウザの指示に従ってサインイン\n4. プロジェクトを設定: gcloud config set project PROJECT_ID\n\n今すぐターミナルを開きますか？";
 "workspaceID is set but only opencode, opencodego, and deepgram support workspaceID." = "workspaceID が設定されていますが、workspaceID に対応しているのは opencode、opencodego、deepgram のみです。";
@@ -446,7 +446,7 @@
 "language_italian" = "イタリア語";
 "language_polish" = "ポーランド語";
 "start_at_login_title" = "ログイン時に起動";
-"start_at_login_subtitle" = "Mac の起動時に CodexBar を自動的に開きます。";
+"start_at_login_subtitle" = "Mac の起動時に AnyCodex を自動的に開きます。";
 "show_cost_summary_subtitle" = "ローカルの使用ログを読み取り、今日分と選択した履歴期間をメニューに表示します。";
 "cost_summary_style_title" = "表示スタイル";
 "cost_summary_style_inline" = "インラインのみ";
@@ -513,7 +513,7 @@
 "quota_warning_warning" = "警告";
 "quota_warning_critical" = "重大";
 "apply" = "適用";
-"quit_app" = "CodexBar を終了";
+"quit_app" = "AnyCodex を終了";
 
 /* Tab titles */
 "tab_general" = "一般";
@@ -539,8 +539,8 @@
 "managed_login_missing_email" = "Codex ログインは完了しましたが、アカウントのメールアドレスを取得できませんでした。アカウントが完全にサインインしていることを確認してから、再試行してください。";
 "login_success_notification_title" = "%@ のログインに成功しました";
 "login_success_notification_body" = "アプリに戻れます。認証が完了しました。";
-"workspace_selection_cancelled" = "CodexBar は複数のワークスペースを見つけましたが、ワークスペースが選択されませんでした。";
-"unsafe_managed_home" = "CodexBar は想定外のマネージドホームパスの変更を拒否しました: %@";
+"workspace_selection_cancelled" = "AnyCodex は複数のワークスペースを見つけましたが、ワークスペースが選択されませんでした。";
+"unsafe_managed_home" = "AnyCodex は想定外のマネージドホームパスの変更を拒否しました: %@";
 "menu_bar_metric_title" = "メニューバーの指標";
 "menu_bar_metric_subtitle" = "メニューバーのパーセント表示に使用するウインドウを選択します。";
 "menu_bar_metric_subtitle_deepseek" = "DeepSeek の残高をメニューバーに表示します。";
@@ -692,7 +692,7 @@
 "login_shell_path" = "ログインシェル PATH（起動時に取得）";
 "cleared" = "消去しました。";
 "no_fetch_attempts" = "取得の試行はまだありません。";
-"macOS Tahoe can block menu bar apps in System Settings → Menu Bar → Allow in the Menu Bar. CodexBar is running, but macOS may be hiding its icon. Open Menu Bar settings and turn CodexBar on." = "macOS Tahoe では、システム設定 → メニューバー → メニューバーに表示を許可 でメニューバーアプリがブロックされることがあります。CodexBar は実行中ですが、macOS がアイコンを非表示にしている可能性があります。メニューバー設定を開き、CodexBar をオンにしてください。";
+"macOS Tahoe can block menu bar apps in System Settings → Menu Bar → Allow in the Menu Bar. CodexBar is running, but macOS may be hiding its icon. Open Menu Bar settings and turn CodexBar on." = "macOS Tahoe では、システム設定 → メニューバー → メニューバーに表示を許可 でメニューバーアプリがブロックされることがあります。AnyCodex は実行中ですが、macOS がアイコンを非表示にしている可能性があります。メニューバー設定を開き、AnyCodex をオンにしてください。";
 
 /* Metric preferences */
 "metric_pref_automatic" = "自動";
@@ -735,7 +735,7 @@
 "refresh_adaptive" = "アダプティブ";
 "refresh_adaptive_agent_aware" = "アダプティブ（エージェント対応）";
 "adaptive_activity_consent_title" = "アクティビティ対応の更新を許可しますか？";
-"adaptive_activity_consent_message" = "エージェント対応のアダプティブ更新では、Codex と Claude を識別するために、コマンドラインを含むローカルの実行中プロセス一覧を調べ、コーディング中は既知のセッションメタデータを 30 秒ごとに読み取ることができます。Agent Sessions がオフの場合、CodexBar は最新のアクティビティ時刻だけをメモリで使用し、セッションのパスと識別情報を破棄します。このデータが外部に送信されることはなく、リモート検出と SSH はオフのままです。許可しない場合は、ローカルスキャンを行わない通常のアダプティブに戻ります。";
+"adaptive_activity_consent_message" = "エージェント対応のアダプティブ更新では、Codex と Claude を識別するために、コマンドラインを含むローカルの実行中プロセス一覧を調べ、コーディング中は既知のセッションメタデータを 30 秒ごとに読み取ることができます。Agent Sessions がオフの場合、AnyCodex は最新のアクティビティ時刻だけをメモリで使用し、セッションのパスと識別情報を破棄します。このデータが外部に送信されることはなく、リモート検出と SSH はオフのままです。許可しない場合は、ローカルスキャンを行わない通常のアダプティブに戻ります。";
 "adaptive_activity_consent_allow" = "ローカルアクティビティを許可";
 "adaptive_activity_consent_decline" = "通常のアダプティブを使用";
 
@@ -769,7 +769,7 @@
 "No local data found" = "ローカルデータが見つかりません";
 "Credits unavailable; keep Codex running to refresh." = "クレジット情報を取得できません。更新するには Codex を実行したままにしてください。";
 "No available fetch strategy for minimax." = "minimax に利用可能な取得戦略がありません。";
-"No Cursor session found. Please log in to cursor.com in Safari, Chrome, Microsoft Edge, Brave, Arc, Dia, ChatGPT Atlas, Chromium, Helium, Vivaldi, Yandex Browser, Firefox, Zen, Colibri, Sidekick, Opera, Opera GX, or Edge Canary. If you use Safari, grant CodexBar Full Disk Access in System Settings ▸ Privacy & Security. You can also sign in to Cursor from the CodexBar menu (Add / switch account)." = "Cursor のセッションが見つかりません。Safari、Chrome、Microsoft Edge、Brave、Arc、Dia、ChatGPT Atlas、Chromium、Helium、Vivaldi、Yandex Browser、Firefox、Zen、Colibri、Sidekick、Opera、Opera GX、または Edge Canary で cursor.com にログインしてください。Safari をお使いの場合は、システム設定 ▸ プライバシーとセキュリティ で CodexBar にフルディスクアクセスを許可してください。CodexBar のメニューから Cursor にサインインすることもできます（アカウントを追加/切り替え）。";
+"No Cursor session found. Please log in to cursor.com in Safari, Chrome, Microsoft Edge, Brave, Arc, Dia, ChatGPT Atlas, Chromium, Helium, Vivaldi, Yandex Browser, Firefox, Zen, Colibri, Sidekick, Opera, Opera GX, or Edge Canary. If you use Safari, grant CodexBar Full Disk Access in System Settings ▸ Privacy & Security. You can also sign in to Cursor from the CodexBar menu (Add / switch account)." = "Cursor のセッションが見つかりません。Safari、Chrome、Microsoft Edge、Brave、Arc、Dia、ChatGPT Atlas、Chromium、Helium、Vivaldi、Yandex Browser、Firefox、Zen、Colibri、Sidekick、Opera、Opera GX、または Edge Canary で cursor.com にログインしてください。Safari をお使いの場合は、システム設定 ▸ プライバシーとセキュリティ で AnyCodex にフルディスクアクセスを許可してください。AnyCodex のメニューから Cursor にサインインすることもできます（アカウントを追加/切り替え）。";
 "No OpenCode session cookies found in browsers." = "ブラウザに OpenCode のセッション Cookie が見つかりません。";
 "No available fetch strategy for %@." = "%@ に利用可能な取得戦略がありません。";
 "Today" = "今日";
@@ -785,7 +785,7 @@
 "Status Page" = "ステータスページ";
 "Open Status Page" = "ステータスページを開く";
 "Settings..." = "設定...";
-"About CodexBar" = "CodexBar について";
+"About CodexBar" = "AnyCodex について";
 "Quit" = "終了";
 "Last %d day" = "過去%d日間";
 "Last %d days" = "過去%d日間";
@@ -1033,31 +1033,31 @@
 "Capacity Start" = "キャパシティ開始";
 "Changelog" = "変更履歴";
 "Choose the Moonshot/Kimi API host for international or China mainland accounts." = "国際アカウントまたは中国本土アカウント用の Moonshot/Kimi API ホストを選択します。";
-"CodexBar can't replace a system account that is signed in with an API key only setup." = "CodexBar は、API キーのみの構成でサインインしているシステムアカウントを置き換えることはできません。";
-"CodexBar could not find saved auth for that account. Re-authenticate it and try again." = "CodexBar はそのアカウントの保存済み認証情報を見つけられませんでした。再認証してからやり直してください。";
-"CodexBar could not read managed account storage. Recover the store before adding another account." = "CodexBar は管理アカウントのストレージを読み取れませんでした。別のアカウントを追加する前にストアを復旧してください。";
-"CodexBar could not read saved auth for that account. Re-authenticate it and try again." = "CodexBar はそのアカウントの保存済み認証情報を読み取れませんでした。再認証してからやり直してください。";
-"CodexBar could not read the current system account on this Mac." = "CodexBar はこの Mac の現在のシステムアカウントを読み取れませんでした。";
-"CodexBar could not replace the live Codex auth on this Mac." = "CodexBar はこの Mac の現在使用中の Codex 認証情報を置き換えられませんでした。";
-"CodexBar could not safely preserve the current system account before switching." = "CodexBar は切り替え前に現在のシステムアカウントを安全に保全できませんでした。";
-"CodexBar could not save the current system account before switching." = "CodexBar は切り替え前に現在のシステムアカウントを保存できませんでした。";
-"CodexBar could not update managed account storage." = "CodexBar は管理アカウントのストレージを更新できませんでした。";
-"CodexBar found another managed account that already uses the current system account. Resolve the duplicate account before switching." = "CodexBar は、現在のシステムアカウントをすでに使用している別の管理アカウントを検出しました。切り替える前に重複アカウントを解消してください。";
-"CodexBar will ask macOS Keychain for “%@” so it can decrypt browser cookies and authenticate your account. Click OK to continue." = "CodexBar はブラウザの Cookie を復号してアカウントを認証するために、macOS キーチェーンに「%@」へのアクセスを求めます。続けるには OK をクリックしてください。";
-"CodexBar will ask macOS Keychain for the Claude Code OAuth token so it can fetch your Claude usage. Click OK to continue." = "CodexBar は Claude の使用量を取得するために、macOS キーチェーンに Claude Code の OAuth トークンへのアクセスを求めます。続けるには OK をクリックしてください。";
-"CodexBar will ask macOS Keychain for your Amp cookie header so it can fetch usage. Click OK to continue." = "CodexBar は使用量を取得するために、macOS キーチェーンに Amp の Cookie ヘッダーへのアクセスを求めます。続けるには OK をクリックしてください。";
-"CodexBar will ask macOS Keychain for your Augment cookie header so it can fetch usage. Click OK to continue." = "CodexBar は使用量を取得するために、macOS キーチェーンに Augment の Cookie ヘッダーへのアクセスを求めます。続けるには OK をクリックしてください。";
-"CodexBar will ask macOS Keychain for your Claude cookie header so it can fetch Claude web usage. Click OK to continue." = "CodexBar は Claude ウェブの使用量を取得するために、macOS キーチェーンに Claude の Cookie ヘッダーへのアクセスを求めます。続けるには OK をクリックしてください。";
-"CodexBar will ask macOS Keychain for your Cursor cookie header so it can fetch usage. Click OK to continue." = "CodexBar は使用量を取得するために、macOS キーチェーンに Cursor の Cookie ヘッダーへのアクセスを求めます。続けるには OK をクリックしてください。";
-"CodexBar will ask macOS Keychain for your Factory cookie header so it can fetch usage. Click OK to continue." = "CodexBar は使用量を取得するために、macOS キーチェーンに Factory の Cookie ヘッダーへのアクセスを求めます。続けるには OK をクリックしてください。";
-"CodexBar will ask macOS Keychain for your GitHub Copilot token so it can fetch usage. Click OK to continue." = "CodexBar は使用量を取得するために、macOS キーチェーンに GitHub Copilot のトークンへのアクセスを求めます。続けるには OK をクリックしてください。";
-"CodexBar will ask macOS Keychain for your Kimi auth token so it can fetch usage. Click OK to continue." = "CodexBar は使用量を取得するために、macOS キーチェーンに Kimi の認証トークンへのアクセスを求めます。続けるには OK をクリックしてください。";
-"CodexBar will ask macOS Keychain for your MiniMax API token so it can fetch usage. Click OK to continue." = "CodexBar は使用量を取得するために、macOS キーチェーンに MiniMax の API トークンへのアクセスを求めます。続けるには OK をクリックしてください。";
-"CodexBar will ask macOS Keychain for your MiniMax cookie header so it can fetch usage. Click OK to continue." = "CodexBar は使用量を取得するために、macOS キーチェーンに MiniMax の Cookie ヘッダーへのアクセスを求めます。続けるには OK をクリックしてください。";
-"CodexBar will ask macOS Keychain for your OpenAI cookie header so it can fetch Codex dashboard extras. Click OK to continue." = "CodexBar は Codex ダッシュボードの追加情報を取得するために、macOS キーチェーンに OpenAI の Cookie ヘッダーへのアクセスを求めます。続けるには OK をクリックしてください。";
-"CodexBar will ask macOS Keychain for your OpenCode cookie header so it can fetch usage. Click OK to continue." = "CodexBar は使用量を取得するために、macOS キーチェーンに OpenCode の Cookie ヘッダーへのアクセスを求めます。続けるには OK をクリックしてください。";
-"CodexBar will ask macOS Keychain for your Synthetic API key so it can fetch usage. Click OK to continue." = "CodexBar は使用量を取得するために、macOS キーチェーンに Synthetic の API キーへのアクセスを求めます。続けるには OK をクリックしてください。";
-"CodexBar will ask macOS Keychain for your z.ai API token so it can fetch usage. Click OK to continue." = "CodexBar は使用量を取得するために、macOS キーチェーンに z.ai の API トークンへのアクセスを求めます。続けるには OK をクリックしてください。";
+"CodexBar can't replace a system account that is signed in with an API key only setup." = "AnyCodex は、API キーのみの構成でサインインしているシステムアカウントを置き換えることはできません。";
+"CodexBar could not find saved auth for that account. Re-authenticate it and try again." = "AnyCodex はそのアカウントの保存済み認証情報を見つけられませんでした。再認証してからやり直してください。";
+"CodexBar could not read managed account storage. Recover the store before adding another account." = "AnyCodex は管理アカウントのストレージを読み取れませんでした。別のアカウントを追加する前にストアを復旧してください。";
+"CodexBar could not read saved auth for that account. Re-authenticate it and try again." = "AnyCodex はそのアカウントの保存済み認証情報を読み取れませんでした。再認証してからやり直してください。";
+"CodexBar could not read the current system account on this Mac." = "AnyCodex はこの Mac の現在のシステムアカウントを読み取れませんでした。";
+"CodexBar could not replace the live Codex auth on this Mac." = "AnyCodex はこの Mac の現在使用中の Codex 認証情報を置き換えられませんでした。";
+"CodexBar could not safely preserve the current system account before switching." = "AnyCodex は切り替え前に現在のシステムアカウントを安全に保全できませんでした。";
+"CodexBar could not save the current system account before switching." = "AnyCodex は切り替え前に現在のシステムアカウントを保存できませんでした。";
+"CodexBar could not update managed account storage." = "AnyCodex は管理アカウントのストレージを更新できませんでした。";
+"CodexBar found another managed account that already uses the current system account. Resolve the duplicate account before switching." = "AnyCodex は、現在のシステムアカウントをすでに使用している別の管理アカウントを検出しました。切り替える前に重複アカウントを解消してください。";
+"CodexBar will ask macOS Keychain for “%@” so it can decrypt browser cookies and authenticate your account. Click OK to continue." = "AnyCodex はブラウザの Cookie を復号してアカウントを認証するために、macOS キーチェーンに「%@」へのアクセスを求めます。続けるには OK をクリックしてください。";
+"CodexBar will ask macOS Keychain for the Claude Code OAuth token so it can fetch your Claude usage. Click OK to continue." = "AnyCodex は Claude の使用量を取得するために、macOS キーチェーンに Claude Code の OAuth トークンへのアクセスを求めます。続けるには OK をクリックしてください。";
+"CodexBar will ask macOS Keychain for your Amp cookie header so it can fetch usage. Click OK to continue." = "AnyCodex は使用量を取得するために、macOS キーチェーンに Amp の Cookie ヘッダーへのアクセスを求めます。続けるには OK をクリックしてください。";
+"CodexBar will ask macOS Keychain for your Augment cookie header so it can fetch usage. Click OK to continue." = "AnyCodex は使用量を取得するために、macOS キーチェーンに Augment の Cookie ヘッダーへのアクセスを求めます。続けるには OK をクリックしてください。";
+"CodexBar will ask macOS Keychain for your Claude cookie header so it can fetch Claude web usage. Click OK to continue." = "AnyCodex は Claude ウェブの使用量を取得するために、macOS キーチェーンに Claude の Cookie ヘッダーへのアクセスを求めます。続けるには OK をクリックしてください。";
+"CodexBar will ask macOS Keychain for your Cursor cookie header so it can fetch usage. Click OK to continue." = "AnyCodex は使用量を取得するために、macOS キーチェーンに Cursor の Cookie ヘッダーへのアクセスを求めます。続けるには OK をクリックしてください。";
+"CodexBar will ask macOS Keychain for your Factory cookie header so it can fetch usage. Click OK to continue." = "AnyCodex は使用量を取得するために、macOS キーチェーンに Factory の Cookie ヘッダーへのアクセスを求めます。続けるには OK をクリックしてください。";
+"CodexBar will ask macOS Keychain for your GitHub Copilot token so it can fetch usage. Click OK to continue." = "AnyCodex は使用量を取得するために、macOS キーチェーンに GitHub Copilot のトークンへのアクセスを求めます。続けるには OK をクリックしてください。";
+"CodexBar will ask macOS Keychain for your Kimi auth token so it can fetch usage. Click OK to continue." = "AnyCodex は使用量を取得するために、macOS キーチェーンに Kimi の認証トークンへのアクセスを求めます。続けるには OK をクリックしてください。";
+"CodexBar will ask macOS Keychain for your MiniMax API token so it can fetch usage. Click OK to continue." = "AnyCodex は使用量を取得するために、macOS キーチェーンに MiniMax の API トークンへのアクセスを求めます。続けるには OK をクリックしてください。";
+"CodexBar will ask macOS Keychain for your MiniMax cookie header so it can fetch usage. Click OK to continue." = "AnyCodex は使用量を取得するために、macOS キーチェーンに MiniMax の Cookie ヘッダーへのアクセスを求めます。続けるには OK をクリックしてください。";
+"CodexBar will ask macOS Keychain for your OpenAI cookie header so it can fetch Codex dashboard extras. Click OK to continue." = "AnyCodex は Codex ダッシュボードの追加情報を取得するために、macOS キーチェーンに OpenAI の Cookie ヘッダーへのアクセスを求めます。続けるには OK をクリックしてください。";
+"CodexBar will ask macOS Keychain for your OpenCode cookie header so it can fetch usage. Click OK to continue." = "AnyCodex は使用量を取得するために、macOS キーチェーンに OpenCode の Cookie ヘッダーへのアクセスを求めます。続けるには OK をクリックしてください。";
+"CodexBar will ask macOS Keychain for your Synthetic API key so it can fetch usage. Click OK to continue." = "AnyCodex は使用量を取得するために、macOS キーチェーンに Synthetic の API キーへのアクセスを求めます。続けるには OK をクリックしてください。";
+"CodexBar will ask macOS Keychain for your z.ai API token so it can fetch usage. Click OK to continue." = "AnyCodex は使用量を取得するために、macOS キーチェーンに z.ai の API トークンへのアクセスを求めます。続けるには OK をクリックしてください。";
 "Could not open Cursor login in your browser." = "ブラウザで Cursor のログイン画面を開けませんでした。";
 "Could not open browser for Antigravity" = "Antigravity 用のブラウザを開けませんでした";
 "Credits used" = "使用済みクレジット";
@@ -1072,7 +1072,7 @@
 "Extra usage balance: %@" = "追加使用量の残高: %@";
 "Keychain Access Required" = "キーチェーンへのアクセスが必要です";
 "keychain_prompt_learn_more" = "詳しく見る…";
-"keychain_prompt_privacy_note" = "Macのログインパスワード入力を処理するのはCodexBarではなくmacOSです。キーチェーンへのアクセスは「設定」→「詳細」でいつでも無効にできます。";
+"keychain_prompt_privacy_note" = "Macのログインパスワード入力を処理するのはAnyCodexではなくmacOSです。キーチェーンへのアクセスは「設定」→「詳細」でいつでも無効にできます。";
 "Kiro menu bar value" = "Kiro メニューバー表示値";
 "Label" = "ラベル";
 "No organizations loaded. Click Refresh after setting your API key." = "組織が読み込まれていません。API キーを設定してから「更新」をクリックしてください。";
@@ -1133,7 +1133,7 @@
 "Service" = "サービス";
 "Show or hide Kiro credits, percent, or both next to the menu bar icon." = "メニューバーアイコンの横に Kiro のクレジット、パーセント、またはその両方を表示/非表示にします。";
 "Show usage for organizations you belong to. Personal account is always shown." = "所属している組織の使用量を表示します。個人アカウントは常に表示されます。";
-"Sign in to cursor.com in your browser, then refresh Cursor in CodexBar." = "ブラウザで cursor.com にサインインしてから、CodexBar で Cursor を更新してください。";
+"Sign in to cursor.com in your browser, then refresh Cursor in CodexBar." = "ブラウザで cursor.com にサインインしてから、AnyCodex で Cursor を更新してください。";
 "Simulated error text" = "シミュレートされたエラーテキスト";
 "StepFun platform account (phone number or email)." = "StepFun プラットフォームのアカウント(電話番号またはメールアドレス)。";
 "Stored in ~/.codexbar/config.json." = "~/.codexbar/config.json に保存されます。";
@@ -1149,12 +1149,12 @@
 "Stored in ~/.codexbar/config.json. OPENAI_ADMIN_KEY is preferred; OPENAI_API_KEY still works." = "~/.codexbar/config.json に保存されます。OPENAI_ADMIN_KEY が推奨されますが、OPENAI_API_KEY も引き続き使用できます。";
 "Stored in ~/.codexbar/config.json. Requires an Anthropic Admin API key." = "~/.codexbar/config.json に保存されます。Anthropic の Admin API キーが必要です。";
 "Stored in ~/.codexbar/config.json. Used for /v1/quota-stats." = "~/.codexbar/config.json に保存されます。/v1/quota-stats に使用されます。";
-"Stored in ~/.codexbar/config.json. You can also provide CODEBUFF_API_KEY or let CodexBar read ~/.config/manicode/credentials.json (created by `codebuff login`)." = "~/.codexbar/config.json に保存されます。CODEBUFF_API_KEY を指定するか、CodexBar に ~/.config/manicode/credentials.json(`codebuff login` で作成)を読み込ませることもできます。";
+"Stored in ~/.codexbar/config.json. You can also provide CODEBUFF_API_KEY or let CodexBar read ~/.config/manicode/credentials.json (created by `codebuff login`)." = "~/.codexbar/config.json に保存されます。CODEBUFF_API_KEY を指定するか、AnyCodex に ~/.config/manicode/credentials.json(`codebuff login` で作成)を読み込ませることもできます。";
 "Stored in ~/.codexbar/config.json. You can also provide CROF_API_KEY." = "~/.codexbar/config.json に保存されます。CROF_API_KEY を指定することもできます。";
 "Stored in ~/.codexbar/config.json. You can also provide KILO_API_KEY or ~/.local/share/kilo/auth.json (kilo.access)." = "~/.codexbar/config.json に保存されます。KILO_API_KEY または ~/.local/share/kilo/auth.json(kilo.access)を指定することもできます。";
 "T3 Chat cookie" = "T3 Chat Cookie";
 "Team mode" = "チームモード";
-"That account is no longer available in CodexBar. Refresh the account list and try again." = "そのアカウントは CodexBar で利用できなくなっています。アカウントリストを更新してからやり直してください。";
+"That account is no longer available in CodexBar. Refresh the account list and try again." = "そのアカウントは AnyCodex で利用できなくなっています。アカウントリストを更新してからやり直してください。";
 "The browser login did not complete in time. Try Antigravity login again." = "ブラウザでのログインが時間内に完了しませんでした。Antigravity のログインをもう一度お試しください。";
 "Timed out waiting for Cursor login. %@" = "Cursor のログイン待機がタイムアウトしました。%@";
 "Timed out waiting for Cursor login. %@ Last error: %@" = "Cursor のログイン待機がタイムアウトしました。%@ 最後のエラー: %@";
@@ -1237,11 +1237,11 @@
 
 "%@: %@" = "%@: %@";
 "Alternatively, set a custom path in Settings." = "または、設定でカスタムパスを指定します。";
-"Choose a supported browser so CodexBar can read the matching account." = "CodexBar が対応するアカウントを読み取れるよう、サポート対象のブラウザを選択してください。";
+"Choose a supported browser so CodexBar can read the matching account." = "AnyCodex が対応するアカウントを読み取れるよう、サポート対象のブラウザを選択してください。";
 "Choose Cursor account" = "Cursor アカウントを選択";
-"Choose which Cursor account CodexBar should use." = "CodexBar で使用する Cursor アカウントを選択してください。";
+"Choose which Cursor account CodexBar should use." = "AnyCodex で使用する Cursor アカウントを選択してください。";
 "Finish switching to a different Cursor account in your browser, then try again." = "ブラウザで別の Cursor アカウントへの切り替えを完了してから、もう一度試してください。";
-"Install a JetBrains IDE with AI Assistant enabled, then refresh CodexBar." = "AI Assistant を有効にした JetBrains IDE をインストールしてから、CodexBar を更新してください。";
+"Install a JetBrains IDE with AI Assistant enabled, then refresh CodexBar." = "AI Assistant を有効にした JetBrains IDE をインストールしてから、AnyCodex を更新してください。";
 "Request quota: %@ / %@" = "リクエスト上限: %@ / %@";
 "Sign in with Claude Code..." = "Claude Code でサインイン...";
 "Timed out waiting for Cursor account switch. %@" = "Cursor アカウントの切り替え待機中にタイムアウトしました。%@";
@@ -1342,3 +1342,12 @@
 "Cost today unavailable" = "今日のコスト: 利用不可";
 "30-day cost unavailable" = "30日間のコスト: 利用不可";
 "Resets" = "リセット";
+
+/* AnyCodex: embedded opencodex proxy */
+"opencodex_proxy_running" = "opencodex プロキシ: 実行中（ポート %d）";
+"opencodex_proxy_starting" = "opencodex プロキシ: 起動中...";
+"opencodex_proxy_stopped" = "opencodex プロキシ: 停止済み";
+"opencodex_proxy_error" = "opencodex プロキシ: %@";
+"Manage AI Providers..." = "AI プロバイダを管理...";
+"Start opencodex Proxy" = "opencodex プロキシを開始";
+"Stop opencodex Proxy" = "opencodex プロキシを停止";

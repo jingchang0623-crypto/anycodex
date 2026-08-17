@@ -1,8 +1,8 @@
-/* Turkish localization for CodexBar */
+/* Turkish localization for AnyCodex */
 
-"ollama_safari_cookie_access_hint" = "Safari çerezleri için CodexBar’a Tam Disk Erişimi gerekir (Sistem Ayarları > Gizlilik ve Güvenlik).";
+"ollama_safari_cookie_access_hint" = "Safari çerezleri için AnyCodex’a Tam Disk Erişimi gerekir (Sistem Ayarları > Gizlilik ve Güvenlik).";
 "ollama_browser_cookie_decryption_denied" = "%@ çerezlerinin şifresini çözme Anahtar Zinciri’nde reddedildi; manuel yenilemeyle tekrar deneyin.";
-"ollama_browser_cookie_decryption_disabled" = "%@ çerezlerinin şifresini çözme CodexBar’da devre dışı; Anahtar Zinciri erişimini etkinleştirip yenileyin.";
+"ollama_browser_cookie_decryption_disabled" = "%@ çerezlerinin şifresini çözme AnyCodex’da devre dışı; Anahtar Zinciri erişimini etkinleştirip yenileyin.";
 
 " providers" = " sağlayıcı";
 "(System)" = "(Sistem)";
@@ -43,7 +43,7 @@
 "Automatic imports browser cookies or stored sessions." = "Otomatik olarak tarayıcı çerezlerini veya kayıtlı oturumları içe aktarır.";
 "Automatic imports browser cookies." = "Otomatik olarak tarayıcı çerezlerini içe aktarır.";
 "Automatically imports browser session cookie." = "Otomatik olarak tarayıcı oturum çerezini içe aktarır.";
-"Automatically opens CodexBar when you start your Mac." = "Mac'inizi başlattığınızda CodexBar'ı otomatik olarak açar.";
+"Automatically opens CodexBar when you start your Mac." = "Mac'inizi başlattığınızda AnyCodex'ı otomatik olarak açar.";
 "Automation" = "Otomasyon";
 "Average (\\(label1) + \\(label2))" = "Ortalama (\\(label1) + \\(label2))";
 "Average (\\(metadata.sessionLabel) + \\(metadata.weeklyLabel))" = "Ortalama (\\(metadata.sessionLabel) + \\(metadata.weeklyLabel))";
@@ -63,7 +63,7 @@
 "Check for updates automatically" = "Güncellemeleri otomatik denetle";
 "Check if you like your agents having some fun up there." = "Ajanlarınızın yukarıda biraz eğlenmesini istiyorsanız işaretleyin.";
 "Check provider status" = "Sağlayıcı durumunu denetle";
-"Choose a supported browser so CodexBar can read the matching account." = "CodexBar'ın eşleşen hesabı okuyabilmesi için desteklenen bir tarayıcı seçin.";
+"Choose a supported browser so CodexBar can read the matching account." = "AnyCodex'ın eşleşen hesabı okuyabilmesi için desteklenen bir tarayıcı seçin.";
 "Choose Codex workspace" = "Codex çalışma alanını seçin";
 "Choose Cursor account" = "Cursor hesabını seçin";
 "Choose the MiniMax host (global .io or China mainland .com)." = "MiniMax sunucusunu seçin (küresel .io veya Çin anakarası .com).";
@@ -71,8 +71,8 @@
 "Choose up to \\(Self.maxOverviewProviders) providers" = "En fazla \\(Self.maxOverviewProviders) sağlayıcı seçin";
 "Choose up to \\(count) providers" = "En fazla \\(count) sağlayıcı seçin";
 "Choose what to show in the menu bar (Pace shows usage vs. expected)." = "Menü çubuğunda ne gösterileceğini seçin (Hız, kullanımı beklentiyle karşılaştırır).";
-"Choose which Codex account CodexBar should follow." = "CodexBar'ın hangi Codex hesabını izleyeceğini seçin.";
-"Choose which Cursor account CodexBar should use." = "CodexBar'ın hangi Cursor hesabını kullanacağını seçin.";
+"Choose which Codex account CodexBar should follow." = "AnyCodex'ın hangi Codex hesabını izleyeceğini seçin.";
+"Choose which Cursor account CodexBar should use." = "AnyCodex'ın hangi Cursor hesabını kullanacağını seçin.";
 "Choose which window drives the menu bar percent." = "Menü çubuğu yüzdesini hangi pencerenin belirleyeceğini seçin.";
 "Chrome" = "Chrome";
 "Claude CLI not found" = "Claude CLI bulunamadı";
@@ -87,9 +87,9 @@
 "Codex binary" = "Codex çalıştırılabilir dosyası";
 "Codex login failed" = "Codex girişi başarısız";
 "Codex login timed out" = "Codex girişi zaman aşımına uğradı";
-"CodexBar Lifecycle Keepalive" = "CodexBar Yaşam Döngüsü Canlı Tutma";
-"CodexBar can't show its menu bar icon" = "CodexBar menü çubuğu simgesini gösteremiyor";
-"CodexBar could not read managed account storage. " = "CodexBar yönetilen hesap depolamasını okuyamadı. ";
+"CodexBar Lifecycle Keepalive" = "AnyCodex Yaşam Döngüsü Canlı Tutma";
+"CodexBar can't show its menu bar icon" = "AnyCodex menü çubuğu simgesini gösteremiyor";
+"CodexBar could not read managed account storage. " = "AnyCodex yönetilen hesap depolamasını okuyamadı. ";
 "Configure…" = "Yapılandır…";
 "Connected" = "Bağlı";
 "Controls how much detail is logged." = "Ne kadar ayrıntının günlüğe kaydedileceğini denetler.";
@@ -151,13 +151,13 @@
 "Hide details" = "Ayrıntıları gizle";
 "Hide personal information" = "Kişisel bilgileri gizle";
 "Historical tracking" = "Geçmişsel izleme";
-"How often CodexBar polls providers in the background." = "CodexBar'ın arka planda sağlayıcıları ne sıklıkla sorgulayacağı.";
+"How often CodexBar polls providers in the background." = "AnyCodex'ın arka planda sağlayıcıları ne sıklıkla sorgulayacağı.";
 "Inactive" = "Devre dışı";
 "Install CLI" = "CLI Kur";
 "Install the Claude CLI (npm i -g @anthropic-ai/claude-code) and try again." = "Claude CLI'yi kurun (npm i -g @anthropic-ai/claude-code) ve tekrar deneyin.";
 "Install the Codex CLI (npm i -g @openai/codex) and try again." = "Codex CLI'yi kurun (npm i -g @openai/codex) ve tekrar deneyin.";
 "Install the Gemini CLI (npm i -g @google/gemini-cli) and try again." = "Gemini CLI'yi kurun (npm i -g @google/gemini-cli) ve tekrar deneyin.";
-"Install a JetBrains IDE with AI Assistant enabled, then refresh CodexBar." = "AI Assistant etkin bir JetBrains IDE kurun, ardından CodexBar'ı yenileyin.";
+"Install a JetBrains IDE with AI Assistant enabled, then refresh CodexBar." = "AI Assistant etkin bir JetBrains IDE kurun, ardından AnyCodex'ı yenileyin.";
 "JetBrains AI is ready" = "JetBrains AI hazır";
 "JetBrains IDE" = "JetBrains IDE";
 "Keep CLI sessions alive" = "CLI oturumlarını canlı tut";
@@ -210,7 +210,7 @@
 "Open" = "Aç";
 "Open API Keys" = "API Anahtarlarını Aç";
 "Open Amp Settings" = "Amp Ayarlarını Aç";
-"Open Antigravity to sign in, then refresh CodexBar." = "Giriş yapmak için Antigravity'yi açın, ardından CodexBar'ı yenileyin.";
+"Open Antigravity to sign in, then refresh CodexBar." = "Giriş yapmak için Antigravity'yi açın, ardından AnyCodex'ı yenileyin.";
 "Open Browser" = "Tarayıcıyı Aç";
 "Open Coding Plan" = "Kodlama Planını Aç";
 "Open Console" = "Konsolu Aç";
@@ -255,7 +255,7 @@
 "Progress bars fill as you consume quota (instead of showing remaining)." = "İlerleme çubukları kota tükettikçe dolar (kalanı göstermek yerine).";
 "Provider" = "Sağlayıcı";
 "Providers" = "Sağlayıcılar";
-"Quit CodexBar" = "CodexBar'dan Çık";
+"Quit CodexBar" = "AnyCodex'dan Çık";
 "Random (default)" = "Rastgele (varsayılan)";
 "Reads local usage logs. Shows today + last 30 days cost in the menu." = "Yerel kullanım günlüklerini okur. Menüde bugün + seçilen geçmiş penceresini gösterir.";
 "Refresh" = "Yenile";
@@ -263,8 +263,8 @@
 "Remote" = "Uzak";
 "Remove" = "Kaldır";
 "Remove Codex account?" = "Codex hesabı kaldırılsın mı?";
-"Remove \\(account.email) from CodexBar? Its managed Codex home will be deleted." = "\\(account.email) CodexBar'dan kaldırılsın mı? Yönetilen Codex evi silinecek.";
-"Remove \\(email) from CodexBar? Its managed Codex home will be deleted." = "\\(email) CodexBar'dan kaldırılsın mı? Yönetilen Codex evi silinecek.";
+"Remove \\(account.email) from CodexBar? Its managed Codex home will be deleted." = "\\(account.email) AnyCodex'dan kaldırılsın mı? Yönetilen Codex evi silinecek.";
+"Remove \\(email) from CodexBar? Its managed Codex home will be deleted." = "\\(email) AnyCodex'dan kaldırılsın mı? Yönetilen Codex evi silinecek.";
 "Remove selected account" = "Seçili hesabı kaldır";
 "Replace critter bars with provider branding icons and a percentage." = "Canavar çubuklarını sağlayıcı marka simgeleri ve yüzde ile değiştir.";
 "Replay selected animation" = "Seçili animasyonu yeniden oynat";
@@ -306,7 +306,7 @@
 "Store multiple Ollama Cookie headers." = "Birden fazla Ollama Çerez başlığı depolayın.";
 "Store multiple OpenCode Cookie headers." = "Birden fazla OpenCode Çerez başlığı depolayın.";
 "Store multiple OpenCode Go Cookie headers." = "Birden fazla OpenCode Go Çerez başlığı depolayın.";
-"Stored in the CodexBar config file." = "CodexBar yapılandırma dosyasında depolandı.";
+"Stored in the CodexBar config file." = "AnyCodex yapılandırma dosyasında depolandı.";
 "Stored in ~/.codexbar/config.json. " = "~/.codexbar/config.json dosyasında depolandı. ";
 "Stored in ~/.codexbar/config.json. Paste the key from the Synthetic dashboard." = "~/.codexbar/config.json dosyasında depolandı. Synthetic panelinden anahtarı yapıştırın.";
 "Stored in ~/.codexbar/config.json. Paste your Coding Plan API key from Model Studio." = "~/.codexbar/config.json dosyasında depolandı. Model Studio'dan Kodlama Planı API anahtarınızı yapıştırın.";
@@ -380,8 +380,8 @@
 "cursor_on_demand" = "İsteğe bağlı: %@";
 "cursor_on_demand_with_limit" = "İsteğe bağlı: %1$@ / %2$@";
 "extra_usage_format" = "Ekstra kullanım: %1$@ / %2$@";
-"jetbrains_detected_generate" = "Algılandı: %@. Kota verisini oluşturmak için AI asistanını bir kez kullanın, ardından CodexBar'ı yenileyin.";
-"jetbrains_detected_select" = "Algılandı: %@. Ayarlar'da tercih ettiğiniz IDE'yi seçin, ardından CodexBar'ı yenileyin.";
+"jetbrains_detected_generate" = "Algılandı: %@. Kota verisini oluşturmak için AI asistanını bir kez kullanın, ardından AnyCodex'ı yenileyin.";
+"jetbrains_detected_select" = "Algılandı: %@. Ayarlar'da tercih ettiğiniz IDE'yi seçin, ardından AnyCodex'ı yenileyin.";
 "last_fetch_failed_with_provider" = "Son %@ getirmesi başarısız:";
 "last_spend" = "Son harcama: %@";
 "mcp_model_usage" = "%1$@: %2$@";
@@ -391,10 +391,10 @@
 "metric_primary" = "Birincil (%@)";
 "metric_secondary" = "İkincil (%@)";
 "metric_tertiary" = "Üçüncül (%@)";
-"multiple_workspaces_found" = "CodexBar %@ için birden fazla çalışma alanı buldu. Lütfen eklenecek çalışma alanını seçin.";
+"multiple_workspaces_found" = "AnyCodex %@ için birden fazla çalışma alanı buldu. Lütfen eklenecek çalışma alanını seçin.";
 "ory_session_…=…; csrftoken=…" = "ory_session_…=…; csrftoken=…";
 "overview_choose_providers" = "En fazla %@ sağlayıcı seçin";
-"remove_account_message" = "%@ CodexBar'dan kaldırılsın mı? Yönetilen Codex evi silinecek.";
+"remove_account_message" = "%@ AnyCodex'dan kaldırılsın mı? Yönetilen Codex evi silinecek.";
 "version_format" = "Sürüm %@";
 "vertex_ai_login_instructions" = "Vertex AI kullanımını izlemek için Google Cloud ile kimlik doğrulaması yapın.\n\n1. Terminal'i açın\n2. Şunu çalıştırın: gcloud auth application-default login\n3. Tarayıcıdaki adımları takip ederek oturum açın\n4. Projenizi ayarlayın: gcloud config set project PROJECT_ID\n\nTerminal şimdi açılsın mı?";
 "workspaceID is set but only opencode, opencodego, and deepgram support workspaceID." = "workspaceID ayarlandı, ancak yalnızca opencode, opencodego ve deepgram workspaceID destekler.";
@@ -434,7 +434,7 @@
 "language_indonesian" = "Endonezce";
 "language_polish" = "Lehçe";
 "start_at_login_title" = "Girişte Başlat";
-"start_at_login_subtitle" = "Mac'inizi başlattığınızda CodexBar'ı otomatik olarak açar.";
+"start_at_login_subtitle" = "Mac'inizi başlattığınızda AnyCodex'ı otomatik olarak açar.";
 "show_cost_summary_subtitle" = "Yerel kullanım günlüklerini okur. Menüde bugün + seçilen geçmiş penceresini gösterir.";
 "cost_summary_style_title" = "Görüntüleme stili";
 "cost_summary_style_inline" = "Yalnızca satır içi";
@@ -501,7 +501,7 @@
 "quota_warning_warning" = "Uyarı";
 "quota_warning_critical" = "Kritik";
 "apply" = "Uygula";
-"quit_app" = "CodexBar'dan Çık";
+"quit_app" = "AnyCodex'dan Çık";
 
 /* Tab titles */
 "tab_general" = "Genel";
@@ -548,8 +548,8 @@
 "managed_login_missing_email" = "Codex girişi tamamlandı, ancak hesap e-postası bulunamadı. Hesabın tam olarak oturum açtığını doğruladıktan sonra tekrar deneyin.";
 "login_success_notification_title" = "%@ girişi başarılı";
 "login_success_notification_body" = "Uygulamaya dönebilirsiniz; kimlik doğrulaması tamamlandı.";
-"workspace_selection_cancelled" = "CodexBar birden fazla çalışma alanı buldu, ancak hiçbir çalışma alanı seçilmedi.";
-"unsafe_managed_home" = "CodexBar beklenmeyen bir yönetilen ev yolunu değiştirmeyi reddetti: %@";
+"workspace_selection_cancelled" = "AnyCodex birden fazla çalışma alanı buldu, ancak hiçbir çalışma alanı seçilmedi.";
+"unsafe_managed_home" = "AnyCodex beklenmeyen bir yönetilen ev yolunu değiştirmeyi reddetti: %@";
 "menu_bar_metric_title" = "Menü çubuğu metriği";
 "menu_bar_metric_subtitle" = "Menü çubuğu yüzdesini hangi pencerenin belirleyeceğini seçin.";
 "menu_bar_metric_subtitle_deepseek" = "Menü çubuğunda DeepSeek bakiyesini gösterir.";
@@ -701,7 +701,7 @@
 "login_shell_path" = "Oturum kabuğu PATH (başlangıç yakalaması)";
 "cleared" = "Temizlendi.";
 "no_fetch_attempts" = "Henüz getirme denemesi yok.";
-"macOS Tahoe can block menu bar apps in System Settings → Menu Bar → Allow in the Menu Bar. CodexBar is running, but macOS may be hiding its icon. Open Menu Bar settings and turn CodexBar on." = "macOS Tahoe, Sistem Ayarları → Menü Çubuğu → Menü Çubuğunda İzin Ver bölümünde menü çubuğu uygulamalarını engelleyebilir. CodexBar çalışıyor, ancak macOS simgesini gizliyor olabilir. Menü Çubuğu ayarlarını açın ve CodexBar'ı etkinleştirin.";
+"macOS Tahoe can block menu bar apps in System Settings → Menu Bar → Allow in the Menu Bar. CodexBar is running, but macOS may be hiding its icon. Open Menu Bar settings and turn CodexBar on." = "macOS Tahoe, Sistem Ayarları → Menü Çubuğu → Menü Çubuğunda İzin Ver bölümünde menü çubuğu uygulamalarını engelleyebilir. AnyCodex çalışıyor, ancak macOS simgesini gizliyor olabilir. Menü Çubuğu ayarlarını açın ve AnyCodex'ı etkinleştirin.";
 
 /* Metric preferences */
 "metric_pref_automatic" = "Otomatik";
@@ -740,7 +740,7 @@
 "refresh_adaptive" = "Uyarlanabilir";
 "refresh_adaptive_agent_aware" = "Uyarlanabilir (ajan etkinliğine duyarlı)";
 "adaptive_activity_consent_title" = "Etkinliğe duyarlı yenilemeye izin verilsin mi?";
-"adaptive_activity_consent_message" = "Ajan etkinliğine duyarlı Uyarlanabilir mod, Codex ve Claude'u tanımak için komut satırları dahil yerel çalışan işlemler listesini inceleyebilir, ardından siz kod yazarken bilinen oturum meta verilerini 30 saniyede bir okuyabilir. Agent Sessions kapalıyken CodexBar bellekte yalnızca en son etkinlik zamanını kullanır ve oturum yolları ile kimliklerini atar. Bu veriler hiçbir yere gönderilmez; uzaktan keşif ve SSH kapalı kalır. Reddederseniz CodexBar yerel etkinlik taraması olmadan normal Uyarlanabilir moda döner.";
+"adaptive_activity_consent_message" = "Ajan etkinliğine duyarlı Uyarlanabilir mod, Codex ve Claude'u tanımak için komut satırları dahil yerel çalışan işlemler listesini inceleyebilir, ardından siz kod yazarken bilinen oturum meta verilerini 30 saniyede bir okuyabilir. Agent Sessions kapalıyken AnyCodex bellekte yalnızca en son etkinlik zamanını kullanır ve oturum yolları ile kimliklerini atar. Bu veriler hiçbir yere gönderilmez; uzaktan keşif ve SSH kapalı kalır. Reddederseniz AnyCodex yerel etkinlik taraması olmadan normal Uyarlanabilir moda döner.";
 "adaptive_activity_consent_allow" = "Yerel Etkinliğe İzin Ver";
 "adaptive_activity_consent_decline" = "Normal Uyarlanabilir Modu Kullan";
 
@@ -774,7 +774,7 @@
 "No local data found" = "Yerel veri bulunamadı";
 "Credits unavailable; keep Codex running to refresh." = "Krediler kullanılamıyor; yenilemek için Codex'i çalışır durumda tutun.";
 "No available fetch strategy for minimax." = "MiniMax için kullanılabilir getirme stratejisi yok.";
-"No Cursor session found. Please log in to cursor.com in Safari, Chrome, Microsoft Edge, Brave, Arc, Dia, ChatGPT Atlas, Chromium, Helium, Vivaldi, Yandex Browser, Firefox, Zen, Colibri, Sidekick, Opera, Opera GX, or Edge Canary. If you use Safari, grant CodexBar Full Disk Access in System Settings ▸ Privacy & Security. You can also sign in to Cursor from the CodexBar menu (Add / switch account)." = "Cursor oturumu bulunamadı. Lütfen Safari, Chrome, Microsoft Edge, Brave, Arc, Dia, ChatGPT Atlas, Chromium, Helium, Vivaldi, Yandex Browser, Firefox, Zen, Colibri, Sidekick, Opera, Opera GX veya Edge Canary üzerinden cursor.com'da oturum açın. Safari kullanıyorsanız, Sistem Ayarları ▸ Gizlilik ve Güvenlik bölümünde CodexBar'a Tam Disk Erişimi verin. Cursor'a CodexBar menüsünden de oturum açabilirsiniz (Hesap ekle / değiştir).";
+"No Cursor session found. Please log in to cursor.com in Safari, Chrome, Microsoft Edge, Brave, Arc, Dia, ChatGPT Atlas, Chromium, Helium, Vivaldi, Yandex Browser, Firefox, Zen, Colibri, Sidekick, Opera, Opera GX, or Edge Canary. If you use Safari, grant CodexBar Full Disk Access in System Settings ▸ Privacy & Security. You can also sign in to Cursor from the CodexBar menu (Add / switch account)." = "Cursor oturumu bulunamadı. Lütfen Safari, Chrome, Microsoft Edge, Brave, Arc, Dia, ChatGPT Atlas, Chromium, Helium, Vivaldi, Yandex Browser, Firefox, Zen, Colibri, Sidekick, Opera, Opera GX veya Edge Canary üzerinden cursor.com'da oturum açın. Safari kullanıyorsanız, Sistem Ayarları ▸ Gizlilik ve Güvenlik bölümünde AnyCodex'a Tam Disk Erişimi verin. Cursor'a AnyCodex menüsünden de oturum açabilirsiniz (Hesap ekle / değiştir).";
 "No OpenCode session cookies found in browsers." = "Tarayıcılarda OpenCode oturum çerezi bulunamadı.";
 "No available fetch strategy for %@." = "%@ için kullanılabilir getirme stratejisi yok.";
 "Today" = "Bugün";
@@ -790,7 +790,7 @@
 "Status Page" = "Durum Sayfası";
 "Open Status Page" = "Durum Sayfasını Aç";
 "Settings..." = "Ayarlar...";
-"About CodexBar" = "CodexBar Hakkında";
+"About CodexBar" = "AnyCodex Hakkında";
 "Quit" = "Çık";
 "Last %d day" = "Son %d gün";
 "Last %d days" = "Son %d gün";
@@ -1048,31 +1048,31 @@
 "Capacity Start" = "Kapasite Başlangıcı";
 "Changelog" = "Değişiklik Günlüğü";
 "Choose the Moonshot/Kimi API host for international or China mainland accounts." = "Uluslararası veya Çin anakarası hesapları için Moonshot/Kimi API sunucusunu seçin.";
-"CodexBar can't replace a system account that is signed in with an API key only setup." = "CodexBar, yalnızca API anahtarı ile oturum açmış bir sistem hesabını değiştiremez.";
-"CodexBar could not find saved auth for that account. Re-authenticate it and try again." = "CodexBar bu hesap için kaydedilmiş kimlik doğrulaması bulamadı. Yeniden kimlik doğrulayın ve tekrar deneyin.";
-"CodexBar could not read managed account storage. Recover the store before adding another account." = "CodexBar yönetilen hesap depolamasını okuyamadı. Başka bir hesap eklemeden önce depoyu kurtarın.";
-"CodexBar could not read saved auth for that account. Re-authenticate it and try again." = "CodexBar bu hesap için kaydedilmiş kimlik doğrulamasını okuyamadı. Yeniden kimlik doğrulayın ve tekrar deneyin.";
-"CodexBar could not read the current system account on this Mac." = "CodexBar bu Mac'teki geçerli sistem hesabını okuyamadı.";
-"CodexBar could not replace the live Codex auth on this Mac." = "CodexBar bu Mac'teki canlı Codex kimlik doğrulamasını değiştiremedi.";
-"CodexBar could not safely preserve the current system account before switching." = "CodexBar geçiş yapmadan önce geçerli sistem hesabını güvenli bir şekilde koruyamadı.";
-"CodexBar could not save the current system account before switching." = "CodexBar geçiş yapmadan önce geçerli sistem hesabını kaydedemedi.";
-"CodexBar could not update managed account storage." = "CodexBar yönetilen hesap depolamasını güncelleyemedi.";
-"CodexBar found another managed account that already uses the current system account. Resolve the duplicate account before switching." = "CodexBar, geçerli sistem hesabını zaten kullanan başka bir yönetilen hesap buldu. Geçiş yapmadan önce yinelenen hesabı çözün.";
-"CodexBar will ask macOS Keychain for “%@” so it can decrypt browser cookies and authenticate your account. Click OK to continue." = "CodexBar, tarayıcı çerezlerinin şifresini çözmek ve hesabınızı doğrulamak için macOS Anahtarlığı'ndan “%@” isteyecek. Devam etmek için Tamam'a tıklayın.";
-"CodexBar will ask macOS Keychain for the Claude Code OAuth token so it can fetch your Claude usage. Click OK to continue." = "CodexBar, Claude kullanımınızı getirmek için macOS Anahtarlığı'ndan Claude Code OAuth jetonunu isteyecek. Devam etmek için Tamam'a tıklayın.";
-"CodexBar will ask macOS Keychain for your Amp cookie header so it can fetch usage. Click OK to continue." = "CodexBar, kullanımı getirmek için macOS Anahtarlığı'ndan Amp çerez başlığınızı isteyecek. Devam etmek için Tamam'a tıklayın.";
-"CodexBar will ask macOS Keychain for your Augment cookie header so it can fetch usage. Click OK to continue." = "CodexBar, kullanımı getirmek için macOS Anahtarlığı'ndan Augment çerez başlığınızı isteyecek. Devam etmek için Tamam'a tıklayın.";
-"CodexBar will ask macOS Keychain for your Claude cookie header so it can fetch Claude web usage. Click OK to continue." = "CodexBar, Claude web kullanımını getirmek için macOS Anahtarlığı'ndan Claude çerez başlığınızı isteyecek. Devam etmek için Tamam'a tıklayın.";
-"CodexBar will ask macOS Keychain for your Cursor cookie header so it can fetch usage. Click OK to continue." = "CodexBar, kullanımı getirmek için macOS Anahtarlığı'ndan Cursor çerez başlığınızı isteyecek. Devam etmek için Tamam'a tıklayın.";
-"CodexBar will ask macOS Keychain for your Factory cookie header so it can fetch usage. Click OK to continue." = "CodexBar, kullanımı getirmek için macOS Anahtarlığı'ndan Factory çerez başlığınızı isteyecek. Devam etmek için Tamam'a tıklayın.";
-"CodexBar will ask macOS Keychain for your GitHub Copilot token so it can fetch usage. Click OK to continue." = "CodexBar, kullanımı getirmek için macOS Anahtarlığı'ndan GitHub Copilot jetonunuzu isteyecek. Devam etmek için Tamam'a tıklayın.";
-"CodexBar will ask macOS Keychain for your Kimi auth token so it can fetch usage. Click OK to continue." = "CodexBar, kullanımı getirmek için macOS Anahtarlığı'ndan Kimi kimlik doğrulama jetonunuzu isteyecek. Devam etmek için Tamam'a tıklayın.";
-"CodexBar will ask macOS Keychain for your MiniMax API token so it can fetch usage. Click OK to continue." = "CodexBar, kullanımı getirmek için macOS Anahtarlığı'ndan MiniMax API jetonunuzu isteyecek. Devam etmek için Tamam'a tıklayın.";
-"CodexBar will ask macOS Keychain for your MiniMax cookie header so it can fetch usage. Click OK to continue." = "CodexBar, kullanımı getirmek için macOS Anahtarlığı'ndan MiniMax çerez başlığınızı isteyecek. Devam etmek için Tamam'a tıklayın.";
-"CodexBar will ask macOS Keychain for your OpenAI cookie header so it can fetch Codex dashboard extras. Click OK to continue." = "CodexBar, Codex panel eklerini getirmek için macOS Anahtarlığı'ndan OpenAI çerez başlığınızı isteyecek. Devam etmek için Tamam'a tıklayın.";
-"CodexBar will ask macOS Keychain for your OpenCode cookie header so it can fetch usage. Click OK to continue." = "CodexBar, kullanımı getirmek için macOS Anahtarlığı'ndan OpenCode çerez başlığınızı isteyecek. Devam etmek için Tamam'a tıklayın.";
-"CodexBar will ask macOS Keychain for your Synthetic API key so it can fetch usage. Click OK to continue." = "CodexBar, kullanımı getirmek için macOS Anahtarlığı'ndan Synthetic API anahtarınızı isteyecek. Devam etmek için Tamam'a tıklayın.";
-"CodexBar will ask macOS Keychain for your z.ai API token so it can fetch usage. Click OK to continue." = "CodexBar, kullanımı getirmek için macOS Anahtarlığı'ndan z.ai API jetonunuzu isteyecek. Devam etmek için Tamam'a tıklayın.";
+"CodexBar can't replace a system account that is signed in with an API key only setup." = "AnyCodex, yalnızca API anahtarı ile oturum açmış bir sistem hesabını değiştiremez.";
+"CodexBar could not find saved auth for that account. Re-authenticate it and try again." = "AnyCodex bu hesap için kaydedilmiş kimlik doğrulaması bulamadı. Yeniden kimlik doğrulayın ve tekrar deneyin.";
+"CodexBar could not read managed account storage. Recover the store before adding another account." = "AnyCodex yönetilen hesap depolamasını okuyamadı. Başka bir hesap eklemeden önce depoyu kurtarın.";
+"CodexBar could not read saved auth for that account. Re-authenticate it and try again." = "AnyCodex bu hesap için kaydedilmiş kimlik doğrulamasını okuyamadı. Yeniden kimlik doğrulayın ve tekrar deneyin.";
+"CodexBar could not read the current system account on this Mac." = "AnyCodex bu Mac'teki geçerli sistem hesabını okuyamadı.";
+"CodexBar could not replace the live Codex auth on this Mac." = "AnyCodex bu Mac'teki canlı Codex kimlik doğrulamasını değiştiremedi.";
+"CodexBar could not safely preserve the current system account before switching." = "AnyCodex geçiş yapmadan önce geçerli sistem hesabını güvenli bir şekilde koruyamadı.";
+"CodexBar could not save the current system account before switching." = "AnyCodex geçiş yapmadan önce geçerli sistem hesabını kaydedemedi.";
+"CodexBar could not update managed account storage." = "AnyCodex yönetilen hesap depolamasını güncelleyemedi.";
+"CodexBar found another managed account that already uses the current system account. Resolve the duplicate account before switching." = "AnyCodex, geçerli sistem hesabını zaten kullanan başka bir yönetilen hesap buldu. Geçiş yapmadan önce yinelenen hesabı çözün.";
+"CodexBar will ask macOS Keychain for “%@” so it can decrypt browser cookies and authenticate your account. Click OK to continue." = "AnyCodex, tarayıcı çerezlerinin şifresini çözmek ve hesabınızı doğrulamak için macOS Anahtarlığı'ndan “%@” isteyecek. Devam etmek için Tamam'a tıklayın.";
+"CodexBar will ask macOS Keychain for the Claude Code OAuth token so it can fetch your Claude usage. Click OK to continue." = "AnyCodex, Claude kullanımınızı getirmek için macOS Anahtarlığı'ndan Claude Code OAuth jetonunu isteyecek. Devam etmek için Tamam'a tıklayın.";
+"CodexBar will ask macOS Keychain for your Amp cookie header so it can fetch usage. Click OK to continue." = "AnyCodex, kullanımı getirmek için macOS Anahtarlığı'ndan Amp çerez başlığınızı isteyecek. Devam etmek için Tamam'a tıklayın.";
+"CodexBar will ask macOS Keychain for your Augment cookie header so it can fetch usage. Click OK to continue." = "AnyCodex, kullanımı getirmek için macOS Anahtarlığı'ndan Augment çerez başlığınızı isteyecek. Devam etmek için Tamam'a tıklayın.";
+"CodexBar will ask macOS Keychain for your Claude cookie header so it can fetch Claude web usage. Click OK to continue." = "AnyCodex, Claude web kullanımını getirmek için macOS Anahtarlığı'ndan Claude çerez başlığınızı isteyecek. Devam etmek için Tamam'a tıklayın.";
+"CodexBar will ask macOS Keychain for your Cursor cookie header so it can fetch usage. Click OK to continue." = "AnyCodex, kullanımı getirmek için macOS Anahtarlığı'ndan Cursor çerez başlığınızı isteyecek. Devam etmek için Tamam'a tıklayın.";
+"CodexBar will ask macOS Keychain for your Factory cookie header so it can fetch usage. Click OK to continue." = "AnyCodex, kullanımı getirmek için macOS Anahtarlığı'ndan Factory çerez başlığınızı isteyecek. Devam etmek için Tamam'a tıklayın.";
+"CodexBar will ask macOS Keychain for your GitHub Copilot token so it can fetch usage. Click OK to continue." = "AnyCodex, kullanımı getirmek için macOS Anahtarlığı'ndan GitHub Copilot jetonunuzu isteyecek. Devam etmek için Tamam'a tıklayın.";
+"CodexBar will ask macOS Keychain for your Kimi auth token so it can fetch usage. Click OK to continue." = "AnyCodex, kullanımı getirmek için macOS Anahtarlığı'ndan Kimi kimlik doğrulama jetonunuzu isteyecek. Devam etmek için Tamam'a tıklayın.";
+"CodexBar will ask macOS Keychain for your MiniMax API token so it can fetch usage. Click OK to continue." = "AnyCodex, kullanımı getirmek için macOS Anahtarlığı'ndan MiniMax API jetonunuzu isteyecek. Devam etmek için Tamam'a tıklayın.";
+"CodexBar will ask macOS Keychain for your MiniMax cookie header so it can fetch usage. Click OK to continue." = "AnyCodex, kullanımı getirmek için macOS Anahtarlığı'ndan MiniMax çerez başlığınızı isteyecek. Devam etmek için Tamam'a tıklayın.";
+"CodexBar will ask macOS Keychain for your OpenAI cookie header so it can fetch Codex dashboard extras. Click OK to continue." = "AnyCodex, Codex panel eklerini getirmek için macOS Anahtarlığı'ndan OpenAI çerez başlığınızı isteyecek. Devam etmek için Tamam'a tıklayın.";
+"CodexBar will ask macOS Keychain for your OpenCode cookie header so it can fetch usage. Click OK to continue." = "AnyCodex, kullanımı getirmek için macOS Anahtarlığı'ndan OpenCode çerez başlığınızı isteyecek. Devam etmek için Tamam'a tıklayın.";
+"CodexBar will ask macOS Keychain for your Synthetic API key so it can fetch usage. Click OK to continue." = "AnyCodex, kullanımı getirmek için macOS Anahtarlığı'ndan Synthetic API anahtarınızı isteyecek. Devam etmek için Tamam'a tıklayın.";
+"CodexBar will ask macOS Keychain for your z.ai API token so it can fetch usage. Click OK to continue." = "AnyCodex, kullanımı getirmek için macOS Anahtarlığı'ndan z.ai API jetonunuzu isteyecek. Devam etmek için Tamam'a tıklayın.";
 "Could not open Cursor login in your browser." = "Tarayıcınızda Cursor girişi açılamadı.";
 "Could not open browser for Antigravity" = "Antigravity için tarayıcı açılamadı";
 "Credits used" = "Kullanılan krediler";
@@ -1087,7 +1087,7 @@
 "Extra usage balance: %@" = "Ekstra kullanım bakiyesi: %@";
 "Keychain Access Required" = "Anahtarlık Erişimi Gerekli";
 "keychain_prompt_learn_more" = "Daha Fazla Bilgi…";
-"keychain_prompt_privacy_note" = "Mac oturum açma parolası girişini CodexBar değil macOS yönetir. Anahtarlık erişimini istediğiniz zaman Ayarlar → Gelişmiş bölümünden devre dışı bırakabilirsiniz.";
+"keychain_prompt_privacy_note" = "Mac oturum açma parolası girişini AnyCodex değil macOS yönetir. Anahtarlık erişimini istediğiniz zaman Ayarlar → Gelişmiş bölümünden devre dışı bırakabilirsiniz.";
 "Kiro menu bar value" = "Kiro menü çubuğu değeri";
 "Label" = "Etiket";
 "No organizations loaded. Click Refresh after setting your API key." = "Kuruluş yüklenmedi. API anahtarınızı ayarladıktan sonra Yenile'ye tıklayın.";
@@ -1147,7 +1147,7 @@
 "Service" = "Hizmet";
 "Show or hide Kiro credits, percent, or both next to the menu bar icon." = "Menü çubuğu simgesinin yanında Kiro kredilerini, yüzdeyi veya ikisini birden göster veya gizle.";
 "Show usage for organizations you belong to. Personal account is always shown." = "Üye olduğunuz kuruluşların kullanımını göster. Kişisel hesap her zaman gösterilir.";
-"Sign in to cursor.com in your browser, then refresh Cursor in CodexBar." = "Tarayıcınızda cursor.com'da oturum açın, ardından CodexBar'da Cursor'ı yenileyin.";
+"Sign in to cursor.com in your browser, then refresh Cursor in CodexBar." = "Tarayıcınızda cursor.com'da oturum açın, ardından AnyCodex'da Cursor'ı yenileyin.";
 "Simulated error text" = "Simüle edilmiş hata metni";
 "StepFun platform account (phone number or email)." = "StepFun platform hesabı (telefon numarası veya e-posta).";
 "Stored in ~/.codexbar/config.json." = "~/.codexbar/config.json dosyasında depolandı.";
@@ -1163,12 +1163,12 @@
 "Stored in ~/.codexbar/config.json. OPENAI_ADMIN_KEY is preferred; OPENAI_API_KEY still works." = "~/.codexbar/config.json dosyasında depolandı. OPENAI_ADMIN_KEY tercih edilir; OPENAI_API_KEY hâlâ çalışır.";
 "Stored in ~/.codexbar/config.json. Requires an Anthropic Admin API key." = "~/.codexbar/config.json dosyasında depolandı. Anthropic Yönetici API anahtarı gerektirir.";
 "Stored in ~/.codexbar/config.json. Used for /v1/quota-stats." = "~/.codexbar/config.json dosyasında depolandı. /v1/quota-stats için kullanılır.";
-"Stored in ~/.codexbar/config.json. You can also provide CODEBUFF_API_KEY or let CodexBar read ~/.config/manicode/credentials.json (created by `codebuff login`)." = "~/.codexbar/config.json dosyasında depolandı. Ayrıca CODEBUFF_API_KEY sağlayabilir veya CodexBar'ın ~/.config/manicode/credentials.json dosyasını okumasına izin verebilirsiniz (`codebuff login` tarafından oluşturulur).";
+"Stored in ~/.codexbar/config.json. You can also provide CODEBUFF_API_KEY or let CodexBar read ~/.config/manicode/credentials.json (created by `codebuff login`)." = "~/.codexbar/config.json dosyasında depolandı. Ayrıca CODEBUFF_API_KEY sağlayabilir veya AnyCodex'ın ~/.config/manicode/credentials.json dosyasını okumasına izin verebilirsiniz (`codebuff login` tarafından oluşturulur).";
 "Stored in ~/.codexbar/config.json. You can also provide CROF_API_KEY." = "~/.codexbar/config.json dosyasında depolandı. Ayrıca CROF_API_KEY sağlayabilirsiniz.";
 "Stored in ~/.codexbar/config.json. You can also provide KILO_API_KEY or ~/.local/share/kilo/auth.json (kilo.access)." = "~/.codexbar/config.json dosyasında depolandı. Ayrıca KILO_API_KEY veya ~/.local/share/kilo/auth.json (kilo.access) sağlayabilirsiniz.";
 "T3 Chat cookie" = "T3 Chat çerezi";
 "Team mode" = "Takım modu";
-"That account is no longer available in CodexBar. Refresh the account list and try again." = "Bu hesap artık CodexBar'da kullanılamıyor. Hesap listesini yenileyin ve tekrar deneyin.";
+"That account is no longer available in CodexBar. Refresh the account list and try again." = "Bu hesap artık AnyCodex'da kullanılamıyor. Hesap listesini yenileyin ve tekrar deneyin.";
 "The browser login did not complete in time. Try Antigravity login again." = "Tarayıcı girişi zamanında tamamlanmadı. Antigravity girişini tekrar deneyin.";
 "Timed out waiting for Cursor login. %@" = "Cursor girişi beklenirken zaman aşımı. %@";
 "Timed out waiting for Cursor login. %@ Last error: %@" = "Cursor girişi beklenirken zaman aşımı. %@ Son hata: %@";
@@ -1343,3 +1343,12 @@
 "Cost today unavailable" = "Bugünkü maliyet: Kullanılamıyor";
 "30-day cost unavailable" = "30 günlük maliyet: Kullanılamıyor";
 "Resets" = "Sıfırlamalar";
+
+/* AnyCodex: embedded opencodex proxy */
+"opencodex_proxy_running" = "opencodex Proxy: Çalışıyor (port %d)";
+"opencodex_proxy_starting" = "opencodex Proxy: Başlatılıyor...";
+"opencodex_proxy_stopped" = "opencodex Proxy: Durduruldu";
+"opencodex_proxy_error" = "opencodex Proxy: %@";
+"Manage AI Providers..." = "AI Sağlayıcılarını Yönet...";
+"Start opencodex Proxy" = "opencodex Proxy'yi Başlat";
+"Stop opencodex Proxy" = "opencodex Proxy'yi Durdur";

@@ -1,4 +1,4 @@
-/* Swedish localization for CodexBar */
+/* Swedish localization for AnyCodex */
 
 "tab_hooks" = "Hooks";
 "hooks_enable_title" = "Aktivera hooks";
@@ -20,9 +20,9 @@
 "hooks_add_argument" = "Lägg till argument";
 "hooks_delete_argument" = "Ta bort argument";
 
-"ollama_safari_cookie_access_hint" = "Safari-cookies kräver full skivåtkomst för CodexBar (Systeminställningar > Integritet och säkerhet).";
+"ollama_safari_cookie_access_hint" = "Safari-cookies kräver full skivåtkomst för AnyCodex (Systeminställningar > Integritet och säkerhet).";
 "ollama_browser_cookie_decryption_denied" = "Dekryptering av %@-cookies nekades i Nyckelhanteraren; försök igen med en manuell uppdatering.";
-"ollama_browser_cookie_decryption_disabled" = "Dekryptering av %@-cookies är inaktiverad i CodexBar; aktivera åtkomst till Nyckelhanteraren och uppdatera.";
+"ollama_browser_cookie_decryption_disabled" = "Dekryptering av %@-cookies är inaktiverad i AnyCodex; aktivera åtkomst till Nyckelhanteraren och uppdatera.";
 
 " providers" = " leverantörer";
 "(System)" = "(System)";
@@ -62,7 +62,7 @@
 "Automatic imports browser cookies or stored sessions." = "Importerar webbläsarcookies eller sparade sessioner automatiskt.";
 "Automatic imports browser cookies." = "Importerar webbläsarcookies automatiskt.";
 "Automatically imports browser session cookie." = "Importerar webbläsarens sessionscookie automatiskt.";
-"Automatically opens CodexBar when you start your Mac." = "Öppnar CodexBar automatiskt när du startar din Mac.";
+"Automatically opens CodexBar when you start your Mac." = "Öppnar AnyCodex automatiskt när du startar din Mac.";
 "Automation" = "Automatisering";
 "Average (\\(label1) + \\(label2))" = "Genomsnitt (\\(label1) + \\(label2))";
 "Average (\\(metadata.sessionLabel) + \\(metadata.weeklyLabel))" = "Genomsnitt (\\(metadata.sessionLabel) + \\(metadata.weeklyLabel))";
@@ -88,7 +88,7 @@
 "Choose up to \\(Self.maxOverviewProviders) providers" = "Välj upp till \\(Self.maxOverviewProviders) leverantörer";
 "Choose up to \\(count) providers" = "Välj upp till \\(count) leverantörer";
 "Choose what to show in the menu bar (Pace shows usage vs. expected)." = "Välj vad som ska visas i menyraden (takt visar användning mot förväntat).";
-"Choose which Codex account CodexBar should follow." = "Välj vilket Codex-konto CodexBar ska följa.";
+"Choose which Codex account CodexBar should follow." = "Välj vilket Codex-konto AnyCodex ska följa.";
 "Choose which window drives the menu bar percent." = "Välj vilket fönster som styr procenttalet i menyraden.";
 "Chrome" = "Chrome";
 "Claude CLI not found" = "Claude CLI hittades inte";
@@ -103,9 +103,9 @@
 "Codex binary" = "Codex-binär";
 "Codex login failed" = "Codex-inloggning misslyckades";
 "Codex login timed out" = "Codex-inloggning tog för lång tid";
-"CodexBar Lifecycle Keepalive" = "CodexBar livscykel-keepalive";
-"CodexBar can't show its menu bar icon" = "CodexBar kan inte visa sin menyradsikon";
-"CodexBar could not read managed account storage. " = "CodexBar kunde inte läsa hanterad kontolagring. ";
+"CodexBar Lifecycle Keepalive" = "AnyCodex livscykel-keepalive";
+"CodexBar can't show its menu bar icon" = "AnyCodex kan inte visa sin menyradsikon";
+"CodexBar could not read managed account storage. " = "AnyCodex kunde inte läsa hanterad kontolagring. ";
 "Configure…" = "Konfigurera…";
 "Connected" = "Ansluten";
 "Controls how much detail is logged." = "Styr hur detaljerad loggningen är.";
@@ -167,7 +167,7 @@
 "Hide details" = "Dölj detaljer";
 "Hide personal information" = "Dölj personuppgifter";
 "Historical tracking" = "Historisk spårning";
-"How often CodexBar polls providers in the background." = "Hur ofta CodexBar kontrollerar leverantörer i bakgrunden.";
+"How often CodexBar polls providers in the background." = "Hur ofta AnyCodex kontrollerar leverantörer i bakgrunden.";
 "Inactive" = "Inaktiv";
 "Install CLI" = "Installera CLI";
 "Install the Claude CLI (npm i -g @anthropic-ai/claude-code) and try again." = "Installera Claude CLI (npm i -g @anthropic-ai/claude-code) och försök igen.";
@@ -226,7 +226,7 @@
 "Open" = "Öppna";
 "Open API Keys" = "Öppna API-nycklar";
 "Open Amp Settings" = "Öppna Amp-inställningar";
-"Open Antigravity to sign in, then refresh CodexBar." = "Öppna Antigravity för att logga in och uppdatera sedan CodexBar.";
+"Open Antigravity to sign in, then refresh CodexBar." = "Öppna Antigravity för att logga in och uppdatera sedan AnyCodex.";
 "Open Browser" = "Öppna webbläsare";
 "Open Coding Plan" = "Öppna Coding Plan";
 "Open Console" = "Öppna konsol";
@@ -271,7 +271,7 @@
 "Progress bars fill as you consume quota (instead of showing remaining)." = "Förloppsstaplar fylls när du förbrukar kvot i stället för att visa återstående.";
 "Provider" = "Leverantör";
 "Providers" = "Leverantörer";
-"Quit CodexBar" = "Avsluta CodexBar";
+"Quit CodexBar" = "Avsluta AnyCodex";
 "Random (default)" = "Slumpmässig (standard)";
 "Reads local usage logs. Shows today + last 30 days cost in the menu." = "Läser lokala användningsloggar. Visar idag och valt historikfönster i menyn.";
 "Refresh" = "Uppdatera";
@@ -279,8 +279,8 @@
 "Remote" = "Fjärr";
 "Remove" = "Ta bort";
 "Remove Codex account?" = "Ta bort Codex-konto?";
-"Remove \\(account.email) from CodexBar? Its managed Codex home will be deleted." = "Ta bort \\(account.email) från CodexBar? Dess hanterade Codex-hem tas bort.";
-"Remove \\(email) from CodexBar? Its managed Codex home will be deleted." = "Ta bort \\(email) från CodexBar? Dess hanterade Codex-hem tas bort.";
+"Remove \\(account.email) from CodexBar? Its managed Codex home will be deleted." = "Ta bort \\(account.email) från AnyCodex? Dess hanterade Codex-hem tas bort.";
+"Remove \\(email) from CodexBar? Its managed Codex home will be deleted." = "Ta bort \\(email) från AnyCodex? Dess hanterade Codex-hem tas bort.";
 "Remove selected account" = "Ta bort valt konto";
 "Replace critter bars with provider branding icons and a percentage." = "Ersätt figurstaplar med leverantörsikoner och ett procenttal.";
 "Replay selected animation" = "Spela vald animation igen";
@@ -321,7 +321,7 @@
 "Store multiple Ollama Cookie headers." = "Spara flera Cookie-headers för Ollama.";
 "Store multiple OpenCode Cookie headers." = "Spara flera Cookie-headers för OpenCode.";
 "Store multiple OpenCode Go Cookie headers." = "Spara flera Cookie-headers för OpenCode Go.";
-"Stored in the CodexBar config file." = "Sparas i CodexBars konfigurationsfil.";
+"Stored in the CodexBar config file." = "Sparas i AnyCodex konfigurationsfil.";
 "Stored in ~/.codexbar/config.json. " = "Sparas i ~/.codexbar/config.json. ";
 "Stored in ~/.codexbar/config.json. Paste the key from the Synthetic dashboard." = "Sparas i ~/.codexbar/config.json. Klistra in nyckeln från Synthetic-instrumentpanelen.";
 "Stored in ~/.codexbar/config.json. Paste your Coding Plan API key from Model Studio." = "Sparas i ~/.codexbar/config.json. Klistra in din Coding Plan-API-nyckel från Model Studio.";
@@ -396,8 +396,8 @@
 "cursor_on_demand" = "Vid behov: %@";
 "cursor_on_demand_with_limit" = "Vid behov: %1$@ / %2$@";
 "extra_usage_format" = "Extra användning: %1$@ / %2$@";
-"jetbrains_detected_generate" = "Hittade: %@. Använd AI-assistenten en gång för att skapa kvotdata och uppdatera sedan CodexBar.";
-"jetbrains_detected_select" = "Hittade: %@. Välj önskad IDE i Inställningar och uppdatera sedan CodexBar.";
+"jetbrains_detected_generate" = "Hittade: %@. Använd AI-assistenten en gång för att skapa kvotdata och uppdatera sedan AnyCodex.";
+"jetbrains_detected_select" = "Hittade: %@. Välj önskad IDE i Inställningar och uppdatera sedan AnyCodex.";
 "last_fetch_failed_with_provider" = "Senaste hämtningen för %@ misslyckades:";
 "last_spend" = "Senaste utgift: %@";
 "mcp_model_usage" = "%1$@: %2$@";
@@ -407,10 +407,10 @@
 "metric_primary" = "Primär (%@)";
 "metric_secondary" = "Sekundär (%@)";
 "metric_tertiary" = "Tertiär (%@)";
-"multiple_workspaces_found" = "CodexBar hittade flera arbetsytor för %@. Välj arbetsytan som ska läggas till.";
+"multiple_workspaces_found" = "AnyCodex hittade flera arbetsytor för %@. Välj arbetsytan som ska läggas till.";
 "ory_session_…=…; csrftoken=…" = "ory_session_…=…; csrftoken=…";
 "overview_choose_providers" = "Välj upp till %@ leverantörer";
-"remove_account_message" = "Ta bort %@ från CodexBar? Dess hanterade Codex-hem tas bort.";
+"remove_account_message" = "Ta bort %@ från AnyCodex? Dess hanterade Codex-hem tas bort.";
 "version_format" = "Version %@";
 "vertex_ai_login_instructions" = "Autentisera med Google Cloud för att följa Vertex AI-användning.\n\n1. Öppna Terminal\n2. Kör: gcloud auth application-default login\n3. Följ anvisningarna i webbläsaren för att logga in\n4. Ange ditt projekt: gcloud config set project PROJECT_ID\n\nÖppna Terminal nu?";
 "workspaceID is set but only opencode, opencodego, and deepgram support workspaceID." = "workspaceID är angivet, men bara opencode, opencodego och deepgram stöder workspaceID.";
@@ -449,7 +449,7 @@
 "language_indonesian" = "Indonesiska";
 "language_polish" = "Polski";
 "start_at_login_title" = "Starta vid inloggning";
-"start_at_login_subtitle" = "Öppnar CodexBar automatiskt när du startar din Mac.";
+"start_at_login_subtitle" = "Öppnar AnyCodex automatiskt när du startar din Mac.";
 "show_cost_summary_subtitle" = "Läser lokala användningsloggar. Visar idag och valt historikfönster i menyn.";
 "cost_summary_style_title" = "Visningsstil";
 "cost_summary_style_inline" = "Endast inbäddad";
@@ -516,7 +516,7 @@
 "quota_warning_warning" = "Varning";
 "quota_warning_critical" = "Kritisk";
 "apply" = "Tillämpa";
-"quit_app" = "Avsluta CodexBar";
+"quit_app" = "Avsluta AnyCodex";
 
 /* Tab titles */
 "tab_general" = "Allmänt";
@@ -541,8 +541,8 @@
 "managed_login_missing_email" = "Codex-inloggningen slutfördes, men ingen e-postadress för kontot var tillgänglig. Försök igen när du har kontrollerat att kontot är helt inloggat.";
 "login_success_notification_title" = "%@-inloggning lyckades";
 "login_success_notification_body" = "Du kan återgå till appen. Autentiseringen är klar.";
-"workspace_selection_cancelled" = "CodexBar hittade flera arbetsytor, men ingen arbetsyta valdes.";
-"unsafe_managed_home" = "CodexBar vägrade ändra en oväntad hanterad hem-sökväg: %@";
+"workspace_selection_cancelled" = "AnyCodex hittade flera arbetsytor, men ingen arbetsyta valdes.";
+"unsafe_managed_home" = "AnyCodex vägrade ändra en oväntad hanterad hem-sökväg: %@";
 "menu_bar_metric_title" = "Menyradsmått";
 "menu_bar_metric_subtitle" = "Välj vilket fönster som styr procenttalet i menyraden.";
 "menu_bar_metric_subtitle_deepseek" = "Visar DeepSeek-saldot i menyraden.";
@@ -694,7 +694,7 @@
 "login_shell_path" = "Inloggningsskalets PATH (fångad vid start)";
 "cleared" = "Rensat.";
 "no_fetch_attempts" = "Inga hämtningsförsök än.";
-"macOS Tahoe can block menu bar apps in System Settings → Menu Bar → Allow in the Menu Bar. CodexBar is running, but macOS may be hiding its icon. Open Menu Bar settings and turn CodexBar on." = "macOS Tahoe kan blockera menyradsappar i Systeminställningar → Menyrad → Tillåt i menyraden. CodexBar körs, men macOS kan dölja ikonen. Öppna menyradsinställningarna och slå på CodexBar.";
+"macOS Tahoe can block menu bar apps in System Settings → Menu Bar → Allow in the Menu Bar. CodexBar is running, but macOS may be hiding its icon. Open Menu Bar settings and turn CodexBar on." = "macOS Tahoe kan blockera menyradsappar i Systeminställningar → Menyrad → Tillåt i menyraden. AnyCodex körs, men macOS kan dölja ikonen. Öppna menyradsinställningarna och slå på AnyCodex.";
 
 /* Metric preferences */
 "metric_pref_automatic" = "Automatiskt";
@@ -737,7 +737,7 @@
 "refresh_adaptive" = "Adaptiv";
 "refresh_adaptive_agent_aware" = "Adaptiv (agentaktivitet)";
 "adaptive_activity_consent_title" = "Tillåta aktivitetsmedveten uppdatering?";
-"adaptive_activity_consent_message" = "Det agentmedvetna adaptiva läget kan granska listan över lokala processer som körs, inklusive kommandorader, för att identifiera Codex och Claude och sedan läsa kända sessionsmetadata var 30:e sekund medan du kodar. När Agent Sessions är avstängt använder CodexBar endast tiden för den senaste aktiviteten i minnet och kasserar sessionssökvägar och identiteter. Dessa data skickas ingenstans, och fjärridentifiering och SSH förblir avstängda. Om du avböjer återgår CodexBar till vanligt Adaptiv utan lokala aktivitetsskanningar.";
+"adaptive_activity_consent_message" = "Det agentmedvetna adaptiva läget kan granska listan över lokala processer som körs, inklusive kommandorader, för att identifiera Codex och Claude och sedan läsa kända sessionsmetadata var 30:e sekund medan du kodar. När Agent Sessions är avstängt använder AnyCodex endast tiden för den senaste aktiviteten i minnet och kasserar sessionssökvägar och identiteter. Dessa data skickas ingenstans, och fjärridentifiering och SSH förblir avstängda. Om du avböjer återgår AnyCodex till vanligt Adaptiv utan lokala aktivitetsskanningar.";
 "adaptive_activity_consent_allow" = "Tillåt lokal aktivitet";
 "adaptive_activity_consent_decline" = "Använd vanligt Adaptiv";
 
@@ -771,7 +771,7 @@
 "No local data found" = "Inga lokala data hittades";
 "Credits unavailable; keep Codex running to refresh." = "Krediter är inte tillgängliga. Håll Codex igång för att uppdatera.";
 "No available fetch strategy for minimax." = "Ingen tillgänglig hämtningsstrategi för minimax.";
-"No Cursor session found. Please log in to cursor.com in Safari, Chrome, Microsoft Edge, Brave, Arc, Dia, ChatGPT Atlas, Chromium, Helium, Vivaldi, Yandex Browser, Firefox, Zen, Colibri, Sidekick, Opera, Opera GX, or Edge Canary. If you use Safari, grant CodexBar Full Disk Access in System Settings ▸ Privacy & Security. You can also sign in to Cursor from the CodexBar menu (Add / switch account)." = "Ingen Cursor-session hittades. Logga in på cursor.com i Safari, Chrome, Microsoft Edge, Brave, Arc, Dia, ChatGPT Atlas, Chromium, Helium, Vivaldi, Yandex Browser, Firefox, Zen, Colibri, Sidekick, Opera, Opera GX eller Edge Canary. Om du använder Safari ger du CodexBar Fullständig skivåtkomst i Systeminställningar ▸ Integritet och säkerhet. Du kan också logga in på Cursor från CodexBar-menyn (lägg till/byt konto).";
+"No Cursor session found. Please log in to cursor.com in Safari, Chrome, Microsoft Edge, Brave, Arc, Dia, ChatGPT Atlas, Chromium, Helium, Vivaldi, Yandex Browser, Firefox, Zen, Colibri, Sidekick, Opera, Opera GX, or Edge Canary. If you use Safari, grant CodexBar Full Disk Access in System Settings ▸ Privacy & Security. You can also sign in to Cursor from the CodexBar menu (Add / switch account)." = "Ingen Cursor-session hittades. Logga in på cursor.com i Safari, Chrome, Microsoft Edge, Brave, Arc, Dia, ChatGPT Atlas, Chromium, Helium, Vivaldi, Yandex Browser, Firefox, Zen, Colibri, Sidekick, Opera, Opera GX eller Edge Canary. Om du använder Safari ger du AnyCodex Fullständig skivåtkomst i Systeminställningar ▸ Integritet och säkerhet. Du kan också logga in på Cursor från AnyCodex-menyn (lägg till/byt konto).";
 "No OpenCode session cookies found in browsers." = "Inga OpenCode-sessionscookies hittades i webbläsare.";
 "No available fetch strategy for %@." = "Ingen tillgänglig hämtningsstrategi för %@.";
 "Today" = "Idag";
@@ -787,7 +787,7 @@
 "Status Page" = "Statussida";
 "Open Status Page" = "Öppna statussida";
 "Settings..." = "Inställningar...";
-"About CodexBar" = "Om CodexBar";
+"About CodexBar" = "Om AnyCodex";
 "Quit" = "Avsluta";
 "Last %d day" = "Senaste %d dagen";
 "Last %d days" = "Senaste %d dagarna";
@@ -935,9 +935,9 @@
 "Organization ID" = "Organisations-ID";
 "Your StepFun platform password. Used to login and obtain a session token." = "Ditt lösenord för StepFun-plattformen. Används för att logga in och hämta en sessionstoken.";
 "Open this URL manually to continue login:\n\n%@" = "Öppna denna URL manuellt för att fortsätta inloggningen:\n\n%@";
-"CodexBar could not replace the live Codex auth on this Mac." = "CodexBar kunde inte ersätta aktiv Codex-autentisering på den här Mac-datorn.";
+"CodexBar could not replace the live Codex auth on this Mac." = "AnyCodex kunde inte ersätta aktiv Codex-autentisering på den här Mac-datorn.";
 "Stored in ~/.codexbar/config.json. Used for /v1/quota-stats." = "Sparas i ~/.codexbar/config.json. Används för /v1/quota-stats.";
-"CodexBar could not safely preserve the current system account before switching." = "CodexBar kunde inte spara det aktuella systemkontot säkert före bytet.";
+"CodexBar could not safely preserve the current system account before switching." = "AnyCodex kunde inte spara det aktuella systemkontot säkert före bytet.";
 "Oasis-Token" = "Oasis-Token";
 "Open Crof dashboard" = "Öppna Crof-översikt";
 "Sonnet" = "Sonnet";
@@ -947,10 +947,10 @@
 "Paste a Cookie header or cURL capture from %@." = "Klistra in en Cookie-header eller cURL-fångst från %@.";
 "Show or hide Kiro credits, percent, or both next to the menu bar icon." = "Visa eller dölj Kiro-krediter, procent eller båda bredvid menyradsikonen.";
 "credits" = "krediter";
-"CodexBar will ask macOS Keychain for “%@” so it can decrypt browser cookies and authenticate your account. Click OK to continue." = "CodexBar kommer att be macOS Nyckelring om ”%@” så att webbläsarcookies kan dekrypteras och ditt konto autentiseras. Klicka på OK för att fortsätta.";
+"CodexBar will ask macOS Keychain for “%@” so it can decrypt browser cookies and authenticate your account. Click OK to continue." = "AnyCodex kommer att be macOS Nyckelring om ”%@” så att webbläsarcookies kan dekrypteras och ditt konto autentiseras. Klicka på OK för att fortsätta.";
 "StepFun platform account (phone number or email)." = "StepFun-plattformskonto (telefonnummer eller e-post).";
 "Timed out waiting for Cursor login. %@" = "Tidsgränsen nåddes i väntan på Cursor-inloggning. %@";
-"CodexBar will ask macOS Keychain for your Amp cookie header so it can fetch usage. Click OK to continue." = "CodexBar kommer att be macOS Nyckelring om din Amp-cookie-header så att användning kan hämtas. Klicka på OK för att fortsätta.";
+"CodexBar will ask macOS Keychain for your Amp cookie header so it can fetch usage. Click OK to continue." = "AnyCodex kommer att be macOS Nyckelring om din Amp-cookie-header så att användning kan hämtas. Klicka på OK för att fortsätta.";
 "Stored in ~/.codexbar/config.json." = "Sparas i ~/.codexbar/config.json.";
 "Reported by Mistral billing usage." = "Rapporteras av Mistrals debiteringsanvändning.";
 "Usage remaining" = "Användning kvar";
@@ -967,7 +967,7 @@
 "Antigravity login timed out" = "Antigravity-inloggning tog för lång tid";
 "%@ requests" = "%@ förfrågningar";
 "Open StepFun Platform" = "Öppna StepFun-plattformen";
-"CodexBar will ask macOS Keychain for your OpenCode cookie header so it can fetch usage. Click OK to continue." = "CodexBar kommer att be macOS Nyckelring om din OpenCode-cookie-header så att användning kan hämtas. Klicka på OK för att fortsätta.";
+"CodexBar will ask macOS Keychain for your OpenCode cookie header so it can fetch usage. Click OK to continue." = "AnyCodex kommer att be macOS Nyckelring om din OpenCode-cookie-header så att användning kan hämtas. Klicka på OK för att fortsätta.";
 "Endpoint" = "Slutpunkt";
 "Paste the %@ JSON bundle from %@." = "Klistra in %@-JSON-paketet från %@.";
 "Uses username + password to login and obtain an %@ automatically." = "Använder användarnamn och lösenord för att logga in och hämta ett %@ automatiskt.";
@@ -980,7 +980,7 @@
 "Cost history chart" = "Diagram över kostnadshistorik";
 "Today requests" = "Dagens förfrågningar";
 "Kiro menu bar value" = "Kiro-värde i menyraden";
-"CodexBar could not read managed account storage. Recover the store before adding another account." = "CodexBar kunde inte läsa hanterad kontolagring. Återställ lagringen innan du lägger till ett konto till.";
+"CodexBar could not read managed account storage. Recover the store before adding another account." = "AnyCodex kunde inte läsa hanterad kontolagring. Återställ lagringen innan du lägger till ett konto till.";
 "Using CLI fallback" = "Använder CLI-reserv";
 "%@ web API access is disabled." = "%@-åtkomst till webb-API är inaktiverad.";
 "tokens" = "token";
@@ -988,9 +988,9 @@
 "Zen balance" = "Zen-saldo";
 "Daily billing data finalizes at 07:00 UTC" = "Dagliga debiteringsdata fastställs kl. 07.00 UTC";
 "Add Account" = "Lägg till konto";
-"CodexBar found another managed account that already uses the current system account. Resolve the duplicate account before switching." = "CodexBar hittade ett annat hanterat konto som redan använder det aktuella systemkontot. Lös dubbletten innan du byter.";
+"CodexBar found another managed account that already uses the current system account. Resolve the duplicate account before switching." = "AnyCodex hittade ett annat hanterat konto som redan använder det aktuella systemkontot. Lös dubbletten innan du byter.";
 "codex login exited with status %d." = "codex login avslutades med status %d.";
-"CodexBar could not read saved auth for that account. Re-authenticate it and try again." = "CodexBar kunde inte läsa sparad autentisering för kontot. Autentisera det igen och försök igen.";
+"CodexBar could not read saved auth for that account. Re-authenticate it and try again." = "AnyCodex kunde inte läsa sparad autentisering för kontot. Autentisera det igen och försök igen.";
 "Cookie: …\n\nor paste the kimi-auth token value" = "Cookie: …\n\neller klistra in värdet för kimi-auth-token";
 "Optional organization ID for accounts linked to multiple Anthropic organizations." = "Valfritt organisations-ID för konton som är kopplade till flera Anthropic-organisationer.";
 "Manually paste an %@ from a browser session." = "Klistra in ett %@ manuellt från en webbläsarsession.";
@@ -1002,7 +1002,7 @@
 "Workspace ID" = "Arbetsyte-ID";
 "Refresh Session" = "Uppdatera session";
 "Today cash" = "Dagens kontanter";
-"Sign in to cursor.com in your browser, then refresh Cursor in CodexBar." = "Logga in på cursor.com i webbläsaren och uppdatera sedan Cursor i CodexBar.";
+"Sign in to cursor.com in your browser, then refresh Cursor in CodexBar." = "Logga in på cursor.com i webbläsaren och uppdatera sedan Cursor i AnyCodex.";
 "Extra usage spent" = "Extra användning förbrukad";
 "5 days" = "5 dagar";
 "T3 Chat cookie" = "T3 Chat-cookie";
@@ -1017,18 +1017,18 @@
 "No system account" = "Inget systemkonto";
 "Stored in ~/.codexbar/config.json. Requires an Anthropic Admin API key." = "Sparas i ~/.codexbar/config.json. Kräver en Anthropic Admin API-nyckel.";
 "AWS region. Can also be set with AWS_REGION." = "AWS-region. Kan även anges med AWS_REGION.";
-"CodexBar will ask macOS Keychain for your Claude cookie header so it can fetch Claude web usage. Click OK to continue." = "CodexBar kommer att be macOS Nyckelring om din Claude-cookie-header så att Claude-webbanvändning kan hämtas. Klicka på OK för att fortsätta.";
-"CodexBar will ask macOS Keychain for your z.ai API token so it can fetch usage. Click OK to continue." = "CodexBar kommer att be macOS Nyckelring om din z.ai-API-token så att användning kan hämtas. Klicka på OK för att fortsätta.";
+"CodexBar will ask macOS Keychain for your Claude cookie header so it can fetch Claude web usage. Click OK to continue." = "AnyCodex kommer att be macOS Nyckelring om din Claude-cookie-header så att Claude-webbanvändning kan hämtas. Klicka på OK för att fortsätta.";
+"CodexBar will ask macOS Keychain for your z.ai API token so it can fetch usage. Click OK to continue." = "AnyCodex kommer att be macOS Nyckelring om din z.ai-API-token så att användning kan hämtas. Klicka på OK för att fortsätta.";
 "Show usage for organizations you belong to. Personal account is always shown." = "Visa användning för organisationer du tillhör. Personligt konto visas alltid.";
 "%@ of %@ credits left" = "%@ av %@ krediter kvar";
-"Stored in ~/.codexbar/config.json. You can also provide CODEBUFF_API_KEY or let CodexBar read ~/.config/manicode/credentials.json (created by `codebuff login`)." = "Sparas i ~/.codexbar/config.json. Du kan också ange CODEBUFF_API_KEY eller låta CodexBar läsa ~/.config/manicode/credentials.json (skapas av `codebuff login`).";
+"Stored in ~/.codexbar/config.json. You can also provide CODEBUFF_API_KEY or let CodexBar read ~/.config/manicode/credentials.json (created by `codebuff login`)." = "Sparas i ~/.codexbar/config.json. Du kan också ange CODEBUFF_API_KEY eller låta AnyCodex läsa ~/.config/manicode/credentials.json (skapas av `codebuff login`).";
 "Automatic imports Windsurf session data from Chromium browser localStorage." = "Importerar Windsurf-sessionsdata från Chromium-webbläsarens localStorage automatiskt.";
 "Full in ~%.0f regens" = "Full om cirka %.0f regenereringar";
 "Verbosity" = "Detaljnivå";
 "%d days of usage data across %d services" = "%d dagar med användningsdata för %d tjänster";
 "Stored in ~/.codexbar/config.json. You can also provide KILO_API_KEY or ~/.local/share/kilo/auth.json (kilo.access)." = "Sparas i ~/.codexbar/config.json. Du kan också ange KILO_API_KEY eller ~/.local/share/kilo/auth.json (kilo.access).";
 "Windsurf session JSON bundle" = "Windsurf-sessionspaket i JSON";
-"CodexBar will ask macOS Keychain for your Cursor cookie header so it can fetch usage. Click OK to continue." = "CodexBar kommer att be macOS Nyckelring om din Cursor-cookie-header så att användning kan hämtas. Klicka på OK för att fortsätta.";
+"CodexBar will ask macOS Keychain for your Cursor cookie header so it can fetch usage. Click OK to continue." = "AnyCodex kommer att be macOS Nyckelring om din Cursor-cookie-header så att användning kan hämtas. Klicka på OK för att fortsätta.";
 "Drag to reorder" = "Dra för att ändra ordning";
 "Sort providers alphabetically" = "Sortera leverantörer alfabetiskt";
 "Sort providers alphabetically (enabled first)" = "Sortera leverantörer alfabetiskt (aktiverade först)";
@@ -1048,24 +1048,24 @@
 "Base URL" = "Bas-URL";
 "Utilization End" = "Användningsslut";
 "7d spend" = "7 d kostnad";
-"CodexBar could not read the current system account on this Mac." = "CodexBar kunde inte läsa det aktuella systemkontot på den här Mac-datorn.";
+"CodexBar could not read the current system account on this Mac." = "AnyCodex kunde inte läsa det aktuella systemkontot på den här Mac-datorn.";
 "%@ of %@ bonus credits left" = "%@ av %@ bonuskrediter kvar";
 "Overage usage" = "Överförbrukning";
 "AWS access key ID. Can also be set with AWS_ACCESS_KEY_ID." = "AWS-åtkomstnyckel-ID. Kan även anges med AWS_ACCESS_KEY_ID.";
-"CodexBar could not find saved auth for that account. Re-authenticate it and try again." = "CodexBar kunde inte hitta sparad autentisering för kontot. Autentisera det igen och försök igen.";
+"CodexBar could not find saved auth for that account. Re-authenticate it and try again." = "AnyCodex kunde inte hitta sparad autentisering för kontot. Autentisera det igen och försök igen.";
 "Capacity End" = "Kapacitetsslut";
 "Paste the %@ value or a full Cookie header." = "Klistra in %@-värdet eller en fullständig Cookie-header.";
-"CodexBar will ask macOS Keychain for your Factory cookie header so it can fetch usage. Click OK to continue." = "CodexBar kommer att be macOS Nyckelring om din Factory-cookie-header så att användning kan hämtas. Klicka på OK för att fortsätta.";
+"CodexBar will ask macOS Keychain for your Factory cookie header so it can fetch usage. Click OK to continue." = "AnyCodex kommer att be macOS Nyckelring om din Factory-cookie-header så att användning kan hämtas. Klicka på OK för att fortsätta.";
 "Paste a Cookie header or full cURL capture from %@." = "Klistra in en Cookie-header eller fullständig cURL-fångst från %@.";
 "Paste the Cookie header from a request to admin.mistral.ai. Must contain an ory_session_* cookie." = "Klistra in Cookie-headern från en förfrågan till admin.mistral.ai. Den måste innehålla en ory_session_*-cookie.";
 "Copy error" = "Kopieringsfel";
-"CodexBar will ask macOS Keychain for your MiniMax API token so it can fetch usage. Click OK to continue." = "CodexBar kommer att be macOS Nyckelring om din MiniMax-API-token så att användning kan hämtas. Klicka på OK för att fortsätta.";
+"CodexBar will ask macOS Keychain for your MiniMax API token so it can fetch usage. Click OK to continue." = "AnyCodex kommer att be macOS Nyckelring om din MiniMax-API-token så att användning kan hämtas. Klicka på OK för att fortsätta.";
 "Project ID" = "Projekt-ID";
 "Timed out waiting for Cursor login. %@ Last error: %@" = "Tidsgränsen nåddes i väntan på Cursor-inloggning. %@ Senaste fel: %@";
 "codex_login_output" = "utdata från codex login:";
 "Stored in ~/.codexbar/config.json. Get your API key from the Volcengine Ark console." = "Sparas i ~/.codexbar/config.json. Hämta API-nyckeln från Volcengine Ark-konsolen.";
 "Overage cost" = "Kostnad för överförbrukning";
-"CodexBar can't replace a system account that is signed in with an API key only setup." = "CodexBar kan inte ersätta ett systemkonto som är inloggat med en konfiguration som bara använder API-nyckel.";
+"CodexBar can't replace a system account that is signed in with an API key only setup." = "AnyCodex kan inte ersätta ett systemkonto som är inloggat med en konfiguration som bara använder API-nyckel.";
 "Utilization Start" = "Användningsstart";
 "API key verifies Ollama Cloud access; cookies still expose quota limits." = "API-nyckeln verifierar åtkomst till Ollama Cloud. Cookies visar fortfarande kvotgränser.";
 "Credits remaining" = "Krediter kvar";
@@ -1074,12 +1074,12 @@
 "Azure OpenAI deployment name. AZURE_OPENAI_DEPLOYMENT_NAME is also supported." = "Azure OpenAI-distributionens namn. AZURE_OPENAI_DEPLOYMENT_NAME stöds också.";
 "Extra usage balance: %@" = "Saldo för extra användning: %@";
 "requests" = "förfrågningar";
-"CodexBar could not save the current system account before switching." = "CodexBar kunde inte spara det aktuella systemkontot före bytet.";
+"CodexBar could not save the current system account before switching." = "AnyCodex kunde inte spara det aktuella systemkontot före bytet.";
 "Stored in ~/.codexbar/config.json. For the official Kimi API, use Moonshot / Kimi API." = "Sparas i ~/.codexbar/config.json. För det officiella Kimi-API:t använder du Moonshot / Kimi API.";
 "Cookie: …\n\nor paste a cURL capture from the Abacus AI dashboard" = "Cookie: …\n\neller klistra in en cURL-fångst från Abacus AI-översikten";
 "Last 30 days: %@ tokens" = "Senaste 30 dagarna: %@ token";
 "%@ authentication is disabled." = "%@-autentisering är inaktiverad.";
-"CodexBar will ask macOS Keychain for your GitHub Copilot token so it can fetch usage. Click OK to continue." = "CodexBar kommer att be macOS Nyckelring om din GitHub Copilot-token så att användning kan hämtas. Klicka på OK för att fortsätta.";
+"CodexBar will ask macOS Keychain for your GitHub Copilot token so it can fetch usage. Click OK to continue." = "AnyCodex kommer att be macOS Nyckelring om din GitHub Copilot-token så att användning kan hämtas. Klicka på OK för att fortsätta.";
 "z.ai hourly token trend" = "Token-trend per timme för z.ai";
 "Near full" = "Nästan full";
 "Open Moonshot Console" = "Öppna Moonshot-konsol";
@@ -1115,7 +1115,7 @@
 "%d utilization samples" = "%d användningsmätningar";
 "Cap start" = "Gränsstart";
 "Credits used" = "Använda krediter";
-"CodexBar will ask macOS Keychain for your OpenAI cookie header so it can fetch Codex dashboard extras. Click OK to continue." = "CodexBar kommer att be macOS Nyckelring om din OpenAI-cookie-header så att extra Codex-översiktsdata kan hämtas. Klicka på OK för att fortsätta.";
+"CodexBar will ask macOS Keychain for your OpenAI cookie header so it can fetch Codex dashboard extras. Click OK to continue." = "AnyCodex kommer att be macOS Nyckelring om din OpenAI-cookie-header så att extra Codex-översiktsdata kan hämtas. Klicka på OK för att fortsätta.";
 "Re-auth" = "Autentisera igen";
 "Re-login at claude.ai" = "Logga in igen på claude.ai";
 "cache-miss input" = "cachemiss-indata";
@@ -1132,12 +1132,12 @@
 "Open projects" = "Öppna projekt";
 "Reported by OpenAI Admin API organization usage." = "Rapporteras av OpenAI Admin API:s organisationsanvändning.";
 "%@: %@ credits" = "%@: %@ krediter";
-"CodexBar will ask macOS Keychain for your Kimi auth token so it can fetch usage. Click OK to continue." = "CodexBar kommer att be macOS Nyckelring om din Kimi-autentiseringstoken så att användning kan hämtas. Klicka på OK för att fortsätta.";
+"CodexBar will ask macOS Keychain for your Kimi auth token so it can fetch usage. Click OK to continue." = "AnyCodex kommer att be macOS Nyckelring om din Kimi-autentiseringstoken så att användning kan hämtas. Klicka på OK för att fortsätta.";
 "Keychain Access Required" = "Åtkomst till Nyckelring krävs";
 "keychain_prompt_learn_more" = "Läs mer…";
-"keychain_prompt_privacy_note" = "Inmatningen av Mac-inloggningslösenordet hanteras av macOS, inte CodexBar. Du kan när som helst inaktivera åtkomst till Nyckelring under Inställningar → Avancerat.";
+"keychain_prompt_privacy_note" = "Inmatningen av Mac-inloggningslösenordet hanteras av macOS, inte AnyCodex. Du kan när som helst inaktivera åtkomst till Nyckelring under Inställningar → Avancerat.";
 "Username" = "Användarnamn";
-"CodexBar will ask macOS Keychain for your MiniMax cookie header so it can fetch usage. Click OK to continue." = "CodexBar kommer att be macOS Nyckelring om din MiniMax-cookie-header så att användning kan hämtas. Klicka på OK för att fortsätta.";
+"CodexBar will ask macOS Keychain for your MiniMax cookie header so it can fetch usage. Click OK to continue." = "AnyCodex kommer att be macOS Nyckelring om din MiniMax-cookie-header så att användning kan hämtas. Klicka på OK för att fortsätta.";
 "30d spend" = "30 d kostnad";
 "API key verified. Cloud quotas need browser cookies. Sign in to Ollama." = "API-nyckeln har verifierats. Cloud-kvoter kräver webbläsarcookies. Logga in på Ollama.";
 "Series" = "Serie";
@@ -1154,7 +1154,7 @@
 "No organizations loaded. Click Refresh after setting your API key." = "Inga organisationer har lästs in. Klicka på Uppdatera efter att du har angett API-nyckeln.";
 "Copy path" = "Kopiera sökväg";
 "Paste a Cookie header from %@." = "Klistra in en Cookie-header från %@.";
-"CodexBar will ask macOS Keychain for the Claude Code OAuth token so it can fetch your Claude usage. Click OK to continue." = "CodexBar kommer att be macOS Nyckelring om OAuth-token för Claude Code så att din Claude-användning kan hämtas. Klicka på OK för att fortsätta.";
+"CodexBar will ask macOS Keychain for the Claude Code OAuth token so it can fetch your Claude usage. Click OK to continue." = "AnyCodex kommer att be macOS Nyckelring om OAuth-token för Claude Code så att din Claude-användning kan hämtas. Klicka på OK för att fortsätta.";
 "Base URL for the LLM-API-Key-Proxy instance." = "Bas-URL för LLM-API-Key-Proxy-instansen.";
 "Paste a Cookie or Authorization header from %@." = "Klistra in en Cookie- eller Authorization-header från %@.";
 "stale data" = "inaktuella data";
@@ -1165,16 +1165,16 @@
 "Automatic imports browser cookies from Xiaomi MiMo." = "Importerar webbläsarcookies från Xiaomi MiMo automatiskt.";
 "No usage configured." = "Ingen användning konfigurerad.";
 "Extra usage" = "Extra användning";
-"That account is no longer available in CodexBar. Refresh the account list and try again." = "Kontot finns inte längre i CodexBar. Uppdatera kontolistan och försök igen.";
+"That account is no longer available in CodexBar. Refresh the account list and try again." = "Kontot finns inte längre i AnyCodex. Uppdatera kontolistan och försök igen.";
 "%@ is waiting for permission" = "%@ väntar på behörighet";
 "Org ID (optional)" = "Org-ID (valfritt)";
 "Service" = "Tjänst";
 "Azure OpenAI key" = "Azure OpenAI-nyckel";
 "%@ cookies are disabled." = "%@-cookies är inaktiverade.";
 "Stored in ~/.codexbar/config.json. You can also provide CROF_API_KEY." = "Sparas i ~/.codexbar/config.json. Du kan också ange CROF_API_KEY.";
-"CodexBar will ask macOS Keychain for your Synthetic API key so it can fetch usage. Click OK to continue." = "CodexBar kommer att be macOS Nyckelring om din Synthetic-API-nyckel så att användning kan hämtas. Klicka på OK för att fortsätta.";
-"CodexBar could not update managed account storage." = "CodexBar kunde inte uppdatera hanterad kontolagring.";
-"CodexBar will ask macOS Keychain for your Augment cookie header so it can fetch usage. Click OK to continue." = "CodexBar kommer att be macOS Nyckelring om din Augment-cookie-header så att användning kan hämtas. Klicka på OK för att fortsätta.";
+"CodexBar will ask macOS Keychain for your Synthetic API key so it can fetch usage. Click OK to continue." = "AnyCodex kommer att be macOS Nyckelring om din Synthetic-API-nyckel så att användning kan hämtas. Klicka på OK för att fortsätta.";
+"CodexBar could not update managed account storage." = "AnyCodex kunde inte uppdatera hanterad kontolagring.";
+"CodexBar will ask macOS Keychain for your Augment cookie header so it can fetch usage. Click OK to continue." = "AnyCodex kommer att be macOS Nyckelring om din Augment-cookie-header så att användning kan hämtas. Klicka på OK för att fortsätta.";
 "Clear" = "Rensa";
 "No matching providers" = "Inga matchande leverantörer";
 "Search providers" = "Sök leverantörer";
@@ -1235,11 +1235,11 @@
 
 "%@: %@" = "%@: %@";
 "Alternatively, set a custom path in Settings." = "Alternativt kan du ange en anpassad sökväg i Inställningar.";
-"Choose a supported browser so CodexBar can read the matching account." = "Välj en webbläsare som stöds så att CodexBar kan läsa det matchande kontot.";
+"Choose a supported browser so CodexBar can read the matching account." = "Välj en webbläsare som stöds så att AnyCodex kan läsa det matchande kontot.";
 "Choose Cursor account" = "Välj Cursor-konto";
-"Choose which Cursor account CodexBar should use." = "Välj vilket Cursor-konto CodexBar ska använda.";
+"Choose which Cursor account CodexBar should use." = "Välj vilket Cursor-konto AnyCodex ska använda.";
 "Finish switching to a different Cursor account in your browser, then try again." = "Slutför bytet till ett annat Cursor-konto i webbläsaren och försök igen.";
-"Install a JetBrains IDE with AI Assistant enabled, then refresh CodexBar." = "Installera en JetBrains IDE med AI Assistant aktiverad och uppdatera sedan CodexBar.";
+"Install a JetBrains IDE with AI Assistant enabled, then refresh CodexBar." = "Installera en JetBrains IDE med AI Assistant aktiverad och uppdatera sedan AnyCodex.";
 "Request quota: %@ / %@" = "Begäranskvot: %@ / %@";
 "Sign in with Claude Code..." = "Logga in med Claude Code...";
 "Timed out waiting for Cursor account switch. %@" = "Tidsgränsen överskreds i väntan på byte av Cursor-konto. %@";
@@ -1340,3 +1340,12 @@
 "Cost today unavailable" = "Kostnad idag: Inte tillgänglig";
 "30-day cost unavailable" = "Kostnad 30 dagar: Inte tillgänglig";
 "Resets" = "Återställningar";
+
+/* AnyCodex: embedded opencodex proxy */
+"opencodex_proxy_running" = "opencodex-proxy: körs (port %d)";
+"opencodex_proxy_starting" = "opencodex-proxy: startar...";
+"opencodex_proxy_stopped" = "opencodex-proxy: stoppad";
+"opencodex_proxy_error" = "opencodex-proxy: %@";
+"Manage AI Providers..." = "Hantera AI-leverantörer...";
+"Start opencodex Proxy" = "Starta opencodex-proxy";
+"Stop opencodex Proxy" = "Stoppa opencodex-proxy";
