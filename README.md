@@ -35,6 +35,10 @@ AnyCodex 把两件事都收进菜单栏:
 1. 菜单栏出现图标后,打开 设置 → Providers,启用你在用的服务(Codex 读 `~/.codex` 登录、Claude 读 Claude Code 凭据,首次会请求一次钥匙串授权,选"始终允许")
 2. 菜单里 "Manage AI Providers…" 打开代理管理台,按需接入其他模型
 
+> **首次启动会修改你的 Codex 配置。** 内嵌代理启动时,opencodex 会在 `~/.codex/config.toml` 里注入 `openai_base_url`,把 Codex 的请求指向本地代理(这正是"任意模型接进 Codex"的实现方式,你的聊天记录不受影响)。
+> - 不想要这个行为:菜单里点 "Stop opencodex Proxy",然后执行 `ocx restore` 还原原生 Codex 配置;之后 AnyCodex 就只做额度监控。
+> - 想恢复代理:菜单点 "Start opencodex Proxy"。
+
 ### 从源码构建
 
 ```bash

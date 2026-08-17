@@ -216,14 +216,17 @@ if [[ -f "$ICON_SOURCE" ]]; then
   iconutil --convert icns --output "$ICON_TARGET" "$ICON_SOURCE"
 fi
 
-BUNDLE_ID="com.steipete.codexbar"
-# OpenAgent fork: never point Sparkle at upstream CodexBar's appcast — an
-# auto-update would replace this build with vanilla CodexBar and drop the
-# embedded opencodex runtime. Re-enable only with a fork-owned appcast + EdDSA key.
+# AnyCodex owns its identity: sharing upstream CodexBar's bundle id would make
+# the two apps collide on one machine (same preferences domain, same app group,
+# ambiguous Launch Services registration).
+BUNDLE_ID="com.jingchang.anycodex"
+# Never point Sparkle at upstream CodexBar's appcast — an auto-update would
+# replace this build with vanilla CodexBar and drop the embedded opencodex
+# runtime. Re-enable only with a fork-owned appcast + EdDSA key.
 FEED_URL=""
 AUTO_CHECKS=false
 if [[ "$LOWER_CONF" == "debug" ]]; then
-  BUNDLE_ID="com.steipete.codexbar.debug"
+  BUNDLE_ID="com.jingchang.anycodex.debug"
   FEED_URL=""
   AUTO_CHECKS=false
 fi
@@ -233,9 +236,9 @@ if [[ "$SIGNING_MODE" == "adhoc" ]]; then
 fi
 WIDGET_BUNDLE_ID="${BUNDLE_ID}.widget"
 APP_TEAM_ID="${APP_TEAM_ID:-Y5PE65HELJ}"
-APP_GROUP_ID="${APP_TEAM_ID}.com.steipete.codexbar"
+APP_GROUP_ID="${APP_TEAM_ID}.com.jingchang.anycodex"
 if [[ "$BUNDLE_ID" == *".debug"* ]]; then
-  APP_GROUP_ID="${APP_TEAM_ID}.com.steipete.codexbar.debug"
+  APP_GROUP_ID="${APP_TEAM_ID}.com.jingchang.anycodex.debug"
 fi
 ENTITLEMENTS_DIR="$ROOT/.build/entitlements"
 APP_ENTITLEMENTS="${ENTITLEMENTS_DIR}/CodexBar.entitlements"
