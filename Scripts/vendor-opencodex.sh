@@ -41,16 +41,34 @@ SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 ENTRY="$SCRIPT_DIR/pkg/src/cli/index.ts"
 BUNDLED="$SCRIPT_DIR/pkg/node_modules/bun/bin/bun.exe"
 
+# Probe absolute paths before PATH: a GUI app launched by LaunchServices
+# inherits launchd's PATH (/usr/bin:/bin:/usr/sbin:/sbin), which has neither
+# Homebrew prefix, so `command -v bun` finds nothing even when bun is installed.
+RUNTIME=""
 if [ -x "$BUNDLED" ]; then
-    exec "$BUNDLED" "$ENTRY" "$@"
-elif command -v bun &>/dev/null; then
-    exec bun "$ENTRY" "$@"
+    RUNTIME="$BUNDLED"
 else
+    for candidate in \
+        "$HOME/.bun/bin/bun" \
+        /opt/homebrew/bin/bun \
+        /usr/local/bin/bun \
+        /opt/local/bin/bun
+    do
+        if [ -x "$candidate" ]; then RUNTIME="$candidate"; break; fi
+    done
+    if [ -z "$RUNTIME" ] && command -v bun >/dev/null 2>&1; then
+        RUNTIME="$(command -v bun)"
+    fi
+fi
+
+if [ -z "$RUNTIME" ]; then
     echo "Error: bun runtime not found." >&2
     echo "This is the slim AnyCodex build. Install bun with:  brew install bun" >&2
     echo "(or download the standard build, which bundles its own runtime)" >&2
     exit 1
 fi
+
+exec "$RUNTIME" "$ENTRY" "$@"
 LAUNCHER
 chmod +x "$VENDOR_DIR/ocx"
 
